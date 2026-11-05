@@ -2,14 +2,16 @@ import {useId} from 'react';
 import type {Dataset} from '../evidence/types';
 import {reconstruct} from '../domain/fiscal';
 import {verifyHistorical} from '../domain/evidence';
-import {Amount,Disclosure,EvidenceBadge} from './primitives';
+import {Amount,Disclosure,EvidenceBadge,EvidenceUnavailable} from './primitives';
 import {SourceReference} from './SourceReference';
 function Connector({unavailable=false}:{unavailable?:boolean}){
  const id=useId();
  return <svg className={`connector ${unavailable?'unavailable':''}`} viewBox="0 0 32 40" role="img" aria-labelledby={id}><title id={id}>{unavailable?'Replay unavailable: required inputs not obtained':'Next fiscal verification step'}</title><path d="M16 2v30m-6-6 6 6 6-6"/></svg>;
 }
 export function TwoTestDiagram({data}:{data:Dataset}){
- const result=reconstruct(data);const verification=verifyHistorical(data);
+ const verification=verifyHistorical(data);
+ if(verification.test1.status==='INCOMPLETE')return <EvidenceUnavailable reason={verification.test1.reason}/>;
+ const result=reconstruct(data);
  return <div className="two-test-diagram" aria-label="Two independent verification questions">
   <article id="test-1" className="evidence-track verified" aria-labelledby="test-1-title">
    <div className="track-heading"><span className="track-number" aria-hidden="true">01</span><EvidenceBadge type="DERIVED"/></div>

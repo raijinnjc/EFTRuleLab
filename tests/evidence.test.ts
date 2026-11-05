@@ -48,3 +48,12 @@ describe('PRD transcription and provenance boundary', () => {
   it('rejects fabricated assessment values',()=>{const d=clone();d.missing[0].value=0;expect(()=>validateDataset(d)).toThrow(/unavailable/i);});
   it('rejects incorrect coverage counts',()=>{const d=clone();d.coverage[0].positiveAllocationRows=6;expect(()=>validateDataset(d)).toThrow(/coverage/i);});
 });
+it.each(['fiscal','coverage'])('rejects a consistent FY2021 citation on a FY2022 %s record',kind=>{
+ const d=clone();const p=kind==='fiscal'?d.fiscal.gross.provenance:d.coverage[0].provenance;
+ Object.assign(p,{sourceId:'S2',fiscalYear:2021,pdfPages:[11]});
+ expect(()=>validateDataset(d)).toThrow(/fiscal/i);
+});
+it('rejects null fiscal provenance disguised as a document citation',()=>{
+ const d=clone();Object.assign(d.fiscal.gross.provenance,{sourceId:'PRD',fiscalYear:null,pdfPages:[]});
+ expect(()=>validateDataset(d)).toThrow(/fiscal/i);
+});

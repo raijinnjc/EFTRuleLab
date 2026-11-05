@@ -22,9 +22,9 @@ export function validateDataset(input:unknown):Dataset {
     array(s.sections).forEach(text);
   }
   const sourceById=new Map(sources.map(s=>[s.id,s]));
-  const provenance=(value:unknown,requirePage=false)=>{
+  const provenance=(value:unknown,expectedYear:2021|2022,requirePage=false)=>{
     const p=object(value);const s=sourceById.get(text(p.sourceId));if(!s)fail('Unknown source');
-    if(s!.fiscalYear!==p.fiscalYear)fail('Source fiscal scope mismatch');
+    if(p.fiscalYear!==expectedYear || s!.fiscalYear!==expectedYear)fail('Source fiscal scope mismatch');
     if(p.evidenceType!=='OFFICIAL_SOURCE')fail('Invalid historical evidence type');
     text(p.locator);text(p.note);
     const pages=array(p.pdfPages);if(requirePage && pages.length===0)fail('Missing award page');
@@ -35,7 +35,7 @@ export function validateDataset(input:unknown):Dataset {
   unique(inputs.map(x=>text(x.id)),'fiscal input');
   const expected=['fixed_income','rt_rw','bpd','other_allowances','preparatory'];
   if(inputs.length!==6 || !expected.every(id=>inputs.slice(1).some(x=>x.id===id)))fail('Missing deductions');
-  for(const x of inputs){text(x.label);amount(x.value);provenance(x.provenance);}
+  for(const x of inputs){text(x.label);amount(x.value);provenance(x.provenance,2022);}
   if(amount(inputs[0].value)<inputs.slice(1).reduce((n,x)=>n+amount(x.value),0n))fail('Deductions exceed gross');
   const rules=array(d.rules).map(object);unique(rules.map(r=>String(r.fiscalYear)),'rule fiscal year');
   if(rules.length!==2)fail('Missing rule');
@@ -43,7 +43,7 @@ export function validateDataset(input:unknown):Dataset {
     text(r.id);if(r.fiscalYear!==2021&&r.fiscalYear!==2022)fail('Unsupported rule fiscal year');
     const s=object(r.shares);const shares=['basicBp','formulaBp','performanceBp'].map(k=>integer(s[k]));
     if(shares.reduce((n,x)=>n+x,0)!==10000)fail('Invalid share sum');
-    provenance(r.provenance);if(object(r.provenance).fiscalYear!==r.fiscalYear)fail('Rule fiscal mismatch');
+    provenance(r.provenance,r.fiscalYear as 2021|2022);if(object(r.provenance).fiscalYear!==r.fiscalYear)fail('Rule fiscal mismatch');
   }
   const awards=array(d.awards).map(object);
   unique(awards.map(a=>text(a.kecamatan).normalize('NFKC').toLowerCase()+'|'+text(a.village).normalize('NFKC').toLowerCase()),'village pair');
@@ -52,14 +52,14 @@ export function validateDataset(input:unknown):Dataset {
   for(const a of awards){
     if(integer(a.sourceRow)<1 || amount(a.amount)<=0n)fail('Invalid positive award');
     if(a.recordType!=='published_positive_allocation')fail('Invalid award record type');
-    provenance(a.provenance,true);if(object(a.provenance).fiscalYear!==2022)fail('Award fiscal scope mismatch');
+    provenance(a.provenance,2022,true);if(object(a.provenance).fiscalYear!==2022)fail('Award fiscal scope mismatch');
   }
   const coverage=array(d.coverage).map(object);unique(coverage.map(c=>text(c.kecamatan)),'coverage kecamatan');
   if(coverage.length!==9)fail('Missing coverage');
   for(const c of coverage){
     const selected=awards.filter(a=>a.kecamatan===c.kecamatan);
     if(integer(c.allocationTableRows)<integer(c.positiveAllocationRows)||c.positiveAllocationRows!==selected.length ||amount(c.performanceSubtotalRp)!==selected.reduce((n,a)=>n+amount(a.amount),0n))fail('Coverage mismatch');
-    provenance(c.provenance);
+    provenance(c.provenance,2022);
   }
   if(coverage.reduce((n,c)=>n+integer(c.allocationTableRows),0)!==118||!awards.every(a=>coverage.some(c=>c.kecamatan===a.kecamatan)))fail('Coverage total mismatch');
   const missing=array(d.missing).map(object);unique(missing.map(m=>text(m.id)),'missing record ID');

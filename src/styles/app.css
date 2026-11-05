@@ -108,3 +108,6 @@ a:active,button:active,summary:active{color:var(--color-verified)}
 button:disabled{cursor:not-allowed;color:var(--color-muted);border-style:dashed}
 h1,h2,h3{text-wrap:balance}
 table,.result-status{font-variant-numeric:tabular-nums lining-nums}
+.error-state {padding-block:var(--space-12);max-width:65ch}
+.error-state h1 {font-size:2rem;max-width:none}
+.error-state h2 {font-size:1.25rem;margin-top:var(--space-8);margin-bottom:var(--space-3);color:var(--color-incomplete)}

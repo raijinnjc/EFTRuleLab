@@ -52,3 +52,16 @@ test('current section is announced and expanded evidence stays inside a narrow v
  await page.getByRole('button',{name:'Navigation'}).click();
  await expect(page.getByRole('link',{name:'Sources',exact:true})).toHaveAttribute('aria-current','location');
 });
+test('invalid bundled evidence produces an explicit unavailable state instead of a blank page',async({page})=>{
+ let corrupted=false;
+ await page.route('**/assets/*.js',async route=>{
+  const response=await route.fetch();let body=await response.text();
+  if(body.includes('75897616000')){body=body.replace('75897616000','invalid');corrupted=true;}
+  await route.fulfill({response,body});
+ });
+ await page.goto('/');await expect.poll(()=>corrupted).toBe(true);
+ await expect(page.getByRole('heading',{name:'Evidence package unavailable'})).toBeVisible();
+ await expect(page.getByRole('alert')).toContainText('Test 1: INCOMPLETE');
+ await expect(page.getByRole('alert')).toContainText('Test 2: INCOMPLETE');
+ await expect(page.locator('body')).not.toContainText('Test 1: PASS');
+});
