@@ -21,6 +21,7 @@ export function envelope(d:Dataset):EnvelopeRow[]{
 }
 // Only geometry is converted to Number, after bounded integer scaling. Money stays BigInt.
 export function plotFraction(value:bigint,total:bigint):number{
+ if(value===0n&&total===0n)return 0;
  if(value<0n||total<=0n||value>total)throw Error('Invalid chart domain');
  return Number(value*1000000n/total)/1000000;
 }

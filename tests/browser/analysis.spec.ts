@@ -7,7 +7,7 @@ test('policy rules preserve fixed envelope, exact deltas and provenance',async({
  await expect(policy).toContainText('Rp5,930,803,600');await expect(policy).toContainText('Rp837,289,920');await expect(policy).toContainText('Rp209,322,480');
  await expect(policy).toContainText('−Rp697,741,600');await expect(policy).toContainText('+Rp418,644,960');await expect(policy).toContainText('+Rp279,096,640');
  await expect(policy).toContainText('60%');await expect(policy).toContainText('40%');
- await policy.getByLabel('Chart labels').selectOption('percent');await expect(policy.getByRole('img',{name:'Allocation structure comparison'})).toContainText('85%');
+ await policy.getByLabel('Chart labels').selectOption('percent');await expect(policy.getByRole('group',{name:'Allocation structure comparison'})).toContainText('85%');
  await policy.getByText('View derivation',{exact:true}).click();await expect(policy).toContainText('6,977,416,000');
  await policy.getByRole('button',{name:'Reset to documented comparison'}).click();await expect(policy.getByLabel('Inspect rule')).toHaveValue('2022');
  await policy.getByText('Inspect selected rule source',{exact:true}).click();await expect(policy).toContainText('Exact PDF page not recorded');
@@ -53,4 +53,12 @@ for(const width of [320,390,768,1024,1440])test(`analytical charts and expanded 
  await page.getByText('Inspect five deductions',{exact:true}).click();await page.getByText('Inspect BPD allowances source',{exact:true}).click();await page.locator('#awards').getByLabel('Search village or kecamatan').fill('Sungai Kupah');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
  await page.screenshot({path:`docs/qa/screenshots/phase2a-${width}.png`,fullPage:true});
+});
+test('chart controls and both input nodes expose complete accessible inspection structure',async({page})=>{
+ await page.goto('/');const chart=page.getByRole('group',{name:'Allocation structure comparison',exact:true});
+ await expect(chart.getByRole('button')).toHaveCount(6);
+ for(const label of ['Inspect fiscal inputs','Inspect missing decision records']){
+  const summary=page.getByText(label,{exact:true});await summary.focus();await page.keyboard.press('Enter');
+  const node=summary.locator('..');await expect(node.getByText('What we have',{exact:true})).toBeVisible();await expect(node.getByText('What we need',{exact:true})).toBeVisible();await expect(node.getByText('What follows',{exact:true})).toBeVisible();await expect(node.getByText('What does not follow',{exact:true})).toBeVisible();
+ }
 });

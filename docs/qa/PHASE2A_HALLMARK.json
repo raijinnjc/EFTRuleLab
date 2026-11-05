@@ -1,0 +1,268 @@
+{
+  "summary": {
+    "fails": 3,
+    "reflex": 15,
+    "warns": 10,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 14,
+    "render": "ran"
+  },
+  "findings": [
+    {
+      "gate": "19",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/components/TwoTestDiagram.tsx",
+      "line": 24,
+      "evidence": "dash \"\u2013\" in copy",
+      "fix": "A comma, a colon, a full stop or parentheses; never a dash"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[320px] control \"Replay observed research-side ex\" wraps to 2 lines (button)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/App.tsx",
+      "line": 33,
+      "evidence": "middle-dot meta string \"Independent research demonstration \u00b7 Not an offic\u2026\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/analysis.css",
+      "line": 6,
+      "evidence": "pure #fff: background: var(--color-surface) (select,input,textarea)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/analysis.css",
+      "line": 52,
+      "evidence": "pure #fff: background: var(--color-surface) (.award-table thead button)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 8,
+      "evidence": "pure #fff: background: var(--color-surface) (button)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 17,
+      "evidence": "pure #fff: color: var(--color-on-dark) (.skip-link)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 19,
+      "evidence": "pure #fff: background: var(--color-surface) (.site-header)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 33,
+      "evidence": "pure #fff: color: var(--color-on-dark) (.primary-link)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 48,
+      "evidence": "pure #fff: background: var(--color-surface) (.evidence-track)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 107,
+      "evidence": "pure #fff: color: var(--color-on-dark) (.primary-link:active)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 7,
+      "evidence": "pure #fff: --color-surface: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 18,
+      "evidence": "pure #fff: --color-on-dark: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[320px] link \"S1 \u00b7 Annex I, component shares; \" wraps to 2 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[320px] link \"Research evidence boundaries \u00b7 P\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[768px] link \"S1 \u00b7 Annex I, component shares; \" wraps to 3 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[768px] link \"Research evidence boundaries \u00b7 P\" wraps to 3 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "71",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[1440px] heads nearer what precedes them than what they head: h2 \"Policy Studio\" 12px over, 32px under; h2 \"Follow the \u2026",
+      "fix": "At least twice the space above a head as below it"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/analysis.css",
+      "line": 21,
+      "evidence": "side stripe border-left: 3px solid var(--color-incomplet\u2026 on .mode-note",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Replay observed research-side extra\u2026\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Restore verified source value\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/PolicyStudio.tsx",
+      "line": 22,
+      "evidence": "long clickable label \"Reset to documented comparison\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "F4",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 8,
+      "evidence": "2 filled primary-button recipes: .award-table thead button + button",
+      "fix": "One filled primary per page; demote the rest to outline/quiet variants"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/analysis.css",
+      "line": 52,
+      "evidence": "numeric selector .award-table thead button at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 61,
+      "evidence": "numeric selector .result-status at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 72,
+      "evidence": "numeric selector table at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 112,
+      "evidence": "numeric selector .error-state h1 at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F25",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173",
+      "line": 1,
+      "evidence": "[375px] a table opens with 4 columns off-screen (from \"FY2022 minus FY2021 rule\")",
+      "fix": "Keep the column that names the row and the one that acts on it in view: restack each row, or pin the first column"
+    }
+  ]
+}
