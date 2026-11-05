@@ -1,0 +1,15 @@
+import {describe,it,expect} from 'vitest';
+import {dataset} from '../src/evidence/dataset';
+import {protocolSteps,outcomes,sourceEntries,searchSources} from '../src/domain/research';
+import {buildAudit,serializeAudit,ledgerCsv} from '../src/domain/exports';
+const state={ruleYear:2022 as const,experimentActive:false};
+describe('research protocol and sources',()=>{
+ it('requires missing decisions and withholds target roster before comparing',()=>{expect(protocolSteps).toHaveLength(8);expect(protocolSteps[5].detail).toMatch(/withhold/i);expect(protocolSteps[2].status).toBe('REQUIRED');expect(outcomes.INCOMPLETE).toMatch(/stop/i);expect(outcomes.MATCH).toMatch(/identit/i);});
+ it('searches supplied source identifiers, years and relationships without inventing inspection',()=>{const records=sourceEntries(dataset);expect(searchSources(records,'S1','Official regulations')).toHaveLength(1);expect(searchSources(records,'never-found','All')).toHaveLength(0);expect(records.find(x=>x.id==='S1')!.inspection).toMatch(/INHERITED/);expect(records.find(x=>x.id==='S1')!.claims.some(x=>x.label.includes('BPD'))).toBe(true);expect(records.find(x=>x.id==='L-FOX')!.title).toBeNull();});
+});
+describe('lossless audit artifacts',()=>{
+ it('includes exact baseline, all awards and evidence boundaries',()=>{const a=buildAudit(dataset,state,'2026-11-05T00:00:00.000Z');expect(a.historical.residual).toBe('6977416000');expect(a.historical.components.performance).toBe('488419120');expect(a.historical.gap).toBe('0');expect(a.verification.test2.status).toBe('INCOMPLETE');expect(a.publishedAwards).toHaveLength(20);expect(a.inputs.deductions).toHaveLength(5);expect(JSON.parse(serializeAudit(a,'json')).generatedAt).toBe(a.generatedAt);});
+ it('separates selected counterfactual and experiment from immutable historical records',()=>{const before=JSON.stringify(dataset);const a=buildAudit(dataset,{ruleYear:2021,experimentActive:true},'fixed');expect(a.selected.counterfactual).toBe(true);expect(a.selected.components.performance).toBe('209322480');expect(a.extraction.pool).toBe('509503120');expect(a.extraction.verifiedBpd).toBe('5833200000');expect(a.extraction.selectedBpd).toBe('5532000000');expect(a.historical.components.performance).toBe('488419120');expect(JSON.stringify(dataset)).toBe(before);});
+ it('retains numbers beyond safe floating point range',()=>{const d=structuredClone(dataset);(d.fiscal.gross as {value:string}).value='90071992547410000';const a=buildAudit(d,state,'fixed');expect(a.inputs.gross.value).toBe('90071992547410000');expect(serializeAudit(a,'json')).toContain('90071992547410000');});
+ it('CSV retains exactly 20 immutable entries with provenance and safe quoting',()=>{const a=buildAudit(dataset,state,'fixed');const csv=ledgerCsv(a);expect(csv.split('\r\n')).toHaveLength(21);expect(csv).toContain('24420956');expect(csv).toContain('source_row');expect(csv).toContain('INCOMPLETE');expect(serializeAudit(a,'markdown')).toContain('## Missing evidence');expect(serializeAudit(a,'markdown')).toContain('6977416000');expect(serializeAudit(a,'markdown')).toContain('S1');});
+});
