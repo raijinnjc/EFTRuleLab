@@ -55,3 +55,9 @@ Start/reload Codex in this repository, then explicitly name:
 Future sequence: Superpowers governs engineering planning, tests and implementation; UI UX Pro Max informs a PRD-compatible visual system; Hallmark audits the resulting interface and suggests refinements. The PRD and verified fiscal research remain authoritative. Resolve style disagreements in favor of those project requirements. No product implementation is authorized by this installation document.
 
 Use the existing checkout; do not create worktrees unless explicitly requested.
+
+## Git delivery status
+
+Dedicated branch: `chore/install-design-skills`, pushed successfully. The original remote advertised no branches, so no `main` base was available. GitHub API metadata access returned `Forbidden`; PR creation was attempted using existing authentication and could not complete. No PR URL or merge is claimed. Establish the intended base branch and permit GitHub API access before retrying PR creation; do not merge automatically.
+
+`git diff --check` reports whitespace already present in upstream vendored Python/CSV payloads. Those third-party assets were retained unchanged rather than reformatted during installation.
