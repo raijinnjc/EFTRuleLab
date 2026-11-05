@@ -1,0 +1,58 @@
+[
+  {
+    "id": "performance_scores_2022",
+    "label": "Approved historical assessment values",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "assessment_universe_2022",
+    "label": "Actual assessed universe",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "executed_selection_rule",
+    "label": "Implemented selection, eligibility, exceptions, ties and rounding rules",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "signed_decision_records",
+    "label": "Signed recipient-selection decisions",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "payment_execution",
+    "label": "Actual payments",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "ecological_outcomes",
+    "label": "Ecological outcomes",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  },
+  {
+    "id": "original_research_records",
+    "label": "V4 memorandum and original official annex PDFs",
+    "status": "NOT_OBTAINED",
+    "value": null,
+    "sourceId": "PRD",
+    "note": "Not obtained for this study; does not establish absence from government records."
+  }
+]

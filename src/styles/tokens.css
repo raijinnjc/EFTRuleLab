@@ -1,0 +1,33 @@
+/* Hallmark · built: the project · shape: app screen · system: EFT RuleLab PRD
+ * Critique: evidence fork and numeric ledger replace generic dashboard cards.
+ * Project requirements retain semantic colors, exact status labels and source qualifications. */
+:root {
+ color-scheme: light;
+ --color-paper:#FAFBFC;
+ --color-surface:#FFFFFF;
+ --color-ink:#102B4E;
+ --color-ink-secondary:#244B72;
+ --color-muted:#596B7E;
+ --color-rule:#DCE3EA;
+ --color-control-border:#748394;
+ --color-verified:#126B70;
+ --color-performance:#B8832E;
+ --color-performance-ink:#805B20;
+ --color-incomplete:#9C6421;
+ --color-discrepancy:#A23D35;
+ --color-on-dark:#FFFFFF;
+ --color-focus:#244B72;
+ --font-body:Arial,Helvetica,sans-serif;
+ --space-1:.25rem;
+ --space-2:.5rem;
+ --space-3:.75rem;
+ --space-4:1rem;
+ --space-6:1.5rem;
+ --space-8:2rem;
+ --space-12:3rem;
+ --space-16:4rem;
+ --space-24:6rem;
+ --radius-control:.25rem;
+ --duration-micro:120ms;
+ --container:80rem;
+}

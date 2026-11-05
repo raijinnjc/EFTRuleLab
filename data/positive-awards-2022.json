@@ -1,0 +1,362 @@
+[
+  {
+    "id": "award-01",
+    "kecamatan": "Sungai Raya",
+    "village": "Arang Limbung",
+    "sourceRow": 3,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17
+      ],
+      "locator": "Annex II, column 27; row 3 within Sungai Raya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-02",
+    "kecamatan": "Sungai Raya",
+    "village": "Sungai Asam",
+    "sourceRow": 6,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17
+      ],
+      "locator": "Annex II, column 27; row 6 within Sungai Raya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-03",
+    "kecamatan": "Sungai Raya",
+    "village": "Sungai Bulan",
+    "sourceRow": 10,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17
+      ],
+      "locator": "Annex II, column 27; row 10 within Sungai Raya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-04",
+    "kecamatan": "Sungai Raya",
+    "village": "Limbung",
+    "sourceRow": 11,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17
+      ],
+      "locator": "Annex II, column 27; row 11 within Sungai Raya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-05",
+    "kecamatan": "Sungai Raya",
+    "village": "Parit Baru",
+    "sourceRow": 17,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        18
+      ],
+      "locator": "Annex II, column 27; row 17 within Sungai Raya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-06",
+    "kecamatan": "Kuala Mandor B",
+    "village": "Sungai Enau",
+    "sourceRow": 5,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        18
+      ],
+      "locator": "Annex II, column 27; row 5 within Kuala Mandor B",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-07",
+    "kecamatan": "Terentang",
+    "village": "Sungai Radak Satu",
+    "sourceRow": 6,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        18
+      ],
+      "locator": "Annex II, column 27; row 6 within Terentang",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-08",
+    "kecamatan": "Terentang",
+    "village": "Teluk Bayur",
+    "sourceRow": 9,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 9 within Terentang",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-09",
+    "kecamatan": "Batu Ampar",
+    "village": "Batu Ampar",
+    "sourceRow": 2,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 2 within Batu Ampar",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-10",
+    "kecamatan": "Batu Ampar",
+    "village": "Sungai Jawi",
+    "sourceRow": 8,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 8 within Batu Ampar",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-11",
+    "kecamatan": "Batu Ampar",
+    "village": "Nipah Panjang",
+    "sourceRow": 9,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 9 within Batu Ampar",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-12",
+    "kecamatan": "Batu Ampar",
+    "village": "Sumber Agung",
+    "sourceRow": 13,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 13 within Batu Ampar",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-13",
+    "kecamatan": "Batu Ampar",
+    "village": "Medan Mas",
+    "sourceRow": 15,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 15 within Batu Ampar",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-14",
+    "kecamatan": "Kubu",
+    "village": "Kubu",
+    "sourceRow": 1,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 1 within Kubu",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-15",
+    "kecamatan": "Kubu",
+    "village": "Pinang Luar",
+    "sourceRow": 5,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 5 within Kubu",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-16",
+    "kecamatan": "Kubu",
+    "village": "Sungai Terus",
+    "sourceRow": 17,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        19
+      ],
+      "locator": "Annex II, column 27; row 17 within Kubu",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-17",
+    "kecamatan": "Rasau Jaya",
+    "village": "Rasau Jaya Tiga",
+    "sourceRow": 4,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        20
+      ],
+      "locator": "Annex II, column 27; row 4 within Rasau Jaya",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-18",
+    "kecamatan": "Sungai Kakap",
+    "village": "Jeruju Besar",
+    "sourceRow": 3,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        20
+      ],
+      "locator": "Annex II, column 27; row 3 within Sungai Kakap",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-19",
+    "kecamatan": "Sungai Kakap",
+    "village": "Sungai Kupah",
+    "sourceRow": 4,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        20
+      ],
+      "locator": "Annex II, column 27; row 4 within Sungai Kakap",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "award-20",
+    "kecamatan": "Sungai Kakap",
+    "village": "Punggur Besar",
+    "sourceRow": 10,
+    "amount": "24420956",
+    "recordType": "published_positive_allocation",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        21
+      ],
+      "locator": "Annex II, column 27; row 10 within Sungai Kakap",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  }
+]
