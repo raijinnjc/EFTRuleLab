@@ -8,8 +8,8 @@ export const componentKeys=['basic','formula','performance'] as const;
 export const componentLabels={basic:'Basic',formula:'Formula',performance:'Performance'};
 const bpKeys={basic:'basicBp',formula:'formulaBp',performance:'performanceBp'} as const;
 export const signedRp=(n:bigint)=>`${n>0n?'+':''}${formatRupiah(n)}`;
-export function PolicyStudio({data}:{data:Dataset}){
- const [year,setYear]=useState(2022);const [labels,setLabels]=useState('rupiah');
+export function PolicyStudio({data,ruleYear,onRuleChange}:{data:Dataset;ruleYear?:2021|2022;onRuleChange?:(year:2021|2022)=>void}){
+ const [localYear,setLocalYear]=useState(2022);const year=ruleYear??localYear;const setYear=(value:number)=>{setLocalYear(value);onRuleChange?.(value as 2021|2022);};const [labels,setLabels]=useState('rupiah');
  const [inspected,setInspected]=useState<{year:number;key:typeof componentKeys[number]}>({year:2022,key:'performance'});
  const id=useId();const compare=compareRules(data);const r=reconstruct(data);
  const selected=data.rules.find(rule=>rule.fiscalYear===year)!;

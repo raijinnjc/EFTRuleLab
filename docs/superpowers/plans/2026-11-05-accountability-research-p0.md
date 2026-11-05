@@ -29,3 +29,10 @@
 ## Execution ledger
 - Baseline: 56 unit tests and strict build pass. Browser server startup blocked in sandbox; investigate before claiming browser results.
 - Design choice: preserve established layout; in-flow tour annotations avoid overlays obscuring source qualifications. Source drawer is a native modal dialog with focus restoration. Literature titles not supplied in PRD are explicitly unavailable; supplied descriptive labels are not presented as official titles.
+- Baseline browser root cause: listen EPERM under sandbox. Authorized execution with local server access passes all 21 tests; no app change required.
+- Task 1 complete: new missing modules observed RED; serialization tests then caught an unconverted BigInt in verification.gap. Converted through the shared lossless mapper; all 62 unit tests pass.
+- Task 2/3: initial browser test observed missing protocol heading RED. Implemented eight-step SVG plus full native-button labels/transcript, native source dialog, context categories, in-flow portal tour, controlled export state and real downloads.
+- Ruling: CSV keeps exactly 20 immutable award rows and repeats full context JSON in a clearly labeled column. This preserves the PRD ledger shape and the newer request's full export context, at the cost of a larger CSV.
+- Browser first integrated run: 19 passed, seven failed, one interrupted, seven not run. Actual regressions were removed source access points and 200% overflow from long unbroken IDs; restored original heading/disclosures and shrinkable wrapping. New-test selectors corrected for full label text and duplicated transcript text.
+- Second integrated browser run: 32 passed, two failed. Remaining failures were test ambiguity between two status regions and browser textarea CRLF normalization; named download status and compare normalized fallback line endings while keeping real CSV bytes intact.
+- Added tested copyable figure citation, sourced to S1 and explicit historical statuses. Unit suite now 64 passed; strict production build passed.

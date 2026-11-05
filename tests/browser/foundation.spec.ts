@@ -11,7 +11,7 @@ for(const width of [320,390,768,1024,1440]){
   await expect(page.locator('#test-2')).toContainText('INCOMPLETE');await expect(page.locator('#test-2')).toContainText('Not obtained for this study');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
   expect(errors).toEqual([]);
-  await page.screenshot({path:`docs/qa/screenshots/phase2a-overview-${width}.png`,fullPage:true});
+  await page.screenshot({path:`docs/qa/screenshots/phase2b-regression-overview-${width}.png`,fullPage:true});
  });
 }
 test('native evidence disclosure works with keyboard and source links preserve provenance',async({page})=>{

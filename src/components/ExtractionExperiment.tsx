@@ -4,8 +4,8 @@ import {extraction,extractionCase} from '../domain/analysis';
 import {formatRupiah} from '../domain/format';
 import {Amount,Disclosure,EvidenceBadge,Section} from './primitives';
 import {ProvenanceInspector} from './ProvenanceInspector';
-export function ExtractionExperiment({data}:{data:Dataset}){
- const [active,setActive]=useState(false);const s=extraction(data,active);const baseline=extraction(data,false);
+export function ExtractionExperiment({data,experimentActive,onExperimentChange}:{data:Dataset;experimentActive?:boolean;onExperimentChange?:(active:boolean)=>void}){
+ const [localActive,setLocalActive]=useState(false);const active=experimentActive??localActive;const setActive=(value:boolean)=>{setLocalActive(value);onExperimentChange?.(value);};const s=extraction(data,active);const baseline=extraction(data,false);
  const bpd=data.fiscal.deductions.find(x=>x.id==='bpd')!;
  return <Section id="extraction" title="Extraction integrity experiment"><div className="analysis-intro"><p className="lead-small">One transcription. A different analytical result.</p><EvidenceBadge type={s.evidenceType}/></div>
  <p>Replay an observed research-side BPD extraction discrepancy in a separate analytical workspace. Verified source inputs, the published ledger and historical verification above remain unchanged.</p>

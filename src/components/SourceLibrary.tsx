@@ -1,0 +1,11 @@
+import {useState} from 'react';
+import type {Dataset} from '../evidence/types';
+import {sourceEntries,searchSources} from '../domain/research';
+import {Disclosure,Section} from './primitives';
+import {InspectSourceButton,SourceDetails} from './SourceDrawer';
+export function SourceLibrary({data}:{data:Dataset}){const [query,setQuery]=useState('');const [category,setCategory]=useState('All');const records=sourceEntries(data);const shown=searchSources(records,query,category);
+ return <Section id="sources" title="Sources and evidence boundaries"><p className="lead-small">Research source library: trace a figure to its source and its limits.</p><p>Official-source records below are earlier research transcriptions. No primary PDF was directly inspected in this environment. Derived calculations, scientific context, proposed workflow elements and missing evidence are separate categories.</p>
+ <div className="control-row"><label>Search research sources<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Identifier, title, year or figure"/></label><label>Source category<select value={category} onChange={e=>setCategory(e.target.value)}>{['All',...new Set(records.map(s=>s.category))].map(x=><option key={x}>{x}</option>)}</select></label></div><p role="status">{shown.length} sources shown of {records.length}.</p>
+ <div className="research-source-list">{shown.map(s=><article key={s.id}><div><span className="source-id">{s.id} / {s.category}</span><h3>{s.label}</h3><p>{s.institution??'Institution unavailable'} · published {s.year??'year unavailable'} · FY{s.fiscalYear??'not established'}</p><p>Official title: {s.title??'unavailable in supplied citation'}</p><p className="small-copy">{s.inspection}. {s.limitation}</p></div><div><InspectSourceButton id={s.id}/>{s.url&&<a href={s.url} target="_blank" rel="noopener noreferrer">Open source record</a>}</div>{['S1','S2'].includes(s.id)&&<Disclosure label={`Inspect ${s.id} provenance`}><SourceDetails source={s}/></Disclosure>}</article>)}</div>
+ {!shown.length&&<p>No matching source. Clear the query or choose another category.</p>}<p className="dataset-version">Research package: {data.version}. Local source metadata; documents are not fetched at runtime.</p></Section>;
+}
