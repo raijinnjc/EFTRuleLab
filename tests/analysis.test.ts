@@ -8,7 +8,7 @@ describe('immutable ledger queries',()=>{
   expect(queryAwards(dataset.awards,{...query,search:'batu ampar'})).toHaveLength(5);
  });
  it('combines filter with search and handles empty results',()=>{
-  expect(queryAwards(dataset.awards,{...query,search:'sungai',kecamatan:'Sungai Kakap'})).toHaveLength(1);
+  expect(queryAwards(dataset.awards,{...query,search:'kupah',kecamatan:'Sungai Kakap'})).toHaveLength(1);
   expect(queryAwards(dataset.awards,{...query,search:'unknown'})).toEqual([]);
  });
  it('sorts descending without mutating source rows',()=>{
