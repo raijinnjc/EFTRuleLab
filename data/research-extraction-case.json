@@ -1,0 +1,8 @@
+{
+  "id": "observed-bpd-extraction",
+  "flawedBpdRp": "5532000000",
+  "sourceId": "PRD",
+  "section": "§2.3; F06; T23–T26",
+  "evidenceType": "RESEARCH_EXTRACTION_TEST",
+  "note": "Observed researcher-side extraction reported in the supplied PRD. The source-checked BPD remains in fiscal-inputs-2022.json; this experiment does not modify it or indicate government error."
+}
