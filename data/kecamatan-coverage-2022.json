@@ -1,0 +1,182 @@
+[
+  {
+    "kecamatan": "Sungai Raya",
+    "allocationTableRows": 20,
+    "positiveAllocationRows": 5,
+    "performanceSubtotalRp": "122104780",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Kuala Mandor B",
+    "allocationTableRows": 5,
+    "positiveAllocationRows": 1,
+    "performanceSubtotalRp": "24420956",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Sungai Ambawang",
+    "allocationTableRows": 15,
+    "positiveAllocationRows": 0,
+    "performanceSubtotalRp": "0",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Terentang",
+    "allocationTableRows": 10,
+    "positiveAllocationRows": 2,
+    "performanceSubtotalRp": "48841912",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Batu Ampar",
+    "allocationTableRows": 15,
+    "positiveAllocationRows": 5,
+    "performanceSubtotalRp": "122104780",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Kubu",
+    "allocationTableRows": 20,
+    "positiveAllocationRows": 3,
+    "performanceSubtotalRp": "73262868",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Rasau Jaya",
+    "allocationTableRows": 6,
+    "positiveAllocationRows": 1,
+    "performanceSubtotalRp": "24420956",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Teluk Pakedai",
+    "allocationTableRows": 14,
+    "positiveAllocationRows": 0,
+    "performanceSubtotalRp": "0",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "kecamatan": "Sungai Kakap",
+    "allocationTableRows": 13,
+    "positiveAllocationRows": 3,
+    "performanceSubtotalRp": "73262868",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "locator": "Annex II coverage counts, transcribed in PRD §8",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  }
+]

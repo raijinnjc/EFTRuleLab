@@ -1,0 +1,68 @@
+[
+  {
+    "id": "S1",
+    "title": "Peraturan Bupati Kubu Raya Nomor 94 Tahun 2021",
+    "issuingBody": "Kabupaten Kubu Raya",
+    "publicationYear": 2021,
+    "fiscalYear": 2022,
+    "url": "https://jdih.kuburayakab.go.id/produkhukum/peraturan-bupati/2251",
+    "pdfUrl": "https://jdih.kuburayakab.go.id/produkhukum/peraturan-bupati/2251/unduh",
+    "recordedPages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "sections": [
+      "Arts. 3–6",
+      "Annex I",
+      "Annex II"
+    ],
+    "inspection": "INHERITED_PRD_TRANSCRIPTION",
+    "sha256": "7466570493403de6160f00ad6b0c1a155bd340fe14b6891327a699c3b67d2c54",
+    "sha256Recalculated": false,
+    "accessNote": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+  },
+  {
+    "id": "S2",
+    "title": "Peraturan Bupati Kubu Raya Nomor 101 Tahun 2020",
+    "issuingBody": "Kabupaten Kubu Raya",
+    "publicationYear": 2020,
+    "fiscalYear": 2021,
+    "url": "https://jdih.kuburayakab.go.id/produkhukum/peraturan-bupati/2357",
+    "pdfUrl": "https://jdih.kuburayakab.go.id/produkhukum/peraturan-bupati/2357/unduh",
+    "recordedPages": [
+      11,
+      12
+    ],
+    "sections": [
+      "Annex I"
+    ],
+    "inspection": "INHERITED_PRD_TRANSCRIPTION",
+    "sha256": "d7dac53dede693d98dba4fbb17354210a78afce264ee8de87bab2cd452cc2581",
+    "sha256Recalculated": false,
+    "accessNote": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+  },
+  {
+    "id": "PRD",
+    "title": "EFT RuleLab PRD v1.0",
+    "issuingBody": "Researcher-supplied specification",
+    "publicationYear": 2026,
+    "fiscalYear": null,
+    "url": "docs/product/EFT_RuleLab_PRD_v1.0_Codex.md",
+    "pdfUrl": null,
+    "recordedPages": [],
+    "sections": [
+      "§2",
+      "§7",
+      "§8",
+      "§9",
+      "§10"
+    ],
+    "inspection": "SUPPLIED_DOCUMENT",
+    "sha256": "e0aa537dc25b59c4b88c028cb9c15353b5dafa116732e674e4431d45adced317",
+    "sha256Recalculated": true,
+    "accessNote": "Supplied Markdown read locally; no independent primary-source inspection."
+  }
+]

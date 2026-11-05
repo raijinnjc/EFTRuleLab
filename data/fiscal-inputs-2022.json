@@ -1,0 +1,95 @@
+{
+  "fiscalYear": 2022,
+  "gross": {
+    "id": "gross_add_2022",
+    "label": "Gross ADD",
+    "value": "75897616000",
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [
+        17
+      ],
+      "locator": "Annex II, fiscal envelope",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  "deductions": [
+    {
+      "id": "fixed_income",
+      "label": "Fixed income for village heads and staff",
+      "value": "34851000000",
+      "provenance": {
+        "sourceId": "S1",
+        "fiscalYear": 2022,
+        "pdfPages": [
+          17
+        ],
+        "locator": "Annex II, fiscal envelope",
+        "evidenceType": "OFFICIAL_SOURCE",
+        "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+      }
+    },
+    {
+      "id": "rt_rw",
+      "label": "RT/RW incentives",
+      "value": "18986400000",
+      "provenance": {
+        "sourceId": "S1",
+        "fiscalYear": 2022,
+        "pdfPages": [
+          17
+        ],
+        "locator": "Annex II, fiscal envelope",
+        "evidenceType": "OFFICIAL_SOURCE",
+        "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+      }
+    },
+    {
+      "id": "bpd",
+      "label": "BPD allowances",
+      "value": "5833200000",
+      "provenance": {
+        "sourceId": "S1",
+        "fiscalYear": 2022,
+        "pdfPages": [
+          17
+        ],
+        "locator": "Annex II, fiscal envelope",
+        "evidenceType": "OFFICIAL_SOURCE",
+        "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+      }
+    },
+    {
+      "id": "other_allowances",
+      "label": "Village heads and staff allowances",
+      "value": "7905600000",
+      "provenance": {
+        "sourceId": "S1",
+        "fiscalYear": 2022,
+        "pdfPages": [
+          17
+        ],
+        "locator": "Annex II, fiscal envelope",
+        "evidenceType": "OFFICIAL_SOURCE",
+        "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+      }
+    },
+    {
+      "id": "preparatory",
+      "label": "Preparatory-village operating assistance",
+      "value": "1344000000",
+      "provenance": {
+        "sourceId": "S1",
+        "fiscalYear": 2022,
+        "pdfPages": [
+          17
+        ],
+        "locator": "Annex II, fiscal envelope",
+        "evidenceType": "OFFICIAL_SOURCE",
+        "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+      }
+    }
+  ]
+}

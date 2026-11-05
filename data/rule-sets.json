@@ -1,0 +1,39 @@
+[
+  {
+    "id": "rule_2021",
+    "fiscalYear": 2021,
+    "shares": {
+      "basicBp": 8500,
+      "formulaBp": 1200,
+      "performanceBp": 300
+    },
+    "provenance": {
+      "sourceId": "S2",
+      "fiscalYear": 2021,
+      "pdfPages": [
+        11,
+        12
+      ],
+      "locator": "Annex I, pp.11–12",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  },
+  {
+    "id": "rule_2022",
+    "fiscalYear": 2022,
+    "shares": {
+      "basicBp": 7500,
+      "formulaBp": 1800,
+      "performanceBp": 700
+    },
+    "provenance": {
+      "sourceId": "S1",
+      "fiscalYear": 2022,
+      "pdfPages": [],
+      "locator": "Annex I, component shares; exact FY2022 PDF page not recorded",
+      "evidenceType": "OFFICIAL_SOURCE",
+      "note": "Transcribed from supplied PRD; source scan check reported by prior V4 research, not repeated in this task."
+    }
+  }
+]
