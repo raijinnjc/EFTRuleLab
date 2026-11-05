@@ -107,3 +107,7 @@ The reviewer explicitly considered and accepted the separate historical baseline
 - Screenshots: `phase2a-{width}.png` (expanded BPD provenance + filtered ledger), `phase2a-overview-{width}.png` (default state), and focused policy/funding desktop and active-experiment phone captures. Original Phase1 screenshots are preserved.
 
 Commands run against Node24.22.1 and system Chromium155; existing pinned application dependencies are unchanged. Test runner emits inherited NO_COLOR/FORCE_COLOR warnings. No application page errors occurred in the responsive checks. No unexecuted download, offline, assessment-replay, primary-source or deployment checks are described as passed.
+
+## Git delivery outcome
+
+`feat/core-analytical-experience` was pushed. Remote Phase1 remains97adb74 and main remainsd931bbe. A stacked PR was attempted with base`feat/evidence-foundation`, head`feat/core-analytical-experience`; GitHub GraphQL returned`Forbidden`. No PR URL is claimed. In GitHub **Pull requests → New pull request**, choose **base: feat/evidence-foundation** and **compare: feat/core-analytical-experience**, then create the PR using this report/checklist. If Phase1 is merged later, retarget the stacked PR to main after verifying ancestry. No automatic merge or deployment occurred.
