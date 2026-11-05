@@ -1,6 +1,6 @@
 # EFT RuleLab
 
-A research-oriented evidence workbench for Kubu Raya FY2022 ADD, distinct from national Dana Desa. Phase 1 provides the typed research package, exact fiscal engine and responsive two-test diagram. It is an independent research prototype, not an official government system.
+A research-oriented evidence workbench for Kubu Raya FY2022 ADD, distinct from national Dana Desa. Phase 2A adds the fixed-base Policy Studio, fiscal waterfall, searchable/sortable published ledger, interactive evidence nodes and isolated research extraction experiment to the exact Phase 1 foundation. It is an independent research prototype, not an official government system.
 
 The supplied source baseline reconciles a **Rp488,419,120** performance pool with **20** positive allocations: **Rp0 gap**. Recipient decision replay remains **INCOMPLETE** because approved assessment and selection records were not obtained for this study. Published allocations do not verify actual payments or ecological outcomes.
 
@@ -32,7 +32,7 @@ npm run test:browser
 
 Browser tests build the production app and launch their own local preview. They use `/usr/bin/chromium` by default; set `CHROMIUM_PATH` to an installed compatible Chrome/Chromium executable on another machine. Screenshots are written to `docs/qa/screenshots/`. A browser is needed only for browser checks, not unit tests or builds. Python 3 is needed only for the installed UI UX Pro Max research tool.
 
-See [actual QA results](docs/qa/PHASE1_REPORT.md), [implementation plan](docs/superpowers/plans/2026-11-05-evidence-foundation.md) and [architecture](docs/ARCHITECTURE.md).
+See [Phase 2A QA results](docs/qa/PHASE2A_REPORT.md) and [Phase 1 QA](docs/qa/PHASE1_REPORT.md), [Phase 2A implementation plan](docs/superpowers/plans/2026-11-05-core-analytical-experience.md) and [architecture](docs/ARCHITECTURE.md).
 
 ## Project authority and layout
 
@@ -47,4 +47,4 @@ See [actual QA results](docs/qa/PHASE1_REPORT.md), [implementation plan](docs/su
 
 V4 and original annex PDFs were not available for fresh verification. Seed records are transcribed from the source-referenced PRD, with legal citations and inherited inspection limits preserved. No synthetic research data is used.
 
-The foundation retains the approved unmerged documentation history descended from `main`. It does not merge any branch. Remaining P0 features and all P1/P2 features are not represented as complete; see the QA scope matrix before planning the next task.
+Phase 2A branches from the approved Phase 1 commit while that branch remains unmerged. Its stacked PR targets `feat/evidence-foundation`. Neither branch is automatically merged. F01–F06 analytical experiences are implemented; ARP, guided tour, general audit exports and source-library expansion remain Phase 2B. All P1/P2 work is excluded. See the QA scope matrix and review checklist.

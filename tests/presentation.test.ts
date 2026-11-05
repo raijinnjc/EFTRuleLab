@@ -21,3 +21,14 @@ it('standalone diagram stops on invalid evidence rather than crashing',()=>{
  const html=renderToStaticMarkup(createElement(TwoTestDiagram,{data:changed}));
  expect(html).toContain('Evidence package unavailable');expect(html).not.toContain('PASS');
 });
+it('a valid zero residual stays inspectable without division or chart-domain crashes',()=>{
+ const changed:Dataset=JSON.parse(JSON.stringify(dataset));Object.assign(changed.fiscal.gross,{value:'68920200000'});
+ const html=renderToStaticMarkup(createElement<{data?:Dataset}>(App,{data:changed}));
+ expect(html).toContain('Test 1: DISCREPANCY');expect(html).toContain('No basic reduction');expect(html).not.toContain('match exactly');
+});
+it('all node interpretations follow a nonzero gap rather than asserting a match',()=>{
+ const changed:Dataset=JSON.parse(JSON.stringify(dataset));Object.assign(changed.fiscal.gross,{value:'75897626000'});
+ const html=renderToStaticMarkup(createElement<{data?:Dataset}>(App,{data:changed}));
+ expect(html).not.toContain('pool and published positive allocations match exactly');
+ expect(html).not.toContain('PASS answers the arithmetic question');expect(html).toContain('Baseline input discrepancy');
+});
