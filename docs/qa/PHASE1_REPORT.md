@@ -82,3 +82,7 @@ Review boundaries and rulings: remaining P0/P1/P2 interfaces stay excluded; fres
 - Dependencies were installed using exact-version npm installs and a lockfile; `npm ci` is the documented fresh-checkout command, not an additional execution claim in this report.
 
 No application defects remain from the fresh review; limits above remain explicit. Manual screen-reader review, actual browser-zoom testing, remaining P0 features and primary-source research reconciliation are not silently marked complete.
+
+## Git delivery
+
+Feature branch `feat/evidence-foundation` was pushed successfully using existing Git authentication. Pull Request creation against `main` was attempted with `gh pr create` and failed with `Post https://api.github.com/graphql: Forbidden`. No PR URL is claimed. Use the repository's comparison view with base `main` and compare `feat/evidence-foundation` to create it manually, or restore GitHub API access and retry. No token was requested, no automatic merge performed, and the existing branches were preserved.
