@@ -1,0 +1,30 @@
+[
+  {
+    "name": "body",
+    "ratio": 16.87683482508905
+  },
+  {
+    "name": "muted",
+    "ratio": 7.136180927233397
+  },
+  {
+    "name": "verified",
+    "ratio": 9.058570787806383
+  },
+  {
+    "name": "incomplete",
+    "ratio": 11.057242592555545
+  },
+  {
+    "name": "waterfall text",
+    "ratio": 15.50253251152656
+  },
+  {
+    "name": "waterfall secondary",
+    "ratio": 5.963849265615509
+  },
+  {
+    "name": "button",
+    "ratio": 8.85080529845768
+  }
+]
