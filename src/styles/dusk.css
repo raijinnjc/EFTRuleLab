@@ -18,3 +18,13 @@ a{color:var(--color-accent)}button,select,input,textarea{transition:background-c
 
 .skip-link{background:var(--color-accent);color:var(--color-accent-ink)}
 .primary-link:active{background:var(--color-accent-hi);color:var(--color-accent-ink)}
+/* Phase 2B integration: retain Dusk surfaces for all research controls. */
+.protocol-map g:has(circle.available)>text{fill:var(--color-accent-ink)}
+.protocol-map g:has(circle.available)>.map-label{fill:var(--color-ink)}
+.source-drawer::backdrop{background:color-mix(in oklch,var(--color-shade) 70%,transparent)}
+.protocol-detail{border-top:1px solid var(--color-rule);background:var(--color-paper-2);border-radius:var(--radius-inner)}
+.protocol-outcomes>div{border-top:1px solid var(--color-rule)}
+.guided-panel{background:var(--color-paper-2);border-left-width:2px;border-radius:var(--radius-inner)}
+.protocol-steps button[aria-pressed=true]{background:var(--color-paper-2);border-left-width:2px}
+.source-drawer{background:var(--color-paper-2)}
+@media(max-width:47.99rem){.allocation-summary{padding:var(--space-4)}.allocation-summary .mini-results{margin-block:var(--space-4);padding-block:var(--space-4);gap:var(--space-4)}.allocation-summary .hero-amount{margin-bottom:var(--space-2)}.allocation-summary .mini-results strong{margin-bottom:var(--space-1)}}

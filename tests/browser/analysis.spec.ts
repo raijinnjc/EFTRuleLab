@@ -52,7 +52,7 @@ for(const width of [320,390,768,1024,1440])test(`analytical charts and expanded 
  await expect(page.locator('#policy svg')).toBeVisible();await expect(page.locator('#funds svg').first()).toBeVisible();
  await page.getByText('Inspect five deductions',{exact:true}).click();await page.getByText('Inspect BPD allowances source',{exact:true}).click();await page.locator('#awards').getByLabel('Search village or kecamatan').fill('Sungai Kupah');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
- await page.screenshot({path:`docs/qa/screenshots/phase2a-${width}.png`,fullPage:true});
+ await page.screenshot({path:`docs/qa/screenshots/phase2b-regression-${width}.png`,fullPage:true});
 });
 test('chart controls and both input nodes expose complete accessible inspection structure',async({page})=>{
  await page.goto('/');const chart=page.getByRole('group',{name:'Allocation structure comparison',exact:true});
