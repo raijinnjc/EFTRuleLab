@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="332" height="64" viewBox="0 0 332 64">
+<g transform="translate(3 8)">
+<path d="M5 18H13C20 18 20 12 27 12H35" stroke="#B4B8F4" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="41" cy="12" r="3.3" fill="#B4B8F4"/>
+<path d="M5 36H13C20 36 20 30 27 30H35" stroke="#F0B986" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="41" cy="30" r="3.3" fill="#F0B986"/>
+</g>
+<text x="64" y="42" fill="#F3F0E9" font-family="Wix Madefor Display, Helvetica, Arial, sans-serif" font-size="29" font-weight="600" letter-spacing="-0.5">EFT<tspan font-weight="400"> RuleLab</tspan></text>
+</svg>
