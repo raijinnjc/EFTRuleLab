@@ -35,4 +35,6 @@ a{color:var(--color-accent)}button,select,input,textarea{transition:background-c
 .protocol-map g:focus circle{stroke-width:2}
 .protocol-map g:focus-visible circle{stroke:var(--color-focus);stroke-width:2.5;stroke-dasharray:3 2}
 .protocol-map g:focus-visible .map-label{fill:var(--color-accent)}
-.allocation-mark:focus-visible{stroke:var(--color-focus);stroke-width:3;stroke-dasharray:8 4;opacity:1}
+.allocation-mark:focus-visible{stroke:var(--color-paper);stroke-width:4;stroke-dasharray:none;opacity:1}
+.bar-focus-indicator{stroke:var(--color-focus);stroke-width:2;visibility:hidden;pointer-events:none}
+.allocation-mark:focus-visible+.bar-focus-indicator{visibility:visible}
