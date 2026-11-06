@@ -83,7 +83,8 @@ The PRD, handoff, approved design document, all historical datasets, installed d
 - Remote main was inspected and already integrated PR #1 documentation, #2 Phase 1 and #3 Phase 2A.
 - Exact parent: `5580c445c988b6e64b6e78e70dd8b86e682465fa` (merge PR #3), containing Phase 2A `0411705391644cec5edaf699509fd4ece3d6c6a2` and Phase 1 `97adb74562a16f257a6d14b4b386f4ff159fe8e4`.
 - Branch: `feat/accountability-research-p0`; intended PR base: `main`. No history rewrite, force push or unrelated merge.
-- PR delivery status recorded below after push/API attempt.
+- Feature branch pushed successfully. `gh pr create` against `main` returned `Post "https://api.github.com/graphql": Forbidden`; no PR was created by this task.
+- Manual action: open https://github.com/raijinnjc/EFTRuleLab/compare/main...feat/accountability-research-p0?expand=1, confirm base `main` and compare `feat/accountability-research-p0`, then Create pull request. Suggested title: Complete P0 accountability and research experience. Do not merge automatically.
 
 ## Local run and user acceptance
 
