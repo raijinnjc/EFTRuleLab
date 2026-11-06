@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="EFT RuleLab two-track symbol">
+<path d="M5 18H13C20 18 20 12 27 12H35" stroke="#B4B8F4" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="41" cy="12" r="3.3" fill="#B4B8F4"/>
+<path d="M5 36H13C20 36 20 30 27 30H35" stroke="#F0B986" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="41" cy="30" r="3.3" fill="#F0B986"/>
+</svg>
