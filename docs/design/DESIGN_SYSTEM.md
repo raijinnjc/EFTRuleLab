@@ -134,3 +134,13 @@ PRD F01–F11 and T01–T35 remain the acceptance authority. Future work must de
 Critical design review questions: Can a reader find PASS and INCOMPLETE together? Is 7% visibly residual-based? Is every 2021-rule view labeled counterfactual? Can the full amount and source page be inspected? Does an extraction experiment leave the ledger untouched? Are missing decisions described without allegations? Can the same workflow be completed with keyboard and at 320px?
 
 This task validates document integrity, token contrast and repository scope only. Visual fit, actual fonts, assistive-technology behavior and browser rendering await application implementation and its tests.
+
+## Dusk visual revision (6 November 2026)
+
+The user-selected Hallmark Dusk replaces the earlier white/navy visual direction for the Phase 2A redesign. Scientific content, status semantics, exact arithmetic and accessible interactions above remain authoritative.
+
+Actual Dusk OKLCH tokens are copied into tokens.css: slate paper 17.5%/0.014/268, layered surfaces 21% and 25%, periwinkle 77%/0.10/274, apricot 83%/0.095/62, bone well 95.5%/0.008/75. Wix Madefor Display 500 for headings and numerical statements; Wix Madefor Text for body/controls, bundled under OFL. Existing semantic verified/incomplete aliases map to periwinkle/apricot, always accompanied by explicit status text. Basic component uses muted slate; formula periwinkle; performance apricot.
+
+A locally bundled real Thomas Bresson valley photograph carries the hero only. Desktop/mobile WebP crops and a fog scrim give readable quiet space; a single smoked-glass reconciliation panel sits alongside the headline. Attribution links CC BY 3.0 and records cropping/compression. No Kubu Raya location or ecological implication is asserted. The glass panel uses a stronger 88% dark base than the reference's 58% for reliable analytical text contrast. No continuous photo drift or breathing indicators: fiscal reading takes priority, reduced motion is entirely still.
+
+Below the hero, open slate sections, hairline rules, restrained controls and a bone waterfall well replace repeated white containers. Preserve disclosure text, table scroll regions, exact numbers and source locators. Responsive layout retains the existing 320–1440 coverage and 200% text behavior.
