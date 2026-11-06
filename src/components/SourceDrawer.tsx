@@ -2,7 +2,7 @@ import {createContext,useContext,useRef,useState,type ReactNode} from 'react';
 import type {Dataset} from '../evidence/types';
 import {sourceEntries,type ResearchEntry} from '../domain/research';
 const SourceContext=createContext<((id:string)=>void)|null>(null);
-export function InspectSourceButton({id,label}:{id:string;label?:string}){const open=useContext(SourceContext);return open?<button className="source-inspect" onClick={()=>open(id)}>{label??`Inspect ${id} source`}</button>:null;}
+export function InspectSourceButton({id,label}:{id:string;label?:string}){const open=useContext(SourceContext);return open?<button className="source-inspect" aria-label={label??`Inspect ${id} source`} onClick={()=>open(id)}>{label?'Evidence':id.length>8?'Inspect record':`Inspect ${id} source`}</button>:null;}
 export function SourceDetails({source:s}:{source:ResearchEntry}){
  const citation=`${s.id}: ${s.title??s.label}. ${s.institution??'Institution unavailable'}, ${s.year??'year unavailable'}. ${s.url??'Local research record'}. ${s.inspection}. ${s.limitation}`;
  return <><dl className="provenance-grid"><dt>Official title</dt><dd>{s.title??'Unavailable in supplied citation; descriptive label only.'}</dd><dt>Institution</dt><dd>{s.institution??'Unavailable in supplied citation'}</dd><dt>Publication / fiscal year</dt><dd>{s.year??'Unavailable'} / {s.fiscalYear??'Not established or not applicable'}</dd><dt>Verification status</dt><dd>{s.inspection}</dd><dt>Location</dt><dd>{s.locations}</dd><dt>Research limitations</dt><dd>{s.limitation}</dd></dl>
