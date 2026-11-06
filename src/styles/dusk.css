@@ -28,3 +28,11 @@ a{color:var(--color-accent)}button,select,input,textarea{transition:background-c
 .protocol-steps button[aria-pressed=true]{background:var(--color-paper-2);border-left-width:2px}
 .source-drawer{background:var(--color-paper-2)}
 @media(max-width:47.99rem){.allocation-summary{padding:var(--space-4)}.allocation-summary .mini-results{margin-block:var(--space-4);padding-block:var(--space-4);gap:var(--space-4)}.allocation-summary .hero-amount{margin-bottom:var(--space-2)}.allocation-summary .mini-results strong{margin-bottom:var(--space-1)}}
+/* Chart focus follows the mark, without a rectangular browser halo. */
+.protocol-map g[role="button"]:focus,
+.allocation-mark:focus{outline:none;box-shadow:none}
+.protocol-map circle.current{stroke:var(--color-accent);stroke-width:2}
+.protocol-map g:focus circle{stroke-width:2}
+.protocol-map g:focus-visible circle{stroke:var(--color-focus);stroke-width:2.5;stroke-dasharray:3 2}
+.protocol-map g:focus-visible .map-label{fill:var(--color-accent)}
+.allocation-mark:focus-visible{stroke:var(--color-focus);stroke-width:3;stroke-dasharray:8 4;opacity:1}
