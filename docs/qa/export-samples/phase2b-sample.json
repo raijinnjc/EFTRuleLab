@@ -2,7 +2,7 @@
   "schemaVersion": "eft-rulelab-audit/1",
   "applicationVersion": "0.1.0",
   "datasetVersion": "2022-prd-1.0-transcription-1",
-  "generatedAt": "2026-11-06T02:18:04.034Z",
+  "generatedAt": "2026-11-06T04:43:28.692Z",
   "fiscalYear": 2022,
   "figureCitation": "Figure citation: EFT RuleLab FY2022 fiscal reconciliation PASS, gap 0 rupiah; recipient decision replay INCOMPLETE. S1 (Perbup 94/2021), Annex II PDF pp.17–21, inherited PRD transcription; dataset 2022-prd-1.0-transcription-1. No primary PDF inspection here.",
   "monetaryRepresentation": "Exact decimal integer rupiah strings; never binary floating point.",
