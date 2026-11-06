@@ -38,3 +38,8 @@ a{color:var(--color-accent)}button,select,input,textarea{transition:background-c
 .allocation-mark:focus-visible{stroke:var(--color-paper);stroke-width:4;stroke-dasharray:none;opacity:1}
 .bar-focus-indicator{stroke:var(--color-focus);stroke-width:2;visibility:hidden;pointer-events:none}
 .allocation-mark:focus-visible+.bar-focus-indicator{visibility:visible}
+
+/* Brand identity: twin evidence paths. Keep the wordmark textual for font loading and accessibility. */
+.site-header .wordmark{display:inline-flex;align-items:center;gap:.65rem;white-space:nowrap;flex-shrink:0;line-height:1.1}
+.site-header .brand-mark{display:block;width:34px;height:34px;flex:none}
+@media(max-width:47.99rem){.site-header .wordmark{gap:.45rem}.site-header .brand-mark{width:30px;height:30px}}
