@@ -1,0 +1,5 @@
+The primary research journey now follows three questions: reconstruct the fiscal pool, inspect missing recipient-decision evidence, and examine the proposed independent-review procedure. One chapter navigator and contextual workspaces preserve all P0 tools without stacking a second workbench under the introduction.
+
+This is Checkpoint B for visual/narrative acceptance, not a release candidate. It preserves approved Checkpoint A documentation above main, Dusk assets, exact BigInt calculations, inherited provenance and all evidence limitations. No merge or deployment.
+
+Validation: 75 unit tests, 78 production Chromium tests and strict TypeScript/Vite build passed. Desktop/mobile screenshots, normal-motion recordings, P0 preservation checklist and actual Hallmark findings are in docs/qa/checkpoint-b/REPORT.md. Hallmark is not a clean automated pass; dispositions distinguish wrapped scientific labels, static heuristics and inherited findings. Safari, real-user comprehension and fresh primary-source verification are not claimed.

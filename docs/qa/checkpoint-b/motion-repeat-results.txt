@@ -1,0 +1,14 @@
+
+Running 3 tests using 1 worker
+
+(node:78914) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/motion.spec.ts:9:1 › selection updates exact values immediately and cancels old inspector emphasis (1.8s)
+(node:79049) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 tests/browser/motion.spec.ts:9:1 › selection updates exact values immediately and cancels old inspector emphasis (1.6s)
+(node:79188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 tests/browser/motion.spec.ts:9:1 › selection updates exact values immediately and cancels old inspector emphasis (1.6s)
+
+  3 passed (8.5s)

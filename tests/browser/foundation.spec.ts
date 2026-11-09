@@ -29,28 +29,28 @@ test('native evidence disclosure works with keyboard and source links preserve p
 });
 test('navigation, refresh, history and reduced motion keep evidence accessible',async({page})=>{
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/');
- await page.getByRole('button',{name:'Navigation',exact:true}).click();await page.getByRole('link',{name:'Verification',exact:true}).click();await expect(page).toHaveURL(/#verification$/);
- await page.getByRole('button',{name:'Navigation',exact:true}).click();await page.getByRole('link',{name:'Sources',exact:true}).click();await expect(page).toHaveURL(/#sources$/);
+ await page.getByRole('button',{name:'Research tools',exact:true}).click();await page.getByRole('link',{name:'Verification',exact:true}).click();await expect(page).toHaveURL(/#verification$/);
+ await page.getByRole('button',{name:'Research tools',exact:true}).click();await page.getByRole('link',{name:'Sources',exact:true}).click();await expect(page).toHaveURL(/#sources$/);
  await page.reload();await expect(page.getByRole('heading',{name:'Sources and evidence boundaries'})).toBeVisible();
  await page.goBack();await expect(page).toHaveURL(/#verification$/);
  await expect(page.locator('#test-2')).toContainText('INCOMPLETE');
 });
 test('mobile menu is keyboard operable and 200% text remains readable',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.goto('/');
- const menu=page.getByRole('button',{name:'Navigation'});await menu.focus();await page.keyboard.press('Enter');await expect(menu).toHaveAttribute('aria-expanded','true');
+ const menu=page.getByRole('button',{name:'Research tools'});await menu.focus();await page.keyboard.press('Enter');await expect(menu).toHaveAttribute('aria-expanded','true');
  await page.getByRole('link',{name:'Sources',exact:true}).click();await expect(menu).toHaveAttribute('aria-expanded','false');
  await page.evaluate(()=>document.documentElement.style.fontSize='200%');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
 });
 test('current section is announced and expanded evidence stays inside a narrow viewport',async({page})=>{
  await page.setViewportSize({width:320,height:900});await page.goto('/#verification');
- await page.getByRole('button',{name:'Navigation'}).click();
+ await page.getByRole('button',{name:'Research tools'}).click();
  await expect(page.getByRole('link',{name:'Verification',exact:true})).toHaveAttribute('aria-current','location');
  await page.getByRole('link',{name:'Sources',exact:true}).click();
  await page.getByText('Inspect S1 provenance',{exact:true}).click();
  await openWorkspace(page,'verification');await page.getByText('Inspect fiscal inputs',{exact:true}).click();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
- await openWorkspace(page,'sources');await page.getByRole('button',{name:'Navigation'}).click();
+ await openWorkspace(page,'sources');await page.getByRole('button',{name:'Research tools'}).click();
  await expect(page.getByRole('link',{name:'Sources',exact:true})).toHaveAttribute('aria-current','location');
 });
 test('invalid bundled evidence produces an explicit unavailable state instead of a blank page',async({page})=>{

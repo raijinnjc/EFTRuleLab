@@ -1,0 +1,18 @@
+import {test,expect} from '@playwright/test';
+test('the approved argument has one question navigator and preserves supporting analysis',async({page})=>{
+ await page.goto('/');await expect(page.locator('#research-experience')).toBeHidden();await expect(page.getByRole('tablist',{name:'Research chapters'})).toHaveCount(1);
+ await page.getByRole('tab',{name:'01 What we can prove',exact:true}).click();await expect(page.getByRole('heading',{level:1,name:'What can we prove?'})).toBeFocused();await expect(page.locator('#puzzle .precision-reconciliation')).toContainText('Rp0');
+ await expect(page.locator('#puzzle .precision-deduction-group')).toBeHidden();await page.getByRole('button',{name:/Five deductions:/}).first().click();await expect(page.getByRole('button',{name:/Inspect deduction: BPD/})).toBeVisible();
+ await page.getByRole('tab',{name:"02 What's missing",exact:true}).click();await expect(page.getByRole('heading',{name:"What can't we reproduce?",exact:true})).toBeVisible();await expect(page.locator('#evidence-gap')).toContainText('Independently derived recipient set');
+ await page.getByRole('tab',{name:'03 Proposed verification',exact:true}).click();await expect(page.getByRole('heading',{name:'How could verification improve?',exact:true})).toBeVisible();await expect(page.locator('#protocol')).toContainText('before revealing');
+ await page.getByRole('link',{name:'Open evidence records',exact:true}).click();await expect(page.getByRole('link',{name:'Back to Proposed verification',exact:true})).toBeVisible();await page.goBack();await expect(page).toHaveURL(/#protocol$/);
+});
+test('all eight ARP steps remain inspectable while the method stays explicitly proposed',async({page})=>{
+ await page.goto('/#protocol');await page.getByLabel('Inspect protocol step', {exact:true}).selectOption('5');await expect(page.locator('#protocol-detail')).toContainText('Withhold the target roster');await expect(page.locator('#protocol-detail')).toContainText('INCOMPLETE');
+ await page.getByText('Inspect all eight protocol steps',{exact:true}).click();await expect(page.locator('#protocol .protocol-steps button')).toHaveCount(8);await page.getByRole('button',{name:'8. Record outcome and responsibility',exact:true}).click();await expect(page.locator('#protocol-detail')).toContainText('Record MATCH, DISCREPANCY or INCOMPLETE');
+});
+test('primary story reflows at all five widths and 200 percent text',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});
+ for(const width of [320,390,768,1024,1440]){await page.setViewportSize({width,height:1000});for(const route of ['puzzle','evidence-gap','protocol']){await page.goto('/#'+route);await expect(page.getByRole('heading',{level:1})).toHaveCount(1);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.screenshot({path:`docs/qa/checkpoint-b/current/${route}-responsive-${width}.png`,fullPage:true});await page.evaluate(()=>document.documentElement.style.fontSize='200%');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);await page.evaluate(()=>document.documentElement.style.fontSize='');}}
+});
+test('the introduction exposes source status without requiring tool navigation',async({page})=>{await page.goto('/');const trigger=page.getByRole('button',{name:'Inspect introduction sources and study limits',exact:true});await trigger.click();await expect(page.getByRole('dialog')).toContainText('INHERITED_PRD_TRANSCRIPTION');await expect(page.getByRole('dialog')).toContainText('not repeated in this task');await page.keyboard.press('Escape');await expect(trigger).toBeFocused();});

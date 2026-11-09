@@ -1,0 +1,46 @@
+[
+  {
+    "route": "overview",
+    "text": "Inspect the reconciliation",
+    "color": "oklch(0.19 0.035 274)",
+    "background": "oklch(0.77 0.1 274)",
+    "outline": "oklch(0.8 0.1 274) solid 2px",
+    "outlineOffset": "3px",
+    "transition": "all",
+    "focusVisible": true,
+    "beforeShadow": "none"
+  },
+  {
+    "route": "puzzle",
+    "text": "",
+    "color": "oklch(0.21 0.016 268)",
+    "background": "rgba(0, 0, 0, 0)",
+    "outline": "oklch(0.44 0.13 274) solid 2px",
+    "outlineOffset": "2px",
+    "transition": "background-color 0.14s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.14s cubic-bezier(0.22, 1, 0.36, 1), color 0.14s cubic-bezier(0.22, 1, 0.36, 1)",
+    "focusVisible": true,
+    "beforeShadow": "none"
+  },
+  {
+    "route": "evidence-gap",
+    "text": "Assessment valuesNot obtained for this study",
+    "color": "oklch(0.42 0.08 62)",
+    "background": "rgba(0, 0, 0, 0)",
+    "outline": "oklch(0.44 0.13 274) solid 2px",
+    "outlineOffset": "2px",
+    "transition": "background-color 0.14s cubic-bezier(0.22, 1, 0.36, 1), color 0.14s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.21s cubic-bezier(0.22, 1, 0.36, 1)",
+    "focusVisible": true,
+    "beforeShadow": "none"
+  },
+  {
+    "route": "protocol",
+    "text": "01Lock source and poolVersion and fiscal reconciliation",
+    "color": "oklch(0.21 0.016 268)",
+    "background": "rgba(0, 0, 0, 0)",
+    "outline": "oklch(0.44 0.13 274) solid 2px",
+    "outlineOffset": "2px",
+    "transition": "background-color 0.14s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.14s cubic-bezier(0.22, 1, 0.36, 1), color 0.14s cubic-bezier(0.22, 1, 0.36, 1)",
+    "focusVisible": true,
+    "beforeShadow": "none"
+  }
+]
