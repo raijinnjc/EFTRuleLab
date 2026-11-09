@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {memo,useState} from 'react';
 import type {Dataset,Provenance} from '../evidence/types';
 import {reconstruct,parseRupiah} from '../domain/fiscal';
 import {plotFraction} from '../domain/analysis';
@@ -9,7 +9,7 @@ import {Disclosure} from './primitives';
 import {ChapterNavigation,GraphicalCanvas,ContextInspector,Money,ChartLegend,FigureCaption,SourceAction,EvidenceStatus,ResearchLimitation,AnalyticalControl} from './precision/Primitives';
 type Selection={kind:'stage'|'award'|'deduction'|'missing';id:string};
 const missingLabels:Record<string,string>={performance_scores_2022:'Assessment values',assessment_universe_2022:'Assessed universe',executed_selection_rule:'Executed selection rule',signed_decision_records:'Signed decisions'};
-export function ResearchPuzzle({data,introVisible=false}:{data:Dataset;introVisible?:boolean}){
+export const ResearchPuzzle=memo(function ResearchPuzzle({data,introVisible=false}:{data:Dataset;introVisible?:boolean}){
  const Heading=introVisible?'h2':'h1';const r=reconstruct(data);const gross=parseRupiah(data.fiscal.gross.value);const rule=data.rules.find(x=>x.fiscalYear===2022)!;const shares=rule.shares;
  const [selection,setSelection]=useState<Selection>({kind:'stage',id:'pool'});
  const stages=[{id:'gross',label:'Gross ADD',amount:gross,note:'District-to-village ADD envelope, distinct from national Dana Desa. Not evidence of actual payment.',provenance:data.fiscal.gross.provenance},{id:'deductions',label:'Five deductions',amount:r.deductions,note:'The five source-referenced deductions are subtracted before allocating the residual.',provenance:data.fiscal.deductions[0].provenance},{id:'residual',label:'Residual ADD',amount:r.residual,note:'Gross ADD minus the five deductions. This is the base for all FY2022 component shares.',provenance:data.fiscal.gross.provenance},{id:'pool',label:'Performance pool',amount:r.components.performance,note:`FY2022 residual × ${shares.performanceBp/100}% gives the performance component. Comparing it with the published ledger tests arithmetic, not recipient selection.`,provenance:rule.provenance}];
@@ -50,4 +50,4 @@ export function ResearchPuzzle({data,introVisible=false}:{data:Dataset;introVisi
  </div>
  <Disclosure label="Inspect exact puzzle inputs and deduction sources"><div className="table-scroll" role="region" tabIndex={0} aria-label="Exact puzzle input table"><table><caption>Exact FY2022 reconstruction inputs and source locators</caption><thead><tr><th>Input</th><th>Rupiah</th><th>Source locator</th></tr></thead><tbody>{[data.fiscal.gross,...data.fiscal.deductions].map(x=><tr key={x.id}><th scope="row">{x.label}</th><td>{formatRupiah(parseRupiah(x.value))}</td><td>{x.provenance.sourceId} / {x.provenance.locator} / PDF {x.provenance.pdfPages.join(', ')||'page unavailable'}</td></tr>)}</tbody></table></div><p>Residual = gross − five deductions = {formatRupiah(r.residual)}. Performance = residual × {shares.performanceBp}/10,000 = {formatRupiah(r.components.performance)}. Gap = performance minus full published total = {formatRupiah(r.gap)}.</p></Disclosure>
  </div>;
-}
+});

@@ -1,0 +1,27 @@
+/* Dusk Precision motion: functional continuity, no financial interpolation. */
+:root{--motion-micro:140ms;--motion-chart:210ms;--motion-workspace:280ms;--motion-ease:cubic-bezier(0.22,1,0.36,1);--motion-enter-offset:8px}
+@keyframes eft-workspace-enter{from{opacity:.88;transform:translateY(var(--motion-enter-offset))}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:no-preference){
+ [data-workspace]:not([hidden]),#research-experience>[role=tabpanel]:not([hidden]){animation:eft-workspace-enter var(--motion-workspace) var(--motion-ease)}
+ button,select,input,textarea{transition:background-color var(--motion-micro) var(--motion-ease),border-color var(--motion-micro) var(--motion-ease),color var(--motion-micro) var(--motion-ease)}
+ :is(.precision-water-row,.precision-stage-index button,.precision-pool-link,.precision-missing-controls button,.missing-records button) {transition:background-color var(--motion-micro) var(--motion-ease),color var(--motion-micro) var(--motion-ease),border-color var(--motion-chart) var(--motion-ease)}
+ .precision-row-label,.award-mark:before{transition:color var(--motion-micro) var(--motion-ease),background-color var(--motion-micro) var(--motion-ease),border-color var(--motion-chart) var(--motion-ease),box-shadow var(--motion-chart) var(--motion-ease)}
+ .allocation-mark{transition:opacity var(--motion-chart) var(--motion-ease)}
+ .rule-stack button,.scale-strip button{transition:opacity var(--motion-micro) var(--motion-ease)}
+}
+/* Replace small chart hover filters with a bounded opacity cue; proportions never move. */
+.rule-stack button:hover,.scale-strip button:hover{filter:none;opacity:.92}
+.rule-stack button:after{content:'';position:absolute;left:2px;right:2px;bottom:-7px;border-bottom:2px solid var(--color-focus);opacity:0;transition:opacity var(--motion-chart) var(--motion-ease)}
+.rule-stack button[aria-pressed=true]:after,.rule-stack button:focus-visible:after{opacity:1}
+.rule-stack button:focus-visible:after{transition:none}
+/* Native close releases focus/semantics immediately. Discrete CSS preserves only a short visual exit. */
+.source-drawer{opacity:0;transform:translateY(var(--motion-enter-offset));transition:opacity var(--motion-micro) var(--motion-ease),transform var(--motion-micro) var(--motion-ease),display var(--motion-micro) allow-discrete,overlay var(--motion-micro) allow-discrete}
+.source-drawer[open]{opacity:1;transform:none;transition-duration:var(--motion-workspace)}
+.source-drawer::backdrop{opacity:0;transition:opacity var(--motion-micro) var(--motion-ease),display var(--motion-micro) allow-discrete,overlay var(--motion-micro) allow-discrete}
+.source-drawer[open]::backdrop{opacity:1;transition-duration:var(--motion-workspace)}
+@starting-style{.source-drawer[open]{opacity:0;transform:translateY(var(--motion-enter-offset))}.source-drawer[open]::backdrop{opacity:0}}
+@media(prefers-reduced-motion:reduce){
+ [data-workspace],#research-experience>[role=tabpanel],.source-drawer,.source-drawer::backdrop,.rule-stack button:after{animation:none!important;transition:none!important}
+ .source-drawer[open]{opacity:1;transform:none}
+}
+@media print{[data-workspace],#research-experience>[role=tabpanel]{animation:none!important;transform:none!important;opacity:1!important}}

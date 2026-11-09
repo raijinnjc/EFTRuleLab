@@ -46,3 +46,7 @@ Verify320/390/768/1024/1440, 200% root text size, reduced motion and keyboard so
 ## Scope and remaining approvals
 
 Step 3 stops at a working Puzzle, before/after screenshots and tests. Rule Shift/Evidence Gap require Step4 approval, detailed workspaces Step5 approval. Full-screen consistency is a staged goal, not a claim achieved by this one milestone.
+
+## Motion continuity pass
+
+The [shared motion language](MOTION_SYSTEM.md) adds restrained feedback and entrances without changing this composition, exact figures or evidence boundaries. Reduced motion and immediate interaction semantics take precedence over visual transitions.

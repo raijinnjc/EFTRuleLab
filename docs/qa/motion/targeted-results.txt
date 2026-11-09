@@ -1,0 +1,13 @@
+
+Running 6 tests using 1 worker
+
+(node:52535) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/motion.spec.ts:2:1 › route navigation has one smooth scroll owner and immediately hides outgoing workspaces (1.6s)
+  ✓  2 tests/browser/motion.spec.ts:9:1 › selection updates exact values immediately and cancels old inspector emphasis (1.3s)
+  ✓  3 tests/browser/motion.spec.ts:13:1 › source closes access immediately during its short visual exit and restores focus (1.4s)
+  ✓  4 tests/browser/motion.spec.ts:17:1 › reduced motion cancels an in-flight inspector animation and prevents entrances (1.1s)
+  ✓  5 tests/browser/motion.spec.ts:21:1 › reactivating the current chapter coordinates focus without adding history (909ms)
+  ✓  6 tests/browser/motion.spec.ts:22:1 › changing reduced motion finishes active route scrolling immediately (1.3s)
+
+  6 passed (9.2s)

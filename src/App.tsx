@@ -1,22 +1,23 @@
+import {isResearchRoute,writeResearchRoute,scrollResearchTarget,releaseResearchScroll} from './motion';
 import {WorkspaceContext,WorkspaceFrame,workspaceFor,workspaceLabels,returnSceneFor} from './navigation';
-import {ResearchExperience} from './components/ResearchExperience';
+import {ResearchExperience as ResearchExperienceView} from './components/ResearchExperience';
 import {SourceProvider} from './components/SourceDrawer';
-import {SourceLibrary} from './components/SourceLibrary';
-import {ProtocolWorkflow} from './components/ProtocolWorkflow';
+import {SourceLibrary as SourceLibraryView} from './components/SourceLibrary';
+import {ProtocolWorkflow as ProtocolWorkflowView} from './components/ProtocolWorkflow';
 import {GuidedDemo} from './components/GuidedDemo';
-import {ResearchExports} from './components/ResearchExports';
+import {ResearchExports as ResearchExportsView} from './components/ResearchExports';
 import './styles/research.css';
-import {useEffect,useRef,useState} from 'react';
+import {memo,useEffect,useMemo,useRef,useState} from 'react';
 import {dataset} from './evidence/dataset';
 import type {Dataset} from './evidence/types';
 import {verifyHistorical} from './domain/evidence';
 import {reconstruct} from './domain/fiscal';
 import {Amount,Disclosure,EvidenceUnavailable,Section} from './components/primitives';
-import {TwoTestDiagram} from './components/TwoTestDiagram';
-import {PolicyStudio} from './components/PolicyStudio';
-import {FiscalEnvelope} from './components/FiscalEnvelope';
-import {AwardLedger} from './components/AwardLedger';
-import {ExtractionExperiment} from './components/ExtractionExperiment';
+import {TwoTestDiagram as TwoTestDiagramView} from './components/TwoTestDiagram';
+import {PolicyStudio as PolicyStudioView} from './components/PolicyStudio';
+import {FiscalEnvelope as FiscalEnvelopeView} from './components/FiscalEnvelope';
+import {AwardLedger as AwardLedgerView} from './components/AwardLedger';
+import {ExtractionExperiment as ExtractionExperimentView} from './components/ExtractionExperiment';
 import './styles/analysis.css';
 import './styles/tokens.css';
 import './styles/app.css';
@@ -24,16 +25,31 @@ import './styles/dusk.css';
 import './styles/graphical.css';
 import './styles/workspaces.css';
 import './styles/precision.css';
+import './styles/motion.css';
+// Stable view boundaries avoid recalculating hidden tools on unrelated App state updates.
+const ResearchExperience=memo(ResearchExperienceView);
+const TwoTestDiagram=memo(TwoTestDiagramView);
+const PolicyStudio=memo(PolicyStudioView);
+const FiscalEnvelope=memo(FiscalEnvelopeView);
+const AwardLedger=memo(AwardLedgerView);
+const ExtractionExperiment=memo(ExtractionExperimentView);
+const ProtocolWorkflow=memo(ProtocolWorkflowView);
+const SourceLibrary=memo(SourceLibraryView);
+const ResearchExports=memo(ResearchExportsView);
 const links=[['overview','Research question'],['policy','Policy'],['funds','Funds'],['awards','Awards'],['verification','Verification'],['extraction','Extraction'],['protocol','ARP'],['sources','Sources'],['exports','Exports']] as const;
 export function App({data=dataset}:{data?:Dataset}={}){
  const [ruleYear,setRuleYear]=useState<2021|2022>(2022);const [experimentActive,setExperimentActive]=useState(false);
  const [menuOpen,setMenuOpen]=useState(false);
  const [section,setSection]=useState(typeof window==='undefined'?'overview':window.location.hash.slice(1)||'overview');
  const sceneOrigin=useRef(['puzzle','rule-shift','evidence-gap'].includes(section)?section:returnSceneFor(section));
- const shouldFocus=useRef(true);const activeWorkspace=workspaceFor(section);
- const navigate=(id:string,focus=true)=>{if(['puzzle','rule-shift','evidence-gap'].includes(id))sceneOrigin.current=id;if(section!==id)shouldFocus.current=focus;setSection(id);if(window.location.hash.slice(1)!==id)window.location.hash=id;};
+ const firstNavigation=useRef(true);const shouldFocus=useRef(true);const activeWorkspace=workspaceFor(section);
+ const navigate=(id:string,focus=true)=>{if(['puzzle','rule-shift','evidence-gap'].includes(id))sceneOrigin.current=id;if(section!==id)shouldFocus.current=focus;setSection(id);writeResearchRoute(id);};
+ useEffect(()=>{const previous=window.history.scrollRestoration;window.history.scrollRestoration='manual';return ()=>{releaseResearchScroll();window.history.scrollRestoration=previous}},[]);
+ useEffect(()=>{const click=(event:MouseEvent)=>{if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;const link=event.target instanceof Element?event.target.closest<HTMLAnchorElement>('a[href^="#"]'):null;const id=link?.getAttribute('href')?.slice(1);if(!id||!isResearchRoute(id)||link?.target||link?.hasAttribute('download'))return;event.preventDefault();if(id!==section)navigate(id);else if(!link?.closest('#primary-nav'))focusSection();};document.addEventListener('click',click);return ()=>document.removeEventListener('click',click);},[section]);
  useEffect(()=>{const onHash=()=>{const id=window.location.hash.slice(1)||'overview';if(id==='main')return;if(['puzzle','rule-shift','evidence-gap'].includes(id))sceneOrigin.current=id;setSection(id);setMenuOpen(false);};window.addEventListener('hashchange',onHash);return ()=>window.removeEventListener('hashchange',onHash);},[]);
- useEffect(()=>{const frame=requestAnimationFrame(()=>{if(!shouldFocus.current){shouldFocus.current=true;return;}const id=workspaceFor(section);const target=document.getElementById(id??(section==='overview'?'overview':'research-experience'));const scroller=id?document.querySelector('.workspace-toolbar'):target;scroller?.scrollIntoView({block:'start',behavior:'instant'});const heading=id||section==='overview'?target?.querySelector('h1'):target?.querySelector('[role=tabpanel]:not([hidden]) .scene-heading :is(h1,h2)');if(heading instanceof HTMLElement){heading.tabIndex=-1;heading.focus({preventScroll:true});}});return ()=>cancelAnimationFrame(frame);},[section]);
+ const focusSection=(initial=false)=>{const id=workspaceFor(section);const target=document.getElementById(id??(section==='overview'?'overview':'research-experience'));const scroller=id?document.querySelector('.workspace-toolbar'):target;scrollResearchTarget(scroller??null,initial);const heading=id||section==='overview'?target?.querySelector('h1'):target?.querySelector('[role=tabpanel]:not([hidden]) .scene-heading :is(h1,h2)');if(heading instanceof HTMLElement){heading.tabIndex=-1;heading.focus({preventScroll:true});}};
+ useEffect(()=>{const frame=requestAnimationFrame(()=>{if(!shouldFocus.current){shouldFocus.current=true;return;}focusSection(firstNavigation.current);firstNavigation.current=false;});return ()=>cancelAnimationFrame(frame);},[section]);
+ const exportState=useMemo(()=>({ruleYear,experimentActive}),[ruleYear,experimentActive]);
  const verification=verifyHistorical(data);
  if(verification.test1.status==='INCOMPLETE')return <main className="container"><EvidenceUnavailable reason={verification.test1.reason}/></main>;
  const r=reconstruct(data);
@@ -46,7 +62,7 @@ export function App({data=dataset}:{data?:Dataset}={}){
    {activeWorkspace&&<div className="workspace-toolbar"><a href={`#${sceneOrigin.current}`}>Back to {sceneOrigin.current==='rule-shift'?'Rule Shift':sceneOrigin.current==='evidence-gap'?'Evidence Gap':'The Puzzle'}</a><span>{workspaceLabels[activeWorkspace]} workspace</span><button onClick={()=>{setMenuOpen(true);requestAnimationFrame(()=>document.querySelector<HTMLAnchorElement>('#primary-nav a')?.focus());}}>Choose another tool</button></div>}
    <WorkspaceFrame id="verification" active={activeWorkspace}><Section id="verification" title="Two questions. Different evidence."><div className="section-intro"><p>One test follows the arithmetic. The other would need to follow the decision. They are independent checks.</p><span className="small-copy">Historical FY2022 source · reproduced calculations</span></div><TwoTestDiagram data={data}/><p className="small-copy">Historical baseline only. <a href="#extraction">Explore the separate research-side extraction experiment</a>.</p><Disclosure label="Read the verification transcript"><p>Test 1: subtract the five deductions from gross ADD, apply the FY2022 performance share to the residual, then compare that pool with the sum of the published positive allocations. {verification.test1.status==='PASS'?'The supplied baseline reconciles exactly.':'These inputs have a reconciliation discrepancy; this is not an allegation of government error.'}</p><p>Test 2: obtain the approved assessment register, actual assessed universe, implemented selection rules and signed decisions before independently deriving a recipient set. Those inputs were not obtained for this study. The replay has not been executed.</p></Disclosure></Section></WorkspaceFrame>
    <WorkspaceFrame id="policy" active={activeWorkspace}><PolicyStudio data={data} ruleYear={ruleYear} onRuleChange={setRuleYear}/></WorkspaceFrame><WorkspaceFrame id="funds" active={activeWorkspace}><FiscalEnvelope data={data}/></WorkspaceFrame><WorkspaceFrame id="awards" active={activeWorkspace}><AwardLedger data={data}/></WorkspaceFrame><WorkspaceFrame id="extraction" active={activeWorkspace}><ExtractionExperiment data={data} experimentActive={experimentActive} onExperimentChange={setExperimentActive}/></WorkspaceFrame>
-   <WorkspaceFrame id="protocol" active={activeWorkspace}><ProtocolWorkflow data={data}/></WorkspaceFrame><WorkspaceFrame id="sources" active={activeWorkspace}><SourceLibrary data={data}/></WorkspaceFrame><WorkspaceFrame id="exports" active={activeWorkspace}><ResearchExports data={data} state={{ruleYear,experimentActive}}/></WorkspaceFrame>
+   <WorkspaceFrame id="protocol" active={activeWorkspace}><ProtocolWorkflow data={data}/></WorkspaceFrame><WorkspaceFrame id="sources" active={activeWorkspace}><SourceLibrary data={data}/></WorkspaceFrame><WorkspaceFrame id="exports" active={activeWorkspace}><ResearchExports data={data} state={exportState}/></WorkspaceFrame>
   </main>
   <footer className="site-footer"><div className="container"><strong>EFT RuleLab</strong><p className="photo-credit">Atmospheric photograph: <a href="https://commons.wikimedia.org/wiki/File:Vallee-brouillard.jpg" target="_blank" rel="noopener noreferrer">Thomas Bresson, Vallée brouillard</a>, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>. Cropped and compressed for this interface. Not presented as Kubu Raya or evidence of ecological outcomes.</p><p>Independent research demonstration · Not an official Kubu Raya system · No actual payments or ecological outcomes verified.</p><p>P0 research workbench. Proposed institutional roles require confirmation; recipient decision replay remains incomplete.</p></div></footer>
  </WorkspaceContext.Provider></SourceProvider>;
