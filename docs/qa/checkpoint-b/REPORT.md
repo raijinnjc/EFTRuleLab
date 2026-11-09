@@ -75,3 +75,7 @@ All three primary routes were actually rendered. Raw results are Puzzle **11 FAI
 ## Git baseline and delivery
 
 Branch: `feat/research-story-checkpoint-b`. Latest fetched `origin/main` is `7cbcb91`; approved Checkpoint A commit `1add318` sits above it and is preserved in this branch. That approved documentation is not silently dropped or automatically merged. Test-generated screenshots/export samples in existing QA folders are refreshed by the retained suite; their generated CSV uses normalized repository line endings only. No historical dataset is changed.
+
+The branch is pushed to GitHub. Draft PR creation was attempted with `gh pr create --draft --base main --head feat/research-story-checkpoint-b --body-file …`; GitHub's GraphQL endpoint returned **Forbidden**. This is an API permission blocker, not a failed Git push. [Open the preselected PR form](https://github.com/raijinnjc/EFTRuleLab/pull/new/feat/research-story-checkpoint-b). No PR was created or merged automatically. The full PR text used is retained in [PR_DESCRIPTION.md](PR_DESCRIPTION.md).
+
+**Acceptance gate:** review the three desktop/mobile scenes and recordings. Checkpoint C is not authorized until visual and narrative acceptance arrives.

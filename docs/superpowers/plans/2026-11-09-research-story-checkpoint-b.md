@@ -41,4 +41,4 @@ Files: ResearchPuzzle.tsx, ResearchEvidenceGap.tsx, ProtocolWorkflow.tsx, precis
 - [x] Execute full unit suite, strict build and production Playwright suite; fix genuine failures with evidence.
 - [x] Render desktop/mobile and all five widths; capture primary story, selected deduction/award/missing/ARP, source dialog and guided demo.
 - [x] Fresh review against approved scientific/narrative scope; document actual results, limitations and no real-user comprehension claim.
-- [ ] Commit/push review branch and present the working React preview. STOP for Checkpoint B acceptance, do not begin C.
+- [x] Commit/push review branch and present the working React preview. STOP for Checkpoint B acceptance, do not begin C.
