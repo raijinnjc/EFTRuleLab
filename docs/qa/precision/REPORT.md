@@ -88,3 +88,9 @@ The mobile composition is longer than the prior Puzzle because it now draws all 
 Existing browser tests also refreshed historical QA screenshots and timestamped export samples. Those are QA artifacts, not changes to research data. The CSV sample's line endings were normalized in the artifact only.
 
 **Stop here: approve or revise the rendered Puzzle before applying this system to Rule Shift, Evidence Gap or detailed workspaces.**
+
+## GitHub delivery
+
+Implementation commit: `e310afb`. Review branch pushed successfully: [design/dusk-precision-puzzle](https://github.com/raijinnjc/EFTRuleLab/tree/design/dusk-precision-puzzle).
+
+Draft PR creation was attempted with `gh pr create --draft --base main --head design/dusk-precision-puzzle`, but the GitHub GraphQL endpoint returned **Forbidden**. No PR was created. [Open the prepared branch comparison](https://github.com/raijinnjc/EFTRuleLab/compare/main...design/dusk-precision-puzzle?expand=1) and choose **Create draft pull request**; title: “Dusk Precision: Puzzle composition for Step 3 visual review”. No automatic merge.
