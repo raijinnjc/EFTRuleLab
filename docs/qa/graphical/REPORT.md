@@ -90,3 +90,11 @@ Scientific evidence limits remain unchanged: inherited PRD transcription, no fre
 Final visual verification also corrected stylesheet ordering so the compact introduction wins over inherited Dusk rules. New graphical styles load last in App. No domain/data changes were needed. Fresh reviewer findings are both resolved with failing-then-passing regressions; no deferred Important findings.
 
 A final primary-header navigation check found that activating a previously hidden scene did not bring it into view. The hash handler now scrolls to the chapter workspace (keeping tabs visible), with an additional browser regression. Full final suite includes this check.
+
+## Git delivery
+
+Implementation commit `ac5968ebc6e8082c4bfff3ac72b6319cae2ecbbb`, dedicated branch `feat/graphical-research-experience`, pushed successfully. Parent `b859ab4ee49b2bc26898a8c1fee453d2be7a8b39` is integrated main (PR #7). Working tree clean after delivery commits; no force push or unrelated merge.
+
+`gh pr create --base main --head feat/graphical-research-experience` returned `Post "https://api.github.com/graphql": Forbidden`. No PR was created by this task. Manual action: open https://github.com/raijinnjc/EFTRuleLab/compare/main...feat/graphical-research-experience?expand=1 , confirm base `main`, compare `feat/graphical-research-experience`, then Create pull request. Suggested title: Build the graphical fiscal research experience. Do not automatically merge.
+
+Live loopback preview retained in the execution workspace at http://127.0.0.1:4173/#puzzle . This URL requires the workspace browser; it is not a public deployment. Restart instructions above reproduce the same actual React application locally.
