@@ -2,9 +2,10 @@ import {test,expect} from '@playwright/test';
 import {openScene} from './navigation';
 test('Puzzle exposes missing replay inputs and exact deduction provenance in its contextual inspector',async({page})=>{
  await page.goto('/#puzzle');await openScene(page,'puzzle');const puzzle=page.locator('#puzzle');
+ await puzzle.getByText('Inspect missing decision evidence',{exact:true}).click();
  await puzzle.getByRole('button',{name:'Inspect unavailable requirement: Approved historical assessment values'}).click();
  const inspector=puzzle.locator('.scene-inspector');await expect(inspector).toContainText('Replay not run');await expect(inspector).toContainText('Not obtained');
- await puzzle.getByRole('button',{name:/Inspect deduction: BPD/}).click();await expect(inspector).toContainText('Rp5,833,200,000');await expect(inspector).toContainText('S1');
+ await puzzle.getByText('Inspect the five deductions',{exact:true}).click();await puzzle.getByRole('button',{name:/Inspect deduction: BPD/}).click();await expect(inspector).toContainText('Rp5,833,200,000');await expect(inspector).toContainText('S1');
  await puzzle.getByRole('button',{name:'Open selected puzzle provenance'}).click();await expect(page.getByRole('dialog')).toBeVisible();await page.keyboard.press('Escape');await expect(puzzle.getByRole('button',{name:'Open selected puzzle provenance'})).toBeFocused();
  await puzzle.getByRole('button',{name:/Inspect award: Arang Limbung/}).click();await expect(inspector).toContainText('Arang Limbung');await expect(inspector).toContainText('Rp24,420,956');await expect(inspector).toContainText('row 3');
 });

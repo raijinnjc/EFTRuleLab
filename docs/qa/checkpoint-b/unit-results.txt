@@ -1,0 +1,16 @@
+
+> eft-rulelab@0.1.0 test
+> vitest run
+
+
+ RUN  v5.1.0 /workspace/EFTRuleLab
+
+
+ Test Files  9 passed (9)
+      Tests  75 passed (75)
+   Start at  16:43:26
+   Duration  3.22s (import 40%, tests 33%, transform 25%, worker 2%)
+
+    Isolate  9 workers spawned · ~388ms startup each (spawn + environment, per file)
+             at least ~777ms faster with isolate: false — reuses workers across files instead of one per file
+
