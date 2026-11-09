@@ -154,3 +154,7 @@ Primary navigation follows the three research questions. Complete P0 tools and o
 ## Final UX consolidation (9 November2026)
 
 Primary graphical scenes are no longer followed by a permanent stack of research tools. One detailed workspace opens at a time through explicit contextual actions and a nearby header tool directory. Back/choose-tool controls stay visible on entry. Keep component state mounted while removing inactive content from both layout and the accessibility tree. Use the same Dusk type/color/photo/logo assets, semantic evidence labels, source dialog and exact-value disclosures. All existing tool hashes remain public. Global demo entry routes each step into its real workspace. Bounded ledger scrolling is screen-only; print retains all rows.
+
+## Dusk Precision review candidate (9 November2026)
+
+[The Dusk Precision System](DUSK_PRECISION_SYSTEM.md) documents the next staged visual system. Its first application is **The Puzzle only**, pending user visual approval. The other chapters/workspaces retain their approved styling until subsequent explicit approval. The PRD remains the research authority.

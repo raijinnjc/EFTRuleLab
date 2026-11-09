@@ -1,0 +1,16 @@
+
+> eft-rulelab@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.6 building client environment for production...
+transforming...
+✓ 59 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.85 kB │ gzip:  0.51 kB
+dist/assets/index-DQqN5KVh.css   11.66 kB │ gzip:  3.08 kB
+dist/assets/App-BqNIP_tf.css     47.61 kB │ gzip:  8.52 kB
+dist/assets/App-D0cyzU5B.js     108.22 kB │ gzip: 28.07 kB
+dist/assets/index-CuKRQI1N.js   230.51 kB │ gzip: 72.86 kB
+
+✓ built in 327ms

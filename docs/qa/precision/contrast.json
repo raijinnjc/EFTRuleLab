@@ -1,0 +1,239 @@
+{
+  "method": "Chromium sRGB canvas sampling of computed OKLCH tokens; WCAG relative luminance",
+  "pairs": [
+    {
+      "role": "body / bone",
+      "foreground": "oklch(21% .016 268)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        21,
+        24,
+        32
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 15.5,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "supporting labels / bone",
+      "foreground": "oklch(47% .016 265)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        86,
+        91,
+        100
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 5.96,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "PASS, selected, source and focus / bone",
+      "foreground": "oklch(44% .13 274)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        62,
+        73,
+        153
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 7.01,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "INCOMPLETE / bone",
+      "foreground": "oklch(42% .08 62)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        108,
+        66,
+        25
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 7.55,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "hover labels / soft",
+      "foreground": "oklch(47% .016 265)",
+      "background": "oklch(92% .01 75)",
+      "srgbForeground": [
+        86,
+        91,
+        100
+      ],
+      "srgbBackground": [
+        232,
+        228,
+        221
+      ],
+      "ratio": 5.39,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "hover selected / soft",
+      "foreground": "oklch(44% .13 274)",
+      "background": "oklch(92% .01 75)",
+      "srgbForeground": [
+        62,
+        73,
+        153
+      ],
+      "srgbBackground": [
+        232,
+        228,
+        221
+      ],
+      "ratio": 6.33,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "basic strip text / neutral",
+      "foreground": "oklch(95.5% .008 75)",
+      "background": "oklch(47% .016 265)",
+      "srgbForeground": [
+        243,
+        239,
+        234
+      ],
+      "srgbBackground": [
+        86,
+        91,
+        100
+      ],
+      "ratio": 5.96,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "formula strip text / periwinkle",
+      "foreground": "oklch(21% .016 268)",
+      "background": "oklch(77% .1 274)",
+      "srgbForeground": [
+        21,
+        24,
+        32
+      ],
+      "srgbBackground": [
+        160,
+        176,
+        244
+      ],
+      "ratio": 8.46,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "performance strip text / apricot",
+      "foreground": "oklch(21% .016 268)",
+      "background": "oklch(83% .095 62)",
+      "srgbForeground": [
+        21,
+        24,
+        32
+      ],
+      "srgbBackground": [
+        244,
+        186,
+        135
+      ],
+      "ratio": 10.33,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "chart edge / periwinkle",
+      "foreground": "oklch(44% .13 274)",
+      "background": "oklch(77% .1 274)",
+      "srgbForeground": [
+        62,
+        73,
+        153
+      ],
+      "srgbBackground": [
+        160,
+        176,
+        244
+      ],
+      "ratio": 3.82,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "chart edge / bone",
+      "foreground": "oklch(47% .016 265)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        86,
+        91,
+        100
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 5.96,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "chart divider / apricot",
+      "foreground": "oklch(21% .016 268)",
+      "background": "oklch(83% .095 62)",
+      "srgbForeground": [
+        21,
+        24,
+        32
+      ],
+      "srgbBackground": [
+        244,
+        186,
+        135
+      ],
+      "ratio": 10.33,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "selected award / bone",
+      "foreground": "oklch(44% .13 274)",
+      "background": "oklch(95.5% .008 75)",
+      "srgbForeground": [
+        62,
+        73,
+        153
+      ],
+      "srgbBackground": [
+        243,
+        239,
+        234
+      ],
+      "ratio": 7.01,
+      "minimum": 3,
+      "pass": true
+    }
+  ]
+}
