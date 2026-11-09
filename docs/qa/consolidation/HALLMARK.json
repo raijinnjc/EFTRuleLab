@@ -1,0 +1,286 @@
+{
+  "summary": {
+    "fails": 2,
+    "reflex": 7,
+    "warns": 21,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 28,
+    "render": "ran"
+  },
+  "findings": [
+    {
+      "gate": "19",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/components/TwoTestDiagram.tsx",
+      "line": 24,
+      "evidence": "dash \"–\" in copy",
+      "fix": "A comma, a colon, a full stop or parentheses; never a dash"
+    },
+    {
+      "gate": "63",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/App.tsx",
+      "line": 50,
+      "evidence": "middle-dot meta string \"Independent research demonstration · Not an offic…\"",
+      "fix": "Line breaks, columns or hairlines; one dot in a byline at most"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 7,
+      "evidence": "pure #fff: --color-surface: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 18,
+      "evidence": "pure #fff: --color-on-dark: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 39,
+      "evidence": "pure #fff: --color-light: oklch(100% 0 0) (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "22",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 39,
+      "evidence": "zero-chroma oklch(100% 0 0) (--color-light on :root)",
+      "fix": "Give neutrals at least 0.005 chroma"
+    },
+    {
+      "gate": "39b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] control height outside 32 to 52px: button 126px, button 126px, button 126px",
+      "fix": "Marketing controls stand 44 to 52px; app UI 32 to 40px with a 44px hit target"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[320px] link \"S1 · Annex I, component shares; \" wraps to 2 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div bottom -324px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/analysis.css",
+      "line": 21,
+      "evidence": "side stripe border-left: 3px solid var(--color-incomplet… on .mode-note",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/research.css",
+      "line": 3,
+      "evidence": "side stripe border-left: 4px solid var(--color-verified) on .guided-panel",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/research.css",
+      "line": 5,
+      "evidence": "side stripe border-left: 4px solid var(--color-verified) on .protocol-steps button[aria-pressed=true]",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "29",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 10,
+      "evidence": "glass panel: backdrop-filter blur over a translucent black on .allocation-summary",
+      "fix": "Solid or grained surface; elevation by lightness"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 17,
+      "evidence": "1.00:1 < 4.5:1 on .skip-link",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 33,
+      "evidence": "1.00:1 < 4.5:1 on .primary-link",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 107,
+      "evidence": "1.87:1 < 4.5:1 on .primary-link:active",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 25,
+      "evidence": "dark surface (L 21%) on .protocol-detail sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 27,
+      "evidence": "dark surface (L 21%) on .guided-panel sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 28,
+      "evidence": "dark surface (L 21%) on .protocol-steps button[aria-pressed=true] sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Replay observed research-side extra…\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Restore verified source value\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/GuidedDemo.tsx",
+      "line": 15,
+      "evidence": "long clickable label \"Start guided demonstration\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/PolicyStudio.tsx",
+      "line": 24,
+      "evidence": "long clickable label \"Reset to documented comparison\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "F4",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 8,
+      "evidence": "3 filled primary-button recipes: .award-table thead button + button + .protocol-step…",
+      "fix": "One filled primary per page; demote the rest to outline/quiet variants"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/analysis.css",
+      "line": 52,
+      "evidence": "numeric selector .award-table thead button at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 61,
+      "evidence": "numeric selector .result-status at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 72,
+      "evidence": "numeric selector table at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 112,
+      "evidence": "numeric selector .error-state h1 at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F16",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/analysis.css",
+      "line": 1,
+      "evidence": "browser surfaces unthemed: ::selection, scrollbar-color",
+      "fix": "Theme the parts you did not draw from the palette"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    }
+  ]
+}

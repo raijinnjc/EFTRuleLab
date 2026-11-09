@@ -56,3 +56,9 @@ ResearchExperience keeps three native-tab panels mounted: ResearchPuzzle, Resear
 Puzzle derives stages with reconstruct and gross with parseRupiah; plotFraction is used only for bounded geometry. Each award mark binds to a real award record. Scales identify their separate gross and residual denominators. compactRupiah rounds only a display label with BigInt arithmetic, never feeding a domain input. Exact accessible labels, inspector outputs, table values and exports remain unchanged. EvidenceGap consumes verifyHistorical and its missing IDs and does not add recipient replay logic. Existing SourceProvider owns dialog focus.
 
 No new fiscal dataset or alternate research engine. All P0 components remain directly navigable; the graphic layer is a compact entry point, not a deletion of research depth.
+
+## Focused workspace routing
+
+App owns the existing hash route and uses navigation.tsx to classify legacy tools. WorkspaceFrame keeps tools mounted but hidden unless active; the graphical root is hidden whenever a tool is active. WorkspaceContext gives the active tool a semantic h1 while hidden tools remain outside the accessibility tree. Graphical routes use a h1 when the introduction is absent. Header directory is disclosed beside its trigger. No test-only all-tools route.
+
+GuidedDemo receives route/onNavigate, opens each target via the same controller, remembers its origin and restores entry focus on exit. Manual/history departure closes the active tour. SourceProvider closes its modal on hash changes and restores focus to an actually visible trigger/heading. Original component state and exact domain models remain untouched. The ledger's screen scroll limit is removed for print.

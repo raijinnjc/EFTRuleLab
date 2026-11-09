@@ -1,3 +1,4 @@
+import {openWorkspace} from './navigation';
 import {test,expect} from '@playwright/test';
 test('policy rules preserve fixed envelope, exact deltas and provenance',async({page})=>{
  await page.goto('/#policy');const policy=page.locator('#policy');
@@ -49,14 +50,15 @@ test('extraction experiment is opt-in, isolated, and fully reversible',async({pa
 });
 for(const width of [320,390,768,1024,1440])test(`analytical charts and expanded records at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'});const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');
- await expect(page.locator('#policy svg')).toBeVisible();await expect(page.locator('#funds svg').first()).toBeVisible();
- await page.getByText('Inspect five deductions',{exact:true}).click();await page.getByText('Inspect BPD allowances source',{exact:true}).click();await page.locator('#awards').getByLabel('Search village or kecamatan').fill('Sungai Kupah');
+ await openWorkspace(page,'policy');await expect(page.locator('#policy svg')).toBeVisible();await openWorkspace(page,'funds');await expect(page.locator('#funds svg').first()).toBeVisible();
+ await page.getByText('Inspect five deductions',{exact:true}).click();await page.getByText('Inspect BPD allowances source',{exact:true}).click();await openWorkspace(page,'awards');await page.locator('#awards').getByLabel('Search village or kecamatan').fill('Sungai Kupah');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
  await page.screenshot({path:`docs/qa/screenshots/phase2b-regression-${width}.png`,fullPage:true});
 });
 test('chart controls and both input nodes expose complete accessible inspection structure',async({page})=>{
- await page.goto('/');const chart=page.getByRole('group',{name:'Allocation structure comparison',exact:true});
+ await page.goto('/');await openWorkspace(page,'policy');const chart=page.getByRole('group',{name:'Allocation structure comparison',exact:true});
  await expect(chart.getByRole('button')).toHaveCount(6);
+ await openWorkspace(page,'verification');
  for(const label of ['Inspect fiscal inputs','Inspect missing decision records']){
   const summary=page.getByText(label,{exact:true});await summary.focus();await page.keyboard.press('Enter');
   const node=summary.locator('..');await expect(node.getByText('What we have',{exact:true})).toBeVisible();await expect(node.getByText('What we need',{exact:true})).toBeVisible();await expect(node.getByText('What follows',{exact:true})).toBeVisible();await expect(node.getByText('What does not follow',{exact:true})).toBeVisible();
