@@ -1,0 +1,665 @@
+{
+  "browserBefore": "155.0.8059.79",
+  "browserAfter": "155.0.8059.79",
+  "cpuThrottle": 4,
+  "repetitionsPerViewport": 3,
+  "totalSamplesPerVersion": 54,
+  "measurementWindowMs": 600,
+  "overall": {
+    "before": {
+      "samples": 54,
+      "scriptMedianMs": 45.295000000000016,
+      "layoutMedianMs": 6.324999999999994,
+      "styleMedianMs": 15.146500000000003,
+      "medianOfRafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 108,
+      "longTasks": 47,
+      "layoutShiftsIncludingRecentInput": 33
+    },
+    "after": {
+      "samples": 54,
+      "scriptMedianMs": 46.681500000000014,
+      "layoutMedianMs": 21.092,
+      "styleMedianMs": 31.346,
+      "medianOfRafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 120,
+      "longTasks": 44,
+      "layoutShiftsIncludingRecentInput": 21
+    }
+  },
+  "rows": [
+    {
+      "interaction": "fiscal-stage",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 36.24449999999996,
+        "layoutMedianMs": 5.289999999999999,
+        "styleMedianMs": 15.945500000000003,
+        "medianOfRafP95Ms": 16.799999999999955,
+        "rafGapsOver25ms": 12,
+        "longTasks": 5,
+        "layoutShiftsIncludingRecentInput": 3
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 54.41150000000003,
+        "layoutMedianMs": 20.928000000000015,
+        "styleMedianMs": 28.369,
+        "medianOfRafP95Ms": 16.750000000000114,
+        "rafGapsOver25ms": 15,
+        "longTasks": 5,
+        "layoutShiftsIncludingRecentInput": 3
+      }
+    },
+    {
+      "interaction": "published-award",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 36.69499999999999,
+        "layoutMedianMs": 4.506500000000002,
+        "styleMedianMs": 14.852500000000003,
+        "medianOfRafP95Ms": 16.800000000000068,
+        "rafGapsOver25ms": 16,
+        "longTasks": 5,
+        "layoutShiftsIncludingRecentInput": 3
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 42.330499999999994,
+        "layoutMedianMs": 24.257500000000007,
+        "styleMedianMs": 35.393,
+        "medianOfRafP95Ms": 16.750000000000114,
+        "rafGapsOver25ms": 18,
+        "longTasks": 4,
+        "layoutShiftsIncludingRecentInput": 3
+      }
+    },
+    {
+      "interaction": "missing-requirement",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 44.89450000000002,
+        "layoutMedianMs": 3.519499999999998,
+        "styleMedianMs": 13.718499999999999,
+        "medianOfRafP95Ms": 16.70000000000016,
+        "rafGapsOver25ms": 11,
+        "longTasks": 5,
+        "layoutShiftsIncludingRecentInput": 6
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 40.98550000000001,
+        "layoutMedianMs": 21.500500000000002,
+        "styleMedianMs": 19.382000000000005,
+        "medianOfRafP95Ms": 16.79999999999984,
+        "rafGapsOver25ms": 10,
+        "longTasks": 3,
+        "layoutShiftsIncludingRecentInput": 3
+      }
+    },
+    {
+      "interaction": "chapter-navigation",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 103.12050000000002,
+        "layoutMedianMs": 14.378000000000002,
+        "styleMedianMs": 23.7455,
+        "medianOfRafP95Ms": 25.04999999999984,
+        "rafGapsOver25ms": 20,
+        "longTasks": 11,
+        "layoutShiftsIncludingRecentInput": 3
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 53.91550000000001,
+        "layoutMedianMs": 27.721999999999994,
+        "styleMedianMs": 27.436499999999995,
+        "medianOfRafP95Ms": 16.799999999999955,
+        "rafGapsOver25ms": 13,
+        "longTasks": 7,
+        "layoutShiftsIncludingRecentInput": 0
+      }
+    },
+    {
+      "interaction": "rule-selection",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 116.61950000000002,
+        "layoutMedianMs": 9.433499999999997,
+        "styleMedianMs": 4.276,
+        "medianOfRafP95Ms": 25.049999999999955,
+        "rafGapsOver25ms": 15,
+        "longTasks": 7,
+        "layoutShiftsIncludingRecentInput": 6
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 62.238000000000014,
+        "layoutMedianMs": 9.383,
+        "styleMedianMs": 31.876000000000005,
+        "medianOfRafP95Ms": 16.79999999999984,
+        "rafGapsOver25ms": 11,
+        "longTasks": 5,
+        "layoutShiftsIncludingRecentInput": 0
+      }
+    },
+    {
+      "interaction": "workspace-navigation",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 96.625,
+        "layoutMedianMs": 21.367000000000004,
+        "styleMedianMs": 17.067,
+        "medianOfRafP95Ms": 16.750000000000114,
+        "rafGapsOver25ms": 12,
+        "longTasks": 8,
+        "layoutShiftsIncludingRecentInput": 6
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 51.974500000000006,
+        "layoutMedianMs": 31.442,
+        "styleMedianMs": 33.374,
+        "medianOfRafP95Ms": 16.800000000000068,
+        "rafGapsOver25ms": 16,
+        "longTasks": 8,
+        "layoutShiftsIncludingRecentInput": 6
+      }
+    },
+    {
+      "interaction": "source-open",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 44.328500000000005,
+        "layoutMedianMs": 15.8005,
+        "styleMedianMs": 32.974500000000006,
+        "medianOfRafP95Ms": 16.799999999999955,
+        "rafGapsOver25ms": 16,
+        "longTasks": 6,
+        "layoutShiftsIncludingRecentInput": 0
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 49.494000000000014,
+        "layoutMedianMs": 23.226999999999997,
+        "styleMedianMs": 66.8125,
+        "medianOfRafP95Ms": 16.799999999999955,
+        "rafGapsOver25ms": 16,
+        "longTasks": 7,
+        "layoutShiftsIncludingRecentInput": 0
+      }
+    },
+    {
+      "interaction": "source-close",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 10.780999999999999,
+        "layoutMedianMs": 1.1855000000000024,
+        "styleMedianMs": 17.587499999999995,
+        "medianOfRafP95Ms": 16.700000000000273,
+        "rafGapsOver25ms": 3,
+        "longTasks": 0,
+        "layoutShiftsIncludingRecentInput": 0
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 22.991999999999997,
+        "layoutMedianMs": 1.7044999999999977,
+        "styleMedianMs": 52.90050000000001,
+        "medianOfRafP95Ms": 16.749999999999773,
+        "rafGapsOver25ms": 11,
+        "longTasks": 2,
+        "layoutShiftsIncludingRecentInput": 0
+      }
+    },
+    {
+      "interaction": "ledger-filter",
+      "before": {
+        "samples": 6,
+        "scriptMedianMs": 20.629500000000007,
+        "layoutMedianMs": 6.324999999999994,
+        "styleMedianMs": 2.6735000000000024,
+        "medianOfRafP95Ms": 16.799999999999955,
+        "rafGapsOver25ms": 3,
+        "longTasks": 0,
+        "layoutShiftsIncludingRecentInput": 6
+      },
+      "after": {
+        "samples": 6,
+        "scriptMedianMs": 28.911999999999992,
+        "layoutMedianMs": 7.6720000000000015,
+        "styleMedianMs": 5.892999999999999,
+        "medianOfRafP95Ms": 16.70000000000016,
+        "rafGapsOver25ms": 10,
+        "longTasks": 3,
+        "layoutShiftsIncludingRecentInput": 6
+      }
+    }
+  ],
+  "byViewport": [
+    {
+      "width": 1440,
+      "interactions": [
+        {
+          "interaction": "fiscal-stage",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 47.485999999999976,
+            "layoutMedianMs": 5.155,
+            "styleMedianMs": 17.404000000000003,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 8,
+            "longTasks": 5,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 53.64100000000005,
+            "layoutMedianMs": 22.61100000000002,
+            "styleMedianMs": 29.53,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 5,
+            "longTasks": 2,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        },
+        {
+          "interaction": "published-award",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 60.54000000000001,
+            "layoutMedianMs": 6.114000000000002,
+            "styleMedianMs": 18.919000000000004,
+            "medianOfRafP95Ms": 33.30000000000018,
+            "rafGapsOver25ms": 12,
+            "longTasks": 5,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 39.876,
+            "layoutMedianMs": 25.59900000000001,
+            "styleMedianMs": 35.985,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 6,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        },
+        {
+          "interaction": "missing-requirement",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 47.13099999999998,
+            "layoutMedianMs": 3.3339999999999965,
+            "styleMedianMs": 14.459999999999994,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 8,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 52.873999999999974,
+            "layoutMedianMs": 21.851000000000003,
+            "styleMedianMs": 23.19899999999999,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 5,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        },
+        {
+          "interaction": "chapter-navigation",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 110.436,
+            "layoutMedianMs": 14.392000000000001,
+            "styleMedianMs": 27.070000000000004,
+            "medianOfRafP95Ms": 50.09999999999991,
+            "rafGapsOver25ms": 11,
+            "longTasks": 5,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 64.04900000000002,
+            "layoutMedianMs": 30.011000000000003,
+            "styleMedianMs": 31.596,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 8,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "rule-selection",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 137.751,
+            "layoutMedianMs": 9.638999999999994,
+            "styleMedianMs": 7.285,
+            "medianOfRafP95Ms": 33.30000000000018,
+            "rafGapsOver25ms": 9,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 53.65799999999999,
+            "layoutMedianMs": 5.739000000000001,
+            "styleMedianMs": 24.461,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 5,
+            "longTasks": 1,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "workspace-navigation",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 114.50000000000001,
+            "layoutMedianMs": 20.420000000000005,
+            "styleMedianMs": 15.624000000000002,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 6,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 46.08000000000001,
+            "layoutMedianMs": 31.589000000000006,
+            "styleMedianMs": 27.297999999999995,
+            "medianOfRafP95Ms": 16.800000000000182,
+            "rafGapsOver25ms": 9,
+            "longTasks": 5,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        },
+        {
+          "interaction": "source-open",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 45.16800000000001,
+            "layoutMedianMs": 16.259999999999998,
+            "styleMedianMs": 32.022999999999996,
+            "medianOfRafP95Ms": 33.299999999999955,
+            "rafGapsOver25ms": 10,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 48.557000000000016,
+            "layoutMedianMs": 24.881000000000007,
+            "styleMedianMs": 89.40299999999999,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 8,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "source-close",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 12.853999999999976,
+            "layoutMedianMs": 1.0180000000000051,
+            "styleMedianMs": 16.471999999999987,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 1,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 18.978999999999996,
+            "layoutMedianMs": 1.696000000000003,
+            "styleMedianMs": 55.23500000000001,
+            "medianOfRafP95Ms": 16.799999999999272,
+            "rafGapsOver25ms": 2,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "ledger-filter",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 15.235999999999999,
+            "layoutMedianMs": 5.055000000000004,
+            "styleMedianMs": 2.0820000000000007,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 0,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 25.708999999999982,
+            "layoutMedianMs": 6.4069999999999965,
+            "styleMedianMs": 6.677000000000002,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 3,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "interactions": [
+        {
+          "interaction": "fiscal-stage",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 26.991000000000014,
+            "layoutMedianMs": 5.424999999999999,
+            "styleMedianMs": 11.906,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 4,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 55.18200000000001,
+            "layoutMedianMs": 19.24500000000001,
+            "styleMedianMs": 27.207999999999995,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 10,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "published-award",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 35.92999999999999,
+            "layoutMedianMs": 3.4940000000000007,
+            "styleMedianMs": 14.539000000000003,
+            "medianOfRafP95Ms": 16.700000000000045,
+            "rafGapsOver25ms": 4,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 44.78499999999999,
+            "layoutMedianMs": 21.034,
+            "styleMedianMs": 29.393999999999995,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 12,
+            "longTasks": 1,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "missing-requirement",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 44.127,
+            "layoutMedianMs": 3.705,
+            "styleMedianMs": 10.963999999999995,
+            "medianOfRafP95Ms": 16.700000000000045,
+            "rafGapsOver25ms": 3,
+            "longTasks": 2,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 37.466,
+            "layoutMedianMs": 20.158,
+            "styleMedianMs": 14.474000000000014,
+            "medianOfRafP95Ms": 16.799999999999727,
+            "rafGapsOver25ms": 5,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "chapter-navigation",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 99.37400000000002,
+            "layoutMedianMs": 14.364000000000003,
+            "styleMedianMs": 22.238,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 9,
+            "longTasks": 6,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 52.603999999999985,
+            "layoutMedianMs": 21.559999999999995,
+            "styleMedianMs": 21.715999999999998,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 5,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "rule-selection",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 89.32299999999998,
+            "layoutMedianMs": 9.228,
+            "styleMedianMs": 4.0299999999999985,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 6,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 66.64200000000004,
+            "layoutMedianMs": 10.834,
+            "styleMedianMs": 35.913000000000004,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 6,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "workspace-navigation",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 88.18700000000001,
+            "layoutMedianMs": 22.314,
+            "styleMedianMs": 17.709000000000003,
+            "medianOfRafP95Ms": 16.700000000000045,
+            "rafGapsOver25ms": 6,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 62.717999999999996,
+            "layoutMedianMs": 31.294999999999998,
+            "styleMedianMs": 33.620000000000005,
+            "medianOfRafP95Ms": 16.799999999999727,
+            "rafGapsOver25ms": 7,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        },
+        {
+          "interaction": "source-open",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 43.489,
+            "layoutMedianMs": 15.341000000000001,
+            "styleMedianMs": 33.42900000000001,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 6,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 50.431000000000004,
+            "layoutMedianMs": 13.392999999999995,
+            "styleMedianMs": 55.20100000000001,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 8,
+            "longTasks": 4,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "source-close",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 9.755999999999986,
+            "layoutMedianMs": 1.3890000000000013,
+            "styleMedianMs": 18.703000000000003,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 2,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 0
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 27.005000000000003,
+            "layoutMedianMs": 1.7129999999999923,
+            "styleMedianMs": 49.89099999999999,
+            "medianOfRafP95Ms": 16.700000000000273,
+            "rafGapsOver25ms": 9,
+            "longTasks": 2,
+            "layoutShiftsIncludingRecentInput": 0
+          }
+        },
+        {
+          "interaction": "ledger-filter",
+          "before": {
+            "samples": 3,
+            "scriptMedianMs": 21.494000000000014,
+            "layoutMedianMs": 6.379000000000003,
+            "styleMedianMs": 3.3270000000000035,
+            "medianOfRafP95Ms": 16.799999999999955,
+            "rafGapsOver25ms": 3,
+            "longTasks": 0,
+            "layoutShiftsIncludingRecentInput": 3
+          },
+          "after": {
+            "samples": 3,
+            "scriptMedianMs": 42.025000000000006,
+            "layoutMedianMs": 8.766999999999998,
+            "styleMedianMs": 4.791000000000004,
+            "medianOfRafP95Ms": 16.700000000000045,
+            "rafGapsOver25ms": 7,
+            "longTasks": 3,
+            "layoutShiftsIncludingRecentInput": 3
+          }
+        }
+      ]
+    }
+  ]
+}

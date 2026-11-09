@@ -1,4 +1,4 @@
-import {createContext,useContext,useEffect,useRef,useState,type ReactNode} from 'react';
+import {createContext,useCallback,useContext,useEffect,useMemo,useRef,useState,type ReactNode} from 'react';
 import type {Dataset} from '../evidence/types';
 import {sourceEntries,type ResearchEntry} from '../domain/research';
 const SourceContext=createContext<((id:string)=>void)|null>(null);
@@ -15,7 +15,9 @@ export function SourceDetails({source:s}:{source:ResearchEntry}){
 export function CopyText({text,label}:{text:string;label:string}){const [status,setStatus]=useState('');return <><button onClick={async()=>{try{await navigator.clipboard.writeText(text);setStatus('Copied to clipboard.');}catch{setStatus('Clipboard unavailable. Select and copy the text above.');}}}>{label}</button><p role="status">{status}</p></>;}
 export function SourceProvider({data,children}:{data:Dataset;children:ReactNode}){
  const dialog=useRef<HTMLDialogElement>(null);const trigger=useRef<HTMLElement|null>(null);const [selected,setSelected]=useState<ResearchEntry|null>(null);
- useEffect(()=>{const close=()=>dialog.current?.close();window.addEventListener('hashchange',close);return ()=>window.removeEventListener('hashchange',close);},[]);
- const open=(id:string)=>{const s=sourceEntries(data).find(x=>x.id===id);if(!s)return;trigger.current=document.activeElement as HTMLElement;setSelected(s);dialog.current?.showModal();};
- return <SourceContext.Provider value={open}>{children}<dialog ref={dialog} className="source-drawer" aria-labelledby="source-dialog-title" onClose={()=>{if(trigger.current?.getClientRects().length)trigger.current.focus();else{const heading=Array.from(document.querySelectorAll<HTMLElement>('[data-workspace] h1, [role=tabpanel] .scene-heading :is(h1,h2), #overview h1')).find(el=>el.getClientRects().length>0);if(heading instanceof HTMLElement){heading.tabIndex=-1;heading.focus();}}}}><button autoFocus onClick={()=>dialog.current?.close()}>Close source inspector</button><h2 id="source-dialog-title">{selected?.id}: {selected?.label}</h2>{selected&&<SourceDetails source={selected}/>}</dialog></SourceContext.Provider>;
+ const entries=useMemo(()=>sourceEntries(data),[data]);
+ const close=useCallback(()=>{const node=dialog.current;if(!node?.open)return;node.inert=true;node.setAttribute('aria-hidden','true');node.close();},[]);
+ useEffect(()=>{window.addEventListener('hashchange',close);return ()=>window.removeEventListener('hashchange',close);},[close]);
+ const open=useCallback((id:string)=>{const s=entries.find(x=>x.id===id);if(!s)return;trigger.current=document.activeElement as HTMLElement;setSelected(s);const node=dialog.current;if(node){node.inert=false;node.removeAttribute('aria-hidden');node.showModal();}},[entries]);
+ return <SourceContext.Provider value={open}>{children}<dialog ref={dialog} className="source-drawer" aria-labelledby="source-dialog-title" onCancel={event=>{event.preventDefault();close();}} onClose={()=>{if(trigger.current?.getClientRects().length)trigger.current.focus({preventScroll:true});else{const heading=Array.from(document.querySelectorAll<HTMLElement>('[data-workspace] h1, [role=tabpanel] .scene-heading :is(h1,h2), #overview h1')).find(el=>el.getClientRects().length>0);if(heading instanceof HTMLElement){heading.tabIndex=-1;heading.focus({preventScroll:true});}}}}><button autoFocus onClick={close}>Close source inspector</button><h2 id="source-dialog-title">{selected?.id}: {selected?.label}</h2>{selected&&<SourceDetails source={selected}/>}</dialog></SourceContext.Provider>;
 }

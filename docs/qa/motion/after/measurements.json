@@ -1,0 +1,5566 @@
+{
+  "label": "after",
+  "browser": "155.0.8059.79",
+  "cpuThrottle": 4,
+  "viewportHeight": 1000,
+  "repetitions": 3,
+  "measurementWindowMs": 600,
+  "method": "CDP trace/Performance metrics + rAF intervals + Long Tasks/Layout Instability/Event Timing. rAF gaps are not measured GPU dropped frames; recent-input shifts are not CLS.",
+  "results": [
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "fiscal-stage",
+      "rafSamples": 46,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 71,
+      "layoutShiftValueIncludingRecentInput": 0.0019391174768518518,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0019391174768518518,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "mouseover",
+          "duration": 96
+        },
+        {
+          "name": "pointerdown",
+          "duration": 96
+        },
+        {
+          "name": "mousedown",
+          "duration": 96
+        },
+        {
+          "name": "pointerup",
+          "duration": 96
+        },
+        {
+          "name": "mouseup",
+          "duration": 96
+        },
+        {
+          "name": "click",
+          "duration": 96
+        }
+      ],
+      "scriptMs": 53.64100000000005,
+      "layoutMs": 22.61100000000002,
+      "styleMs": 39.21000000000001
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "published-award",
+      "rafSamples": 45,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 1,
+      "longTasks": 1,
+      "longTaskTotalMs": 81,
+      "layoutShiftValueIncludingRecentInput": 0.0009087138310185186,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0009087138310185186,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "mouseover",
+          "duration": 88
+        },
+        {
+          "name": "pointerdown",
+          "duration": 88
+        },
+        {
+          "name": "mousedown",
+          "duration": 88
+        },
+        {
+          "name": "pointerup",
+          "duration": 88
+        },
+        {
+          "name": "mouseup",
+          "duration": 88
+        },
+        {
+          "name": "click",
+          "duration": 88
+        }
+      ],
+      "scriptMs": 45.39900000000002,
+      "layoutMs": 22.916,
+      "styleMs": 34.801
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "missing-requirement",
+      "rafSamples": 45,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 1,
+      "longTasks": 1,
+      "longTaskTotalMs": 74,
+      "layoutShiftValueIncludingRecentInput": 0.0034527945511429402,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0034527945511429402,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "mouseover",
+          "duration": 96
+        },
+        {
+          "name": "pointerdown",
+          "duration": 96
+        },
+        {
+          "name": "mousedown",
+          "duration": 96
+        },
+        {
+          "name": "pointerup",
+          "duration": 96
+        },
+        {
+          "name": "mouseup",
+          "duration": 96
+        },
+        {
+          "name": "click",
+          "duration": 96
+        }
+      ],
+      "scriptMs": 52.873999999999974,
+      "layoutMs": 21.150000000000002,
+      "styleMs": 23.19899999999999
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "chapter-navigation",
+      "rafSamples": 45,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 85,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "mouseover",
+          "duration": 112
+        },
+        {
+          "name": "pointerdown",
+          "duration": 112
+        },
+        {
+          "name": "mousedown",
+          "duration": 112
+        },
+        {
+          "name": "pointerup",
+          "duration": 112
+        },
+        {
+          "name": "mouseup",
+          "duration": 112
+        },
+        {
+          "name": "click",
+          "duration": 112
+        }
+      ],
+      "scriptMs": 72.16200000000003,
+      "layoutMs": 27.981999999999992,
+      "styleMs": 31.596
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "rule-selection",
+      "rafSamples": 46,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "mouseover",
+          "duration": 72
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 53.65799999999999,
+      "layoutMs": 4.840999999999998,
+      "styleMs": 24.461
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "workspace-navigation",
+      "rafSamples": 44,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 115,
+      "layoutShiftValueIncludingRecentInput": 0.036356867283950614,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.036356867283950614,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "mouseover",
+          "duration": 160
+        },
+        {
+          "name": "pointerdown",
+          "duration": 160
+        },
+        {
+          "name": "mousedown",
+          "duration": 160
+        },
+        {
+          "name": "pointerup",
+          "duration": 160
+        },
+        {
+          "name": "mouseup",
+          "duration": 160
+        },
+        {
+          "name": "click",
+          "duration": 160
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        },
+        {
+          "name": "pointerout",
+          "duration": 16
+        },
+        {
+          "name": "pointerover",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "mouseout",
+          "duration": 16
+        },
+        {
+          "name": "mouseover",
+          "duration": 16
+        }
+      ],
+      "scriptMs": 57.86900000000001,
+      "layoutMs": 48.445,
+      "styleMs": 37.922000000000004
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "source-open",
+      "rafSamples": 45,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 125,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "pointerenter",
+          "duration": 160
+        },
+        {
+          "name": "mouseover",
+          "duration": 160
+        },
+        {
+          "name": "pointerdown",
+          "duration": 160
+        },
+        {
+          "name": "mousedown",
+          "duration": 160
+        },
+        {
+          "name": "pointerup",
+          "duration": 160
+        },
+        {
+          "name": "mouseup",
+          "duration": 160
+        },
+        {
+          "name": "click",
+          "duration": 160
+        },
+        {
+          "name": "pointerout",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseout",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 48.557000000000016,
+      "layoutMs": 24.881000000000007,
+      "styleMs": 72.6
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "source-close",
+      "rafSamples": 40,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 0,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 56
+        },
+        {
+          "name": "pointerout",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerover",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "mouseout",
+          "duration": 24
+        },
+        {
+          "name": "mouseover",
+          "duration": 24
+        },
+        {
+          "name": "keyup",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 18.288000000000025,
+      "layoutMs": 1.696000000000003,
+      "styleMs": 50.566
+    },
+    {
+      "width": 1440,
+      "repetition": 1,
+      "interaction": "ledger-filter",
+      "rafSamples": 41,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.0519216732675058,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0519216732675058,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 48
+        },
+        {
+          "name": "input",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 31.511999999999986,
+      "layoutMs": 6.6739999999999995,
+      "styleMs": 6.677000000000002
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "fiscal-stage",
+      "rafSamples": 46,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 64,
+      "layoutShiftValueIncludingRecentInput": 0.0019391174768518518,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0019391174768518518,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "mouseover",
+          "duration": 96
+        },
+        {
+          "name": "pointerdown",
+          "duration": 96
+        },
+        {
+          "name": "mousedown",
+          "duration": 96
+        },
+        {
+          "name": "pointerup",
+          "duration": 96
+        },
+        {
+          "name": "mouseup",
+          "duration": 96
+        },
+        {
+          "name": "click",
+          "duration": 96
+        }
+      ],
+      "scriptMs": 58.10400000000001,
+      "layoutMs": 23.81799999999999,
+      "styleMs": 29.53
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "published-award",
+      "rafSamples": 45,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 70,
+      "layoutShiftValueIncludingRecentInput": 0.0009087138310185186,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0009087138310185186,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "mouseover",
+          "duration": 96
+        },
+        {
+          "name": "pointerdown",
+          "duration": 96
+        },
+        {
+          "name": "mousedown",
+          "duration": 96
+        },
+        {
+          "name": "pointerup",
+          "duration": 96
+        },
+        {
+          "name": "mouseup",
+          "duration": 96
+        },
+        {
+          "name": "click",
+          "duration": 96
+        }
+      ],
+      "scriptMs": 30.144000000000005,
+      "layoutMs": 25.59900000000001,
+      "styleMs": 35.985
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "missing-requirement",
+      "rafSamples": 43,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 64,
+      "layoutShiftValueIncludingRecentInput": 0.0034527945511429402,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0034527945511429402,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "mouseover",
+          "duration": 72
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 40.796,
+      "layoutMs": 22.198000000000004,
+      "styleMs": 20.334999999999997
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "chapter-navigation",
+      "rafSamples": 43,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 66,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "mouseover",
+          "duration": 112
+        },
+        {
+          "name": "pointerdown",
+          "duration": 112
+        },
+        {
+          "name": "mousedown",
+          "duration": 112
+        },
+        {
+          "name": "pointerup",
+          "duration": 112
+        },
+        {
+          "name": "mouseup",
+          "duration": 112
+        },
+        {
+          "name": "click",
+          "duration": 112
+        }
+      ],
+      "scriptMs": 47.28300000000002,
+      "layoutMs": 30.011000000000003,
+      "styleMs": 29.926999999999996
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "rule-selection",
+      "rafSamples": 43,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 3,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "mouseover",
+          "duration": 72
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 45.37500000000003,
+      "layoutMs": 5.739000000000001,
+      "styleMs": 23.823000000000004
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "workspace-navigation",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 72,
+      "layoutShiftValueIncludingRecentInput": 0.036356867283950614,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.036356867283950614,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "pointerenter",
+          "duration": 112
+        },
+        {
+          "name": "mouseover",
+          "duration": 112
+        },
+        {
+          "name": "pointerdown",
+          "duration": 112
+        },
+        {
+          "name": "mousedown",
+          "duration": 112
+        },
+        {
+          "name": "pointerup",
+          "duration": 112
+        },
+        {
+          "name": "mouseup",
+          "duration": 112
+        },
+        {
+          "name": "click",
+          "duration": 112
+        },
+        {
+          "name": "pointerout",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseout",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 46.08000000000001,
+      "layoutMs": 28.29600000000001,
+      "styleMs": 27.297999999999995
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "source-open",
+      "rafSamples": 43,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 111,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "mouseover",
+          "duration": 152
+        },
+        {
+          "name": "pointerdown",
+          "duration": 152
+        },
+        {
+          "name": "mousedown",
+          "duration": 152
+        },
+        {
+          "name": "pointerup",
+          "duration": 152
+        },
+        {
+          "name": "mouseup",
+          "duration": 152
+        },
+        {
+          "name": "click",
+          "duration": 152
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 25.575000000000014,
+      "layoutMs": 22.689999999999987,
+      "styleMs": 89.40299999999999
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "source-close",
+      "rafSamples": 38,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 80
+        },
+        {
+          "name": "keyup",
+          "duration": 40
+        },
+        {
+          "name": "pointerout",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseout",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 18.978999999999996,
+      "layoutMs": 5.380999999999997,
+      "styleMs": 55.23500000000001
+    },
+    {
+      "width": 1440,
+      "repetition": 2,
+      "interaction": "ledger-filter",
+      "rafSamples": 41,
+      "rafP95Ms": 16.700000000000045,
+      "rafGapsOver25ms": 0,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.0519216732675058,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0519216732675058,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 40
+        },
+        {
+          "name": "input",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 19.48799999999998,
+      "layoutMs": 2.9910000000000005,
+      "styleMs": 5.1089999999999955
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "fiscal-stage",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.0019391174768518518,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0019391174768518518,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "mouseover",
+          "duration": 80
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 39.096999999999994,
+      "layoutMs": 16.253000000000004,
+      "styleMs": 21.155
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "published-award",
+      "rafSamples": 47,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 62,
+      "layoutShiftValueIncludingRecentInput": 0.0009087138310185186,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0009087138310185186,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "mouseover",
+          "duration": 88
+        },
+        {
+          "name": "pointerdown",
+          "duration": 88
+        },
+        {
+          "name": "mousedown",
+          "duration": 88
+        },
+        {
+          "name": "pointerup",
+          "duration": 88
+        },
+        {
+          "name": "mouseup",
+          "duration": 88
+        },
+        {
+          "name": "click",
+          "duration": 88
+        }
+      ],
+      "scriptMs": 39.876,
+      "layoutMs": 26.959000000000003,
+      "styleMs": 44.54899999999999
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "missing-requirement",
+      "rafSamples": 36,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 76,
+      "layoutShiftValueIncludingRecentInput": 0.0034527945511429402,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0034527945511429402,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "pointerenter",
+          "duration": 96
+        },
+        {
+          "name": "mouseover",
+          "duration": 96
+        },
+        {
+          "name": "pointerdown",
+          "duration": 96
+        },
+        {
+          "name": "mousedown",
+          "duration": 96
+        },
+        {
+          "name": "pointerup",
+          "duration": 96
+        },
+        {
+          "name": "mouseup",
+          "duration": 96
+        },
+        {
+          "name": "click",
+          "duration": 96
+        }
+      ],
+      "scriptMs": 63.23699999999999,
+      "layoutMs": 21.851000000000003,
+      "styleMs": 31.096
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "chapter-navigation",
+      "rafSamples": 43,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 122,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "mouseover",
+          "duration": 168
+        },
+        {
+          "name": "pointerdown",
+          "duration": 168
+        },
+        {
+          "name": "mousedown",
+          "duration": 168
+        },
+        {
+          "name": "pointerup",
+          "duration": 168
+        },
+        {
+          "name": "mouseup",
+          "duration": 168
+        },
+        {
+          "name": "click",
+          "duration": 168
+        }
+      ],
+      "scriptMs": 64.04900000000002,
+      "layoutMs": 32.918,
+      "styleMs": 38.106
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "rule-selection",
+      "rafSamples": 49,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 1,
+      "longTasks": 1,
+      "longTaskTotalMs": 81,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        }
+      ],
+      "scriptMs": 62.09800000000004,
+      "layoutMs": 10.129,
+      "styleMs": 41.662
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "workspace-navigation",
+      "rafSamples": 11,
+      "rafP95Ms": 83.20000000000005,
+      "rafGapsOver25ms": 4,
+      "longTasks": 3,
+      "longTaskTotalMs": 1152,
+      "layoutShiftValueIncludingRecentInput": 0.036356867283950614,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.036356867283950614,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "pointerenter",
+          "duration": 144
+        },
+        {
+          "name": "mouseover",
+          "duration": 144
+        },
+        {
+          "name": "pointerdown",
+          "duration": 144
+        },
+        {
+          "name": "mousedown",
+          "duration": 144
+        },
+        {
+          "name": "pointerup",
+          "duration": 144
+        },
+        {
+          "name": "mouseup",
+          "duration": 144
+        },
+        {
+          "name": "click",
+          "duration": 144
+        },
+        {
+          "name": "pointerout",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerleave",
+          "duration": 48
+        },
+        {
+          "name": "pointerover",
+          "duration": 48
+        },
+        {
+          "name": "pointerenter",
+          "duration": 48
+        },
+        {
+          "name": "pointerenter",
+          "duration": 48
+        },
+        {
+          "name": "mouseout",
+          "duration": 48
+        },
+        {
+          "name": "mouseover",
+          "duration": 48
+        }
+      ],
+      "scriptMs": 43.91699999999999,
+      "layoutMs": 31.589000000000006,
+      "styleMs": 19.831000000000003
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "source-open",
+      "rafSamples": 44,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 145,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "pointerenter",
+          "duration": 168
+        },
+        {
+          "name": "mouseover",
+          "duration": 168
+        },
+        {
+          "name": "pointerdown",
+          "duration": 168
+        },
+        {
+          "name": "mousedown",
+          "duration": 168
+        },
+        {
+          "name": "pointerup",
+          "duration": 168
+        },
+        {
+          "name": "mouseup",
+          "duration": 168
+        },
+        {
+          "name": "click",
+          "duration": 168
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 53.10999999999999,
+      "layoutMs": 28.717000000000006,
+      "styleMs": 91.44099999999997
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "source-close",
+      "rafSamples": 40,
+      "rafP95Ms": 16.799999999999272,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 88
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        },
+        {
+          "name": "keyup",
+          "duration": 48
+        }
+      ],
+      "scriptMs": 45.9369999999999,
+      "layoutMs": 1.4210000000000056,
+      "styleMs": 64.38999999999994
+    },
+    {
+      "width": 1440,
+      "repetition": 3,
+      "interaction": "ledger-filter",
+      "rafSamples": 42,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.0519216732675058,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.0519216732675058,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 56
+        },
+        {
+          "name": "input",
+          "duration": 48
+        }
+      ],
+      "scriptMs": 25.708999999999982,
+      "layoutMs": 6.4069999999999965,
+      "styleMs": 8.844999999999992
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "fiscal-stage",
+      "rafSamples": 45,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 65,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "pointerenter",
+          "duration": 88
+        },
+        {
+          "name": "mouseover",
+          "duration": 88
+        },
+        {
+          "name": "pointerdown",
+          "duration": 88
+        },
+        {
+          "name": "mousedown",
+          "duration": 88
+        },
+        {
+          "name": "pointerup",
+          "duration": 88
+        },
+        {
+          "name": "mouseup",
+          "duration": 88
+        },
+        {
+          "name": "click",
+          "duration": 88
+        }
+      ],
+      "scriptMs": 48.86299999999999,
+      "layoutMs": 25.139999999999997,
+      "styleMs": 27.207999999999995
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "published-award",
+      "rafSamples": 42,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 3,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "mouseover",
+          "duration": 16
+        },
+        {
+          "name": "pointerdown",
+          "duration": 56
+        },
+        {
+          "name": "mousedown",
+          "duration": 56
+        },
+        {
+          "name": "pointerup",
+          "duration": 56
+        },
+        {
+          "name": "mouseup",
+          "duration": 56
+        },
+        {
+          "name": "click",
+          "duration": 56
+        }
+      ],
+      "scriptMs": 36.317000000000014,
+      "layoutMs": 21.034,
+      "styleMs": 29.241000000000003
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "missing-requirement",
+      "rafSamples": 43,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 3,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "pointerenter",
+          "duration": 64
+        },
+        {
+          "name": "mouseover",
+          "duration": 64
+        },
+        {
+          "name": "pointerdown",
+          "duration": 64
+        },
+        {
+          "name": "mousedown",
+          "duration": 64
+        },
+        {
+          "name": "pointerup",
+          "duration": 64
+        },
+        {
+          "name": "mouseup",
+          "duration": 64
+        },
+        {
+          "name": "click",
+          "duration": 64
+        }
+      ],
+      "scriptMs": 34.27500000000003,
+      "layoutMs": 51.203,
+      "styleMs": 18.42900000000001
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "chapter-navigation",
+      "rafSamples": 38,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 2,
+      "longTaskTotalMs": 196,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        }
+      ],
+      "scriptMs": 55.227000000000025,
+      "layoutMs": 21.191999999999997,
+      "styleMs": 24.945999999999994
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "rule-selection",
+      "rafSamples": 48,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 2,
+      "longTaskTotalMs": 135,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        }
+      ],
+      "scriptMs": 66.64200000000004,
+      "layoutMs": 12.603,
+      "styleMs": 59.455
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "workspace-navigation",
+      "rafSamples": 44,
+      "rafP95Ms": 16.800000000000182,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 182,
+      "layoutShiftValueIncludingRecentInput": 0.04865128205128205,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.04865128205128205,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "pointerenter",
+          "duration": 224
+        },
+        {
+          "name": "mouseover",
+          "duration": 224
+        },
+        {
+          "name": "pointerdown",
+          "duration": 224
+        },
+        {
+          "name": "mousedown",
+          "duration": 224
+        },
+        {
+          "name": "pointerup",
+          "duration": 224
+        },
+        {
+          "name": "mouseup",
+          "duration": 224
+        },
+        {
+          "name": "click",
+          "duration": 224
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 62.717999999999996,
+      "layoutMs": 31.294999999999998,
+      "styleMs": 33.128
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "source-open",
+      "rafSamples": 35,
+      "rafP95Ms": 66.70000000000027,
+      "rafGapsOver25ms": 4,
+      "longTasks": 2,
+      "longTaskTotalMs": 198,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "pointerenter",
+          "duration": 136
+        },
+        {
+          "name": "mouseover",
+          "duration": 136
+        },
+        {
+          "name": "pointerdown",
+          "duration": 136
+        },
+        {
+          "name": "mousedown",
+          "duration": 136
+        },
+        {
+          "name": "pointerup",
+          "duration": 136
+        },
+        {
+          "name": "mouseup",
+          "duration": 136
+        },
+        {
+          "name": "click",
+          "duration": 136
+        },
+        {
+          "name": "pointerout",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerover",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "mouseout",
+          "duration": 24
+        },
+        {
+          "name": "mouseover",
+          "duration": 24
+        }
+      ],
+      "scriptMs": 51.66600000000002,
+      "layoutMs": 23.764000000000006,
+      "styleMs": 61.025
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "source-close",
+      "rafSamples": 29,
+      "rafP95Ms": 50,
+      "rafGapsOver25ms": 6,
+      "longTasks": 2,
+      "longTaskTotalMs": 336,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 352
+        },
+        {
+          "name": "keyup",
+          "duration": 64
+        },
+        {
+          "name": "pointerout",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerover",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "mouseout",
+          "duration": 56
+        },
+        {
+          "name": "mouseover",
+          "duration": 56
+        }
+      ],
+      "scriptMs": 59.93399999999999,
+      "layoutMs": 1.7129999999999923,
+      "styleMs": 313.587
+    },
+    {
+      "width": 390,
+      "repetition": 1,
+      "interaction": "ledger-filter",
+      "rafSamples": 29,
+      "rafP95Ms": 66.59999999999991,
+      "rafGapsOver25ms": 5,
+      "longTasks": 3,
+      "longTaskTotalMs": 1237,
+      "layoutShiftValueIncludingRecentInput": 0.00016264903846153846,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.00016264903846153846,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 160
+        },
+        {
+          "name": "input",
+          "duration": 128
+        }
+      ],
+      "scriptMs": 131.76100000000002,
+      "layoutMs": 15.672999999999993,
+      "styleMs": 7.105
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "fiscal-stage",
+      "rafSamples": 41,
+      "rafP95Ms": 100,
+      "rafGapsOver25ms": 6,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "mouseover",
+          "duration": 72
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 55.18200000000001,
+      "layoutMs": 14.462000000000003,
+      "styleMs": 21.848000000000006
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "published-award",
+      "rafSamples": 39,
+      "rafP95Ms": 50.099999999999454,
+      "rafGapsOver25ms": 8,
+      "longTasks": 1,
+      "longTaskTotalMs": 187,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "pointerenter",
+          "duration": 248
+        },
+        {
+          "name": "mouseover",
+          "duration": 248
+        },
+        {
+          "name": "pointerdown",
+          "duration": 248
+        },
+        {
+          "name": "mousedown",
+          "duration": 248
+        },
+        {
+          "name": "pointerup",
+          "duration": 248
+        },
+        {
+          "name": "mouseup",
+          "duration": 248
+        },
+        {
+          "name": "click",
+          "duration": 248
+        }
+      ],
+      "scriptMs": 119.925,
+      "layoutMs": 38.216,
+      "styleMs": 82.689
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "missing-requirement",
+      "rafSamples": 45,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        },
+        {
+          "name": "pointerdown",
+          "duration": 24
+        },
+        {
+          "name": "mousedown",
+          "duration": 24
+        },
+        {
+          "name": "pointerup",
+          "duration": 88
+        },
+        {
+          "name": "mouseup",
+          "duration": 88
+        },
+        {
+          "name": "click",
+          "duration": 88
+        }
+      ],
+      "scriptMs": 37.466,
+      "layoutMs": 19.750000000000004,
+      "styleMs": 14.474000000000014
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "chapter-navigation",
+      "rafSamples": 45,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 61,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "mouseover",
+          "duration": 80
+        },
+        {
+          "name": "pointerdown",
+          "duration": 80
+        },
+        {
+          "name": "mousedown",
+          "duration": 80
+        },
+        {
+          "name": "pointerup",
+          "duration": 80
+        },
+        {
+          "name": "mouseup",
+          "duration": 80
+        },
+        {
+          "name": "click",
+          "duration": 80
+        }
+      ],
+      "scriptMs": 45.832999999999984,
+      "layoutMs": 21.559999999999995,
+      "styleMs": 16.908000000000005
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "rule-selection",
+      "rafSamples": 51,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 136,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "pointerenter",
+          "duration": 152
+        },
+        {
+          "name": "mouseover",
+          "duration": 152
+        },
+        {
+          "name": "pointerdown",
+          "duration": 152
+        },
+        {
+          "name": "mousedown",
+          "duration": 152
+        },
+        {
+          "name": "pointerup",
+          "duration": 152
+        },
+        {
+          "name": "mouseup",
+          "duration": 152
+        },
+        {
+          "name": "click",
+          "duration": 152
+        }
+      ],
+      "scriptMs": 125.20100000000001,
+      "layoutMs": 10.834,
+      "styleMs": 35.913000000000004
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "workspace-navigation",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 3,
+      "longTasks": 1,
+      "longTaskTotalMs": 75,
+      "layoutShiftValueIncludingRecentInput": 0.04865128205128205,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.04865128205128205,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        },
+        {
+          "name": "pointerout",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerleave",
+          "duration": 24
+        },
+        {
+          "name": "pointerover",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "mouseout",
+          "duration": 24
+        },
+        {
+          "name": "mouseover",
+          "duration": 24
+        }
+      ],
+      "scriptMs": 42.601,
+      "layoutMs": 30.688,
+      "styleMs": 33.620000000000005
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "source-open",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 70,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        },
+        {
+          "name": "pointerout",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerover",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "mouseout",
+          "duration": 16
+        },
+        {
+          "name": "mouseover",
+          "duration": 16
+        }
+      ],
+      "scriptMs": 50.431000000000004,
+      "layoutMs": 13.392999999999995,
+      "styleMs": 55.20100000000001
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "source-close",
+      "rafSamples": 39,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 64
+        },
+        {
+          "name": "pointerout",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseout",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        },
+        {
+          "name": "keyup",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 27.005000000000003,
+      "layoutMs": 0.346000000000006,
+      "styleMs": 49.89099999999999
+    },
+    {
+      "width": 390,
+      "repetition": 2,
+      "interaction": "ledger-filter",
+      "rafSamples": 42,
+      "rafP95Ms": 16.700000000000045,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.00016264903846153846,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.00016264903846153846,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 48
+        },
+        {
+          "name": "input",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 42.025000000000006,
+      "layoutMs": 8.670000000000003,
+      "styleMs": 4.791000000000004
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "fiscal-stage",
+      "rafSamples": 46,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 2,
+      "longTaskTotalMs": 163,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "pointerenter",
+          "duration": 192
+        },
+        {
+          "name": "mouseover",
+          "duration": 192
+        },
+        {
+          "name": "pointerdown",
+          "duration": 184
+        },
+        {
+          "name": "mousedown",
+          "duration": 184
+        },
+        {
+          "name": "pointerup",
+          "duration": 184
+        },
+        {
+          "name": "mouseup",
+          "duration": 184
+        },
+        {
+          "name": "click",
+          "duration": 184
+        }
+      ],
+      "scriptMs": 78.51899999999998,
+      "layoutMs": 19.24500000000001,
+      "styleMs": 41.87400000000001
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "published-award",
+      "rafSamples": 45,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "pointerenter",
+          "duration": 24
+        },
+        {
+          "name": "mouseover",
+          "duration": 24
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 44.78499999999999,
+      "layoutMs": 19.766,
+      "styleMs": 29.393999999999995
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "missing-requirement",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "pointerenter",
+          "duration": 72
+        },
+        {
+          "name": "mouseover",
+          "duration": 72
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72
+        },
+        {
+          "name": "mousedown",
+          "duration": 72
+        },
+        {
+          "name": "pointerup",
+          "duration": 72
+        },
+        {
+          "name": "mouseup",
+          "duration": 72
+        },
+        {
+          "name": "click",
+          "duration": 72
+        }
+      ],
+      "scriptMs": 41.17500000000002,
+      "layoutMs": 20.158,
+      "styleMs": 14.075999999999999
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "chapter-navigation",
+      "rafSamples": 43,
+      "rafP95Ms": 16.799999999999955,
+      "rafGapsOver25ms": 1,
+      "longTasks": 1,
+      "longTaskTotalMs": 68,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [
+        {
+          "id": "research-experience",
+          "className": "",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "pointerenter",
+          "duration": 104
+        },
+        {
+          "name": "mouseover",
+          "duration": 104
+        },
+        {
+          "name": "pointerdown",
+          "duration": 104
+        },
+        {
+          "name": "mousedown",
+          "duration": 104
+        },
+        {
+          "name": "pointerup",
+          "duration": 104
+        },
+        {
+          "name": "mouseup",
+          "duration": 104
+        },
+        {
+          "name": "click",
+          "duration": 104
+        }
+      ],
+      "scriptMs": 52.603999999999985,
+      "layoutMs": 27.461999999999993,
+      "styleMs": 21.715999999999998
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "rule-selection",
+      "rafSamples": 44,
+      "rafP95Ms": 16.700000000000045,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 63,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "pointerenter",
+          "duration": 80
+        },
+        {
+          "name": "mouseover",
+          "duration": 80
+        },
+        {
+          "name": "pointerdown",
+          "duration": 80
+        },
+        {
+          "name": "mousedown",
+          "duration": 80
+        },
+        {
+          "name": "pointerup",
+          "duration": 80
+        },
+        {
+          "name": "mouseup",
+          "duration": 80
+        },
+        {
+          "name": "click",
+          "duration": 80
+        }
+      ],
+      "scriptMs": 62.377999999999986,
+      "layoutMs": 8.636999999999999,
+      "styleMs": 27.839000000000002
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "workspace-navigation",
+      "rafSamples": 46,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 294,
+      "layoutShiftValueIncludingRecentInput": 0.04865128205128205,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.04865128205128205,
+          "hadRecentInput": true
+        }
+      ],
+      "scrollCalls": [
+        {
+          "id": "",
+          "className": "workspace-toolbar",
+          "behavior": "smooth"
+        }
+      ],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "pointerenter",
+          "duration": 320
+        },
+        {
+          "name": "mouseover",
+          "duration": 320
+        },
+        {
+          "name": "pointerdown",
+          "duration": 320
+        },
+        {
+          "name": "mousedown",
+          "duration": 320
+        },
+        {
+          "name": "pointerup",
+          "duration": 320
+        },
+        {
+          "name": "mouseup",
+          "duration": 320
+        },
+        {
+          "name": "click",
+          "duration": 320
+        },
+        {
+          "name": "pointerout",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerleave",
+          "duration": 56
+        },
+        {
+          "name": "pointerover",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "pointerenter",
+          "duration": 56
+        },
+        {
+          "name": "mouseout",
+          "duration": 56
+        },
+        {
+          "name": "mouseover",
+          "duration": 56
+        },
+        {
+          "name": "pointerout",
+          "duration": 16
+        },
+        {
+          "name": "pointerleave",
+          "duration": 16
+        },
+        {
+          "name": "pointerover",
+          "duration": 16
+        },
+        {
+          "name": "pointerenter",
+          "duration": 16
+        },
+        {
+          "name": "mouseout",
+          "duration": 16
+        },
+        {
+          "name": "mouseover",
+          "duration": 16
+        }
+      ],
+      "scriptMs": 112.009,
+      "layoutMs": 79.75200000000001,
+      "styleMs": 81.482
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "source-open",
+      "rafSamples": 44,
+      "rafP95Ms": 16.799999999999727,
+      "rafGapsOver25ms": 2,
+      "longTasks": 1,
+      "longTaskTotalMs": 84,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "pointerover",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "pointerenter",
+          "duration": 128
+        },
+        {
+          "name": "mouseover",
+          "duration": 128
+        },
+        {
+          "name": "pointerdown",
+          "duration": 128
+        },
+        {
+          "name": "mousedown",
+          "duration": 128
+        },
+        {
+          "name": "pointerup",
+          "duration": 128
+        },
+        {
+          "name": "mouseup",
+          "duration": 128
+        },
+        {
+          "name": "click",
+          "duration": 128
+        },
+        {
+          "name": "pointerout",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerleave",
+          "duration": 40
+        },
+        {
+          "name": "pointerover",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "pointerenter",
+          "duration": 40
+        },
+        {
+          "name": "mouseout",
+          "duration": 40
+        },
+        {
+          "name": "mouseover",
+          "duration": 40
+        }
+      ],
+      "scriptMs": 36.01100000000002,
+      "layoutMs": 11.415999999999995,
+      "styleMs": 51.406
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "source-close",
+      "rafSamples": 36,
+      "rafP95Ms": 16.700000000000273,
+      "rafGapsOver25ms": 2,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0,
+      "layoutShifts": [],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "keydown",
+          "duration": 64
+        },
+        {
+          "name": "pointerout",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerleave",
+          "duration": 32
+        },
+        {
+          "name": "pointerover",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "pointerenter",
+          "duration": 32
+        },
+        {
+          "name": "mouseout",
+          "duration": 32
+        },
+        {
+          "name": "mouseover",
+          "duration": 32
+        },
+        {
+          "name": "keyup",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 15.510999999999997,
+      "layoutMs": 2.500000000000002,
+      "styleMs": 41.961999999999996
+    },
+    {
+      "width": 390,
+      "repetition": 3,
+      "interaction": "ledger-filter",
+      "rafSamples": 40,
+      "rafP95Ms": 16.700000000000045,
+      "rafGapsOver25ms": 1,
+      "longTasks": 0,
+      "longTaskTotalMs": 0,
+      "layoutShiftValueIncludingRecentInput": 0.00016264903846153846,
+      "layoutShifts": [
+        {
+          "name": "",
+          "duration": 0,
+          "value": 0.00016264903846153846,
+          "hadRecentInput": false
+        }
+      ],
+      "scrollCalls": [],
+      "eventTimings": [
+        {
+          "name": "beforeinput",
+          "duration": 40
+        },
+        {
+          "name": "input",
+          "duration": 32
+        }
+      ],
+      "scriptMs": 26.312,
+      "layoutMs": 8.766999999999998,
+      "styleMs": 2.1930000000000005
+    }
+  ]
+}
