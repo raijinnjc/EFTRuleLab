@@ -100,3 +100,11 @@ No merge or deployment. Git delivery details recorded after push.
 |exports|2|4|20|ran|
 
 All nine captures completed with no operational render failure. Findings are dispositioned above; these are not nine independent clean-pass claims.
+
+## Git delivery
+
+Implementation commit `69ebb57` on `feat/focused-research-workspaces`, pushed successfully. Parent `e59c7c0` is integrated main containing graphical PR #8. No force push, unrelated merge or deployment.
+
+`gh pr create --base main --head feat/focused-research-workspaces` returned `Post "https://api.github.com/graphql": Forbidden`. No PR was created by this task. Manual compare: https://github.com/raijinnjc/EFTRuleLab/compare/main...feat/focused-research-workspaces?expand=1 . Confirm base main and compare feat/focused-research-workspaces, then Create pull request. Suggested title: Consolidate graphical research into focused workspaces.
+
+Working loopback preview retained at http://127.0.0.1:4173/#puzzle for the workspace browser. This is not a public deployment.
