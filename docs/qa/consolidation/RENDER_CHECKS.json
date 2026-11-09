@@ -1,0 +1,36 @@
+[
+  {
+    "width": 1440,
+    "ledger": {
+      "clipBottom": 1301.078125,
+      "noteTop": 1325.078125,
+      "noOverlap": true
+    }
+  },
+  {
+    "width": 390,
+    "ledger": {
+      "clipBottom": 1662.8125,
+      "noteTop": 1686.8125,
+      "noOverlap": true
+    }
+  },
+  {
+    "policyFocus": {
+      "outline": "none",
+      "underline": "visible"
+    }
+  },
+  {
+    "protocolFocus": {
+      "stroke": "2.5px",
+      "dash": "3px, 2px"
+    }
+  },
+  {
+    "printLedger": {
+      "maxHeight": "none",
+      "overflow": "visible"
+    }
+  }
+]

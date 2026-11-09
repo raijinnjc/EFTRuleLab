@@ -6,9 +6,9 @@ The supplied source baseline reconciles a **Rp488,419,120** performance pool wit
 
 ## Graphical research experience
 
-The working React application now adds **The puzzle**, **The rule shift** and **The evidence gap** above the complete research workbench. New chapter links coexist with all original deep links. Stage, award, rule and missing-record inspection use the validated local dataset and BigInt engine. No prototype fiscal constants are imported.
+The working React application uses **The puzzle**, **The rule shift** and **The evidence gap** as its primary experience. Complete analytical/evidence tools open as focused, on-demand workspaces; the old permanently stacked workbench is gone. New chapter links coexist with all original deep links. Stage, award, rule and missing-record inspection use the validated local dataset and BigInt engine. No prototype fiscal constants are imported.
 
-See [graphical QA and P0 preservation checklist](docs/qa/graphical/REPORT.md). Start at `#puzzle`, `#rule-shift` or `#evidence-gap`; original tools remain mounted and available.
+See [graphical QA and P0 preservation checklist](docs/qa/graphical/REPORT.md). Start at `#puzzle`, `#rule-shift` or `#evidence-gap`; original tools remain mounted to preserve state, with only the requested workspace visible. See [consolidation QA and P0 interaction inventory](docs/qa/consolidation/REPORT.md).
 
 ## Run locally
 

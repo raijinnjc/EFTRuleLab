@@ -1,0 +1,34 @@
+/* One mounted, visible workspace at a time. Hidden tools retain React state. */
+[hidden]{display:none!important}
+.header-inner .menu-button{display:inline-flex;order:3;margin-left:0;font-size:.875rem}
+.header-inner .chapter-entry{margin-left:auto;flex-wrap:wrap}
+.tool-directory{border-block:1px solid var(--color-rule);padding-block:var(--space-4);margin-bottom:var(--space-6)}
+.tool-directory #primary-nav{display:flex;flex-wrap:wrap;width:100%;gap:var(--space-3) var(--space-6);margin:0}
+.tool-directory a{font-size:.875rem;min-height:44px}
+.workspace-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-4);padding-block:var(--space-6);border-bottom:1px solid var(--color-rule)}
+.workspace-toolbar a{font-size:.9375rem;color:var(--color-accent)}
+.workspace-toolbar span{font-size:.875rem;color:var(--color-muted);margin-left:auto}
+.workspace-toolbar button{border:0;background:transparent;text-decoration:underline;font-size:.875rem;padding-inline:0}
+[data-workspace]{min-width:0}
+[data-workspace]>.section{border-top:0;padding-top:var(--space-8);margin:0}
+[data-workspace]>.section>h1{font-size:clamp(1.75rem,3vw,2.5rem);max-width:none;line-height:1.15;margin:0 0 var(--space-6);font-weight:500}
+main>.demo-entry{margin:0;padding-block:var(--space-3);justify-content:flex-end;font-size:.875rem}
+main>.demo-entry button{border:0;background:transparent;font-size:.875rem;text-decoration:underline;padding-inline:0}
+main>.demo-entry span{font-size:.8rem}
+main>.disclosure{margin-top:var(--space-6)}
+main:has(>[data-workspace]:not([hidden]))>#research-experience{display:none}
+@media(max-width:47.99rem){.header-inner .menu-button{order:0;margin-left:auto}.header-inner .chapter-entry{order:4;width:100%;margin:0}.workspace-toolbar{gap:var(--space-3)}.workspace-toolbar span{width:100%;margin:0}.workspace-toolbar button{min-height:44px}main>.demo-entry{justify-content:flex-start;gap:var(--space-2)}main>.demo-entry span{display:none}.tool-directory #primary-nav{gap:var(--space-2) var(--space-4)}[data-workspace]>.section{padding-top:var(--space-6)}}
+@media print{[data-workspace][hidden]{display:none!important}.workspace-toolbar,.demo-entry{display:none!important}}
+.workspace-actions{display:flex;flex-wrap:wrap;gap:var(--space-3) var(--space-6);margin-bottom:var(--space-6);font-size:.875rem}.workspace-actions a{color:var(--color-accent);min-height:44px;display:flex;align-items:center}
+.scene-heading h1{font-size:clamp(1.6rem,3vw,2.3rem);max-width:none;margin:0;line-height:1.15}
+/* Programmatic heading focus announces context without drawing an interactive-looking box. */
+.scene-heading :is(h1,h2):focus,[data-workspace]>.section>h1:focus,#overview h1:focus{outline:none;box-shadow:none}
+/* Keep long financial records locally scrollable instead of lengthening the whole page. */
+[data-workspace="awards"] .table-scroll{max-height:min(65vh,40rem);overflow:auto}
+[data-workspace="awards"] .award-table{min-width:64rem}
+[data-workspace="awards"] .award-table td:last-child{min-width:18rem}
+[data-workspace="awards"] thead{position:sticky;top:0;z-index:1;background:var(--color-paper)}
+[data-workspace="awards"] .ledger-totals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4)}
+[data-workspace="awards"] .ledger-totals strong{font-size:clamp(1rem,1.8vw,1.35rem)}
+[data-workspace="awards"] .ledger-totals [role="status"]{grid-column:1/-1;margin-left:0}
+@media print{[data-workspace="awards"] .table-scroll{max-height:none;overflow:visible}[data-workspace="awards"] thead{position:static}}
