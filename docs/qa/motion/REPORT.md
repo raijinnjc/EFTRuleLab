@@ -58,3 +58,11 @@ npm run preview -- --host 127.0.0.1 --port 4173 --strictPort
 With that production preview running, `node scripts/profile-motion.mjs before` or `after` records traces/timings and videos; run on the corresponding baseline or feature checkout. For recording in this environment, the existing system FFmpeg was exposed through a temporary Playwright cache (see DIAGNOSIS.md), using `PLAYWRIGHT_BROWSERS_PATH=/tmp/eft-playwright`. No app package was added. `node scripts/summarize-motion.mjs` creates the comparison. Do not profile concurrently with tests/build/video encoding; the script records its videos after timing samples complete.
 
 For Chromium DevTools, decompress a .trace.json.gz and load the JSON in Performance. Only marked interaction windows correspond to recorded user actions; setup and warmup also appear in the trace.
+
+## GitHub review delivery
+
+Implementation commit: `cfaca09`. Pushed review branch: [feat/dusk-motion-continuity](https://github.com/raijinnjc/EFTRuleLab/tree/feat/dusk-motion-continuity).
+
+Draft PR creation was attempted, but `https://api.github.com/graphql` returned **Forbidden**. No PR was created. [Open the branch comparison](https://github.com/raijinnjc/EFTRuleLab/compare/main...feat/dusk-motion-continuity?expand=1) and choose **Create draft pull request**, titled “Add restrained Dusk motion and accessible navigation continuity”. All implementation, evidence and recordings are already on the branch. No merge/deployment.
+
+The production preview remains loopback-only at `http://127.0.0.1:4173/#puzzle` inside this cloud environment; local execution steps are above.
