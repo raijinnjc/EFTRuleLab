@@ -1,4 +1,4 @@
-import {Fragment,useId,useState} from 'react';
+import {Fragment,useEffect,useId,useState} from 'react';
 import type {Dataset} from '../evidence/types';
 import {compareRules,reconstruct} from '../domain/fiscal';
 import {formatRupiah} from '../domain/format';
@@ -11,6 +11,8 @@ export const signedRp=(n:bigint)=>`${n>0n?'+':''}${formatRupiah(n)}`;
 export function PolicyStudio({data,ruleYear,onRuleChange}:{data:Dataset;ruleYear?:2021|2022;onRuleChange?:(year:2021|2022)=>void}){
  const [localYear,setLocalYear]=useState(2022);const year=ruleYear??localYear;const setYear=(value:number)=>{setLocalYear(value);onRuleChange?.(value as 2021|2022);};const [labels,setLabels]=useState('rupiah');
  const [inspected,setInspected]=useState<{year:number;key:typeof componentKeys[number]}>({year:2022,key:'performance'});
+
+ useEffect(()=>{if(ruleYear!==undefined)setInspected(current=>({...current,year:ruleYear}));},[ruleYear]);
  const id=useId();const compare=compareRules(data);const r=reconstruct(data);
  const selected=data.rules.find(rule=>rule.fiscalYear===year)!;
  const inspectRule=data.rules.find(rule=>rule.fiscalYear===inspected.year)!;

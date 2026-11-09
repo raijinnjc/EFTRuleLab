@@ -4,6 +4,12 @@ A research-oriented evidence workbench for Kubu Raya FY2022 ADD, distinct from n
 
 The supplied source baseline reconciles a **Rp488,419,120** performance pool with **20** positive allocations: **Rp0 gap**. Recipient decision replay remains **INCOMPLETE** because approved assessment and selection records were not obtained for this study. Published allocations do not verify actual payments or ecological outcomes.
 
+## Graphical research experience
+
+The working React application now adds **The puzzle**, **The rule shift** and **The evidence gap** above the complete research workbench. New chapter links coexist with all original deep links. Stage, award, rule and missing-record inspection use the validated local dataset and BigInt engine. No prototype fiscal constants are imported.
+
+See [graphical QA and P0 preservation checklist](docs/qa/graphical/REPORT.md). Start at `#puzzle`, `#rule-shift` or `#evidence-gap`; original tools remain mounted and available.
+
 ## Run locally
 
 Requires Node >=22.20.0 and npm. Validated with Node 24.22.1. No application credentials or backend services required.

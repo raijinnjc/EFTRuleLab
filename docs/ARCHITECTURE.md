@@ -48,3 +48,11 @@ Policy, funding, awards and experiment are independent React sections. Policy ru
 ## Extension boundaries
 
 F01–F11 form the P0 acceptance-review candidate. All P1/P2 remain excluded. There is no live data integration, authentication, analytics, external fonts or deployment. ARP roles require institutional confirmation. Actual payments and ecological outcomes remain unavailable.
+
+## Graphical research layer
+
+ResearchExperience keeps three native-tab panels mounted: ResearchPuzzle, ResearchRuleShift and ResearchEvidenceGap. Hash navigation restores chapters without resetting local inspection state. The original workbench and anchors remain mounted. App owns the rule year shared by graphical comparison, PolicyStudio and ResearchExports; PolicyStudio synchronizes its inspector when this controlled year changes.
+
+Puzzle derives stages with reconstruct and gross with parseRupiah; plotFraction is used only for bounded geometry. Each award mark binds to a real award record. Scales identify their separate gross and residual denominators. compactRupiah rounds only a display label with BigInt arithmetic, never feeding a domain input. Exact accessible labels, inspector outputs, table values and exports remain unchanged. EvidenceGap consumes verifyHistorical and its missing IDs and does not add recipient replay logic. Existing SourceProvider owns dialog focus.
+
+No new fiscal dataset or alternate research engine. All P0 components remain directly navigable; the graphic layer is a compact entry point, not a deletion of research depth.

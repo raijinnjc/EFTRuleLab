@@ -52,3 +52,4 @@
 :root {--color-surface:var(--color-paper-2);--color-ink-secondary:var(--color-accent);--color-control-border:oklch(55% 0.02 268);--color-verified:var(--color-accent);--color-performance:var(--color-accent-2);--color-performance-ink:var(--color-accent-2);--color-incomplete:var(--color-accent-2);--color-on-dark:var(--color-ink);--radius-control:10px;}
 
 :root{--dusk-treatment-0:oklch(94% .012 70 / .93);--dusk-treatment-1:oklch(94% .012 70 / .70);--dusk-treatment-2:oklch(17.5% .014 268 / .75);--dusk-treatment-3:oklch(100% 0 0 / .3);--dusk-treatment-4:oklch(19% .018 268 / .88);--dusk-treatment-5:oklch(100% 0 0 / .18);--dusk-treatment-6:oklch(94% .012 70 / .76);--dusk-treatment-7:oklch(17.5% .014 268 / .65);}
+:root{--graphical-periwinkle:var(--color-accent);--graphical-apricot:var(--color-accent-2);--color-evidence-wait-ink:oklch(42% .08 62)}
