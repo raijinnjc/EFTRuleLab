@@ -1,0 +1,62 @@
+[
+  {
+    "view": "rule-shift",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "rule-shift",
+    "width": 390,
+    "pixelIdentical": true
+  },
+  {
+    "view": "evidence-gap",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "evidence-gap",
+    "width": 390,
+    "pixelIdentical": true
+  },
+  {
+    "view": "awards",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "awards",
+    "width": 390,
+    "pixelIdentical": true
+  },
+  {
+    "view": "policy",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "policy",
+    "width": 390,
+    "pixelIdentical": true
+  },
+  {
+    "view": "funds",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "funds",
+    "width": 390,
+    "pixelIdentical": true
+  },
+  {
+    "view": "protocol",
+    "width": 1440,
+    "pixelIdentical": true
+  },
+  {
+    "view": "protocol",
+    "width": 390,
+    "pixelIdentical": true
+  }
+]

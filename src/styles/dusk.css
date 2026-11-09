@@ -43,3 +43,5 @@ a{color:var(--color-accent)}button,select,input,textarea{transition:background-c
 .site-header .wordmark{display:inline-flex;align-items:center;gap:.65rem;white-space:nowrap;flex-shrink:0;line-height:1.1}
 .site-header .brand-mark{display:block;width:34px;height:34px;flex:none}
 @media(max-width:47.99rem){.site-header .wordmark{gap:.45rem}.site-header .brand-mark{width:30px;height:30px}}
+/* Accessibility correction: retain the bundled logo at 200% text on narrow screens. */
+@media(max-width:24rem){.site-header .wordmark{max-width:100%;flex-wrap:wrap;white-space:normal}}

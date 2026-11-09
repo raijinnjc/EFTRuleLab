@@ -23,6 +23,7 @@ import './styles/app.css';
 import './styles/dusk.css';
 import './styles/graphical.css';
 import './styles/workspaces.css';
+import './styles/precision.css';
 const links=[['overview','Research question'],['policy','Policy'],['funds','Funds'],['awards','Awards'],['verification','Verification'],['extraction','Extraction'],['protocol','ARP'],['sources','Sources'],['exports','Exports']] as const;
 export function App({data=dataset}:{data?:Dataset}={}){
  const [ruleYear,setRuleYear]=useState<2021|2022>(2022);const [experimentActive,setExperimentActive]=useState(false);
