@@ -9,7 +9,7 @@ Running 2 tests using 1 worker
   ✘  2 tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated (981ms)
 
 
-  1) tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure 
+  1) tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure
 
     Error: expect(received).toBe(expected) // Object.is equality
 
@@ -35,7 +35,7 @@ Running 2 tests using 1 worker
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-  2) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated 
+  2) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
 
     Error: expect(received).toBeGreaterThanOrEqual(expected)
 
@@ -61,5 +61,5 @@ Running 2 tests using 1 worker
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
   2 failed
-    tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure 
-    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated 
+    tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure
+    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated

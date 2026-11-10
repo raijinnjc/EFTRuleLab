@@ -31,4 +31,4 @@ Files: scripts/profile-release.mjs, scripts/capture-release-candidate.mjs, tests
 - [x] Capture baseline/after Chromium traces and measurements for representative interactions; distinguish script/style/layout from rAF intervals and GPU frames. Only fix confirmed new defects.
 - [x] Run complete unit/strict build/production-browser suite, rendered accessibility/visual audit, exact source/export checks, offline behavior where tested; retain all original cases.
 - [x] Capture full desktop/mobile comparison gallery and enlarged text at five widths. Write claim checklist, P0 matrix, first-visitor script, known limitations and final release checklist.
-- [ ] Fresh whole-branch review, required fixes and verification; commit/push and create review PR where permitted. Stop for final acceptance, no merge/deploy.
+- [x] Fresh whole-branch review, required fixes and verification; commit/push and create review PR where permitted. Stop for final acceptance, no merge/deploy.

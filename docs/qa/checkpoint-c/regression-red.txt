@@ -12,7 +12,7 @@ Running 3 tests using 1 worker
   ✘  3 tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits (13.6s)
 
 
-  1) tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus 
+  1) tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus
 
     Error: expect(received).toBe(expected) // Object.is equality
 
@@ -38,7 +38,7 @@ Running 3 tests using 1 worker
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-  2) tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule 
+  2) tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule
 
     Error: expect(locator).toContainText(expected) failed
 
@@ -71,7 +71,7 @@ Running 3 tests using 1 worker
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-  3) tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits 
+  3) tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits
 
     Error: expect(locator).toHaveCount(expected) failed
 
@@ -107,6 +107,6 @@ Running 3 tests using 1 worker
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
   3 failed
-    tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus 
-    tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule 
-    tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits 
+    tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus
+    tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule
+    tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits

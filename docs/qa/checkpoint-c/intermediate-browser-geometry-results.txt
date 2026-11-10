@@ -101,7 +101,7 @@ Running 86 tests using 1 worker
   ✓  86 tests/browser/workspaces.spec.ts:14:1 › opening a mobile workspace keeps its return navigation in view (741ms)
 
 
-  1) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated 
+  1) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
 
     Error: expect(received).toBeGreaterThanOrEqual(expected)
 
@@ -127,5 +127,5 @@ Running 86 tests using 1 worker
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
   1 failed
-    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated 
+    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
   85 passed (2.6m)

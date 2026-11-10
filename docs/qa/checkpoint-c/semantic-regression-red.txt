@@ -6,7 +6,7 @@ Running 1 test using 1 worker
   ✘  1 tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology (6.1s)
 
 
-  1) tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology 
+  1) tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology
 
     Error: expect(locator).toBeVisible() failed
 
@@ -39,4 +39,4 @@ Running 1 test using 1 worker
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
   1 failed
-    tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology 
+    tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology

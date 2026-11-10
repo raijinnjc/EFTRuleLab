@@ -14,7 +14,7 @@ This is a candidate for review, not authorization to merge/deploy.
 - [x] Final desktop/mobile and enlarged-text captures inspected and gallery linked.
 - [x] Rendered accessibility/Hallmark findings and justified exceptions documented.
 - [x] Fresh review findings reproduced and fixed;86-case production suite passed after both corrections. Semantic-label audit follow-up is in the final run.
-- [ ] Review branch pushed and PR created, or concrete API blocker and ready PR description provided.
+- [x] Review branch pushed; GraphQL Forbidden prevents PR creation. Exact form/diff links and ready description provided.
 - [ ] User accepts final visual/narrative experience and known limitations.
 - [ ] Real first-time-reader walkthrough executed and results recorded, if required for release acceptance.
 - [ ] Release owner decides supported-browser/device scope (Safari/physical mobile not verified here).

@@ -34,4 +34,3 @@
 - **Code Example Good:** Move up and Move down buttons beside drag handle
 - **Code Example Bad:** drag handle only
 - **Severity:** High
-
