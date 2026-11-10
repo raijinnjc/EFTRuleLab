@@ -1,0 +1,979 @@
+{
+  "summary": {
+    "fails": 50,
+    "reflex": 21,
+    "warns": 36,
+    "waived": 0,
+    "rejected": 0,
+    "answered": 0,
+    "dismissed": 0,
+    "notes": 0,
+    "files": 34,
+    "render": "ran"
+  },
+  "findings": [
+    {
+      "gate": "15",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/styles/motion.css",
+      "line": 8,
+      "evidence": ".precision-row-label,.award-mar… transitions box-shadow while :focus-visible sets it (the ring fades in)",
+      "fix": "Rings appear instantly: transition the hover property only, or draw the ring with a property that is not transitioned"
+    },
+    {
+      "gate": "19",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "src/components/TwoTestDiagram.tsx",
+      "line": 33,
+      "evidence": "dash \"—\" in copy",
+      "fix": "A comma, a colon, a full stop or parentheses; never a dash"
+    },
+    {
+      "gate": "26a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[1440px] nothing shows keyboard focus on rect.allocation-mark \"Basic: Rp5,233,062\", rect.allocation-mark \"Formula: Rp1,…",
+      "fix": "Give every control a :focus-visible ring; never remove an outline without putting one back"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#exports",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#exports",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#exports",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#exports",
+      "line": 1,
+      "evidence": "[1024px] control \"Download Markdown\" wraps to 2 lines (button)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[320px] control \"Replay observed research-side ex\" wraps to 2 lines (button)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[320px] control \"Restore verified source value\" wraps to 2 lines (button)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#funds",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#funds",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#funds",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#overview",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#overview",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#overview",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[320px] control \"Reset to documented comparison\" wraps to 2 lines (button)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1280px] control \"Explore full fiscal envelope\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1280px] control \"Inspect published awards\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1280px] control \"Open extraction experiment\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1280px] control \"Open evidence records\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1280px] control \"Compare the allocation rules\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#rule-shift",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#rule-shift",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#rule-shift",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[320px] control \"01 What we can prove\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[320px] control \"02 What's missing\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49a",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[320px] control \"03 Proposed verification\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "73",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[1440px] text painted under another element: p.mode-note over \"Medan Mas\"; p.mode-note over \"Batu Ampar\"; p.mode-note o…",
+      "fix": "Give the text its own space, or put it above what covers it on a surface of its own"
+    },
+    {
+      "gate": "73",
+      "grade": "FAIL",
+      "tier": "floor",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[1440px] text painted under another element: p.dataset-version over \"L-FIRDAUS\"; p.dataset-version over \"/\"; p.dataset-…",
+      "fix": "Give the text its own space, or put it above what covers it on a surface of its own"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 7,
+      "evidence": "pure #fff: --color-surface: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 18,
+      "evidence": "pure #fff: --color-on-dark: #FFFFFF (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "7b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 39,
+      "evidence": "pure #fff: --color-light: oklch(100% 0 0) (:root)",
+      "fix": "Tint the base toward the anchor hue"
+    },
+    {
+      "gate": "22",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "src/styles/tokens.css",
+      "line": 39,
+      "evidence": "zero-chroma oklch(100% 0 0) (--color-light on :root)",
+      "fix": "Give neutrals at least 0.005 chroma"
+    },
+    {
+      "gate": "25",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[1440px] running prose set too wide: p.small-copy about 96 characters a line",
+      "fix": "Cap the measure at 45 to 75ch"
+    },
+    {
+      "gate": "39b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[1440px] control height outside 32 to 52px: button 78px, button 78px, button 78px",
+      "fix": "Marketing controls stand 44 to 52px; app UI 32 to 40px with a 44px hit target"
+    },
+    {
+      "gate": "39b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[1440px] control height outside 32 to 52px: button 130px, button 130px, button 130px",
+      "fix": "Marketing controls stand 44 to 52px; app UI 32 to 40px with a 44px hit target"
+    },
+    {
+      "gate": "39b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] control height outside 32 to 52px: button.precision-water-row 61px, button.precision-pool-link 63px",
+      "fix": "Marketing controls stand 44 to 52px; app UI 32 to 40px with a 44px hit target"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[320px] link \"Read the full two-test transcrip\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#evidence-gap",
+      "line": 1,
+      "evidence": "[320px] link \"See the proposed verification wo\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[320px] link \"S1 · Annex I, component shares; \" wraps to 2 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[1024px] link \"S1 · Annex I, component shares; \" wraps to 3 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[320px] link \"S1 · Annex I, component shares; \" wraps to 2 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[320px] link \"S1 · Annex I, component shares; \" wraps to 2 lines (a.source-link)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49b",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[320px] link \"Research evidence boundaries · P\" wraps to 2 lines (a)",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div.precision-system bottom -1211px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div.precision-system bottom -187px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div.precision-system bottom -1074px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div bottom -376px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div.precision-system bottom -3467px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "72",
+      "grade": "REFLEX",
+      "tier": "reflex",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[1440px] text crowds the edge of its box: div.precision-system bottom -190px",
+      "fix": "Pad the box: max(8px, 0.5em) at the sides, max(4px, 0.3em) above and below"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/analysis.css",
+      "line": 21,
+      "evidence": "side stripe border-left: 3px solid var(--color-incomplet… on .mode-note",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/research.css",
+      "line": 3,
+      "evidence": "side stripe border-left: 4px solid var(--color-verified) on .guided-panel",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "3",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/research.css",
+      "line": 5,
+      "evidence": "side stripe border-left: 4px solid var(--color-verified) on .protocol-steps button[aria-pressed=true]",
+      "fix": "Hairline all round, none, or an accent square"
+    },
+    {
+      "gate": "25",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/consolidation.css",
+      "line": 13,
+      "evidence": "measure 85ch on .tool-surface .section>p (45-75ch range)",
+      "fix": "Set prose measure between 45 and 75ch; a one-sentence lede or caption from 28ch"
+    },
+    {
+      "gate": "29",
+      "grade": "WARN",
+      "tier": "reflex",
+      "file": "src/styles/app.css",
+      "line": 10,
+      "evidence": "glass panel: backdrop-filter blur over a translucent black on .allocation-summary",
+      "fix": "Solid or grained surface; elevation by lightness"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 17,
+      "evidence": "1.00:1 < 4.5:1 on .skip-link",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 33,
+      "evidence": "1.00:1 < 4.5:1 on .primary-link",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "40",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/app.css",
+      "line": 107,
+      "evidence": "1.87:1 < 4.5:1 on .primary-link:active",
+      "fix": "Raise the contrast to threshold"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 25,
+      "evidence": "dark surface (L 21%) on .protocol-detail sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 27,
+      "evidence": "dark surface (L 21%) on .guided-panel sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "41",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/styles/dusk.css",
+      "line": 28,
+      "evidence": "dark surface (L 21%) on .protocol-steps button[aria-pressed=true] sets no text colour",
+      "fix": "Swap text to paper in the same rule"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Replay observed research-side extra…\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ExtractionExperiment.tsx",
+      "line": 12,
+      "evidence": "long clickable label \"Restore verified source value\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/GuidedDemo.tsx",
+      "line": 17,
+      "evidence": "long clickable label \"Start guided demonstration\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/PolicyStudio.tsx",
+      "line": 30,
+      "evidence": "long clickable label \"Reset to documented comparison\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "49",
+      "grade": "WARN",
+      "tier": "floor",
+      "file": "src/components/ResearchEvidenceGap.tsx",
+      "line": 13,
+      "evidence": "long clickable label \"Not obtained for this study\" without nowrap",
+      "fix": "Shorten the label or set nowrap"
+    },
+    {
+      "gate": "F1",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/components/ResearchEvidenceGap.tsx",
+      "line": 11,
+      "evidence": "straight quote in prose x1 (first: What can't we reproduce)",
+      "fix": "Use typographic quotes: “ ” ’"
+    },
+    {
+      "gate": "F4",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 8,
+      "evidence": "3 filled primary-button recipes: .award-table thead button + button + .protocol-step…",
+      "fix": "One filled primary per page; demote the rest to outline/quiet variants"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/analysis.css",
+      "line": 52,
+      "evidence": "numeric selector .award-table thead button at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 61,
+      "evidence": "numeric selector .result-status at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 72,
+      "evidence": "numeric selector table at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/app.css",
+      "line": 112,
+      "evidence": "numeric selector .error-state h1 at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/consolidation.css",
+      "line": 18,
+      "evidence": "numeric selector .tool-surface .track-number at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/precision.css",
+      "line": 13,
+      "evidence": "numeric selector .precision-caption,.precision-figur… at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/precision.css",
+      "line": 19,
+      "evidence": "numeric selector .precision-status at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F6",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/story.css",
+      "line": 12,
+      "evidence": "numeric selector .story-method-state at display size without tabular figures",
+      "fix": "Add font-variant-numeric: tabular-nums"
+    },
+    {
+      "gate": "F7",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/consolidation.css",
+      "line": 20,
+      "evidence": "same container recipe on 14 selectors (.analytical-surface .source-inspect, .source-dr…...)",
+      "fix": "Vary weight, radius, or fill by role; not every box is the same box"
+    },
+    {
+      "gate": "F16",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "src/styles/analysis.css",
+      "line": 1,
+      "evidence": "browser surfaces unthemed: ::selection, scrollbar-color",
+      "fix": "Theme the parts you did not draw from the palette"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#extraction",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#funds",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#policy",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#protocol",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#puzzle",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#sources",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F19",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#verification",
+      "line": 1,
+      "evidence": "[1440px] 4 font weights in running use (400, 500, 600, 700)",
+      "fix": "Three weights at most, display and body together, picked as extremes"
+    },
+    {
+      "gate": "F25",
+      "grade": "WARN",
+      "tier": "finish",
+      "file": "http://127.0.0.1:4173/#awards",
+      "line": 1,
+      "evidence": "[375px] a table opens with 4 columns off-screen (from \"Allocation\")",
+      "fix": "Keep the column that names the row and the one that acts on it in view: restack each row, or pin the first column"
+    }
+  ]
+}

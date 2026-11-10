@@ -1,10 +1,10 @@
 # EFT RuleLab — Dusk Precision System
 
-Status: **Step 3 review candidate**, applied only to The Puzzle. PRD remains the authority for research. Original DESIGN_SYSTEM.md remains preserved. No new theme or product requirements.
+Status: **Checkpoint C release candidate**, covering the approved story and all P0 workspaces; final user acceptance pending. PRD remains the authority for research. Original DESIGN_SYSTEM.md remains preserved. No new theme or product requirements.
 
 ## Composition
 
-Use Navigation / Graphical Canvas / Context Inspector on desktop. Navigation is a compact instrument index, not monetary tiles. The bone canvas holds one composed figure; the selected context is separated by a hairline rather than another card. Three columns at ≥1200px, canvas + inspector at ≥900px, canvas then inspector below 900px. Grid uses minmax(0,1fr) and a capped existing application container. Tool navigation uses a native disclosure, initially expanded to preserve direct analytical actions; it follows the inspector on narrower screens. Existing global chapter tabs stay untouched until later approval; the chapter-navigation primitive is available but not duplicated in this milestone.
+Use Navigation / Graphical Canvas / Context Inspector on desktop. Navigation is a compact instrument index, not monetary tiles. The bone canvas holds one composed figure; the selected context is separated by a hairline rather than another card. Three columns at ≥1200px, canvas + inspector at ≥900px, canvas then inspector below 900px. Grid uses minmax(0,1fr) and a capped existing application container. Tool navigation uses a native disclosure, initially expanded to preserve direct analytical actions; it follows the inspector on narrower screens. The approved shared three-question navigator remains primary; supporting tools open on demand. Policy/Funds use canvas and contextual controls, while ledger/source records keep a denser ruled layout.
 
 Puzzle: a gross-scale waterfall shows the five exact deductions, residual and running-position geometry against the gross denominator. A visible scale break resets the denominator to residual ADD. The 75/18/7 strip and the equal-award field belong to that same figure. Awards are equal published amounts, not ranks, scores or paid transfers. A separately headed decision-evidence boundary exposes four missing records; no arrow implies that arithmetic PASS creates decision replay.
 
@@ -31,7 +31,7 @@ Tabular lining figures for money. Exact inspector values remain whole, wrapping 
 
 Use existing 4/8/12/16/24/32/48/64px rem spacing scale. Desktop figure gap32, mobile16; inspector24 desktop/16 mobile. Figure rows use44px hit areas, 12px minimum visible deduction bars, 44px award buttons. The thin visible bars are deliberately inside full-size controls; horizontal geometry encodes magnitude, vertical thickness does not. Awards use equal marks and equal hit areas. Graphical mark radius4px; control radius10px; outer canvas18px inherited. No interior card radii/shadows/gradients.
 
-Reusable primitives in `src/components/precision/`: ChapterNavigation, GraphicalCanvas, ContextInspector, Money, ChartLegend, FigureCaption, SourceAction, EvidenceStatus, ResearchLimitation, AnalyticalControl. They accept semantic content/children; no research fixtures or calculated amounts inside primitives. Actual fiscal amounts come exclusively from the existing domain and typed dataset. Future adoption is gated, not automatic.
+Reusable primitives in `src/components/precision/`: ChapterNavigation, GraphicalCanvas, ContextInspector, Money, ChartLegend, FigureCaption, SourceAction, EvidenceStatus, ResearchLimitation, AnalyticalControl. They accept semantic content/children; no research fixtures or calculated amounts inside primitives. Actual fiscal amounts come exclusively from the existing domain and typed dataset. Checkpoint C applies the shared surface aliases in consolidation.css to all workspaces and the source dialog; no research fixtures enter these primitives.
 
 Controls: native buttons, aria-pressed for selections, visible focus ring (instant), underline for links/source actions, hover surface/ink changes. No hover-only information, no automatic animation. Inspector polite live region gives a short update; full details remain separately navigable. A mobile “Read selected detail” link follows the figure. Source dialog retains focus trap, Escape and trigger restoration. Native details retain keyboard behavior.
 
@@ -45,8 +45,18 @@ Verify320/390/768/1024/1440, 200% root text size, reduced motion and keyboard so
 
 ## Scope and remaining approvals
 
-Step 3 stops at a working Puzzle, before/after screenshots and tests. Rule Shift/Evidence Gap require Step4 approval, detailed workspaces Step5 approval. Full-screen consistency is a staged goal, not a claim achieved by this one milestone.
+A/B approved the primary story; Checkpoint C authorizes supporting-tool consolidation. The release candidate preserves their composition, every public hash, mounted analytical state and all P0 interactions. Final user acceptance, real first-reader comprehension and release decisions remain pending. No merge/deploy is authorized.
 
 ## Motion continuity pass
 
 The [shared motion language](MOTION_SYSTEM.md) adds restrained feedback and entrances without changing this composition, exact figures or evidence boundaries. Reduced motion and immediate interaction semantics take precedence over visual transitions.
+
+## Checkpoint C workspace consistency
+
+All analytical surfaces share existing bone ink/muted/rule aliases with dark periwinkle selection/PASS and apricot-ink incomplete signals. Light accent fills remain chart material, never low-contrast body text. Source dialog uses the same bone palette; only the approved hero uses smoked glass/photo. No new blur or animation library.
+
+Supporting workspace canvas/inspector gap32px desktop,24px mobile; outer padding32/16px. Policy puts exact selected amount, full-size selectors, derivation and inspected-year provenance beside its equal-length bars. Funds keeps its honest gross-scale waterfall and separate residual view, with units/source controls adjacent. Ledger and source records use local keyboard scrolling and full print expansion. Source register keeps inspection limits visible, full metadata/citation in the existing drawer. Export rows expose the existing formats, with selected analytical context and exact fallback/citation retained.
+
+Money remains tabular; all figures use exact domain values. Emergency wrapping applies to analytical prose, raw captions, outputs and amounts at enlarged text; table nowrap is contained inside local scrolling. Native control grid tracks use minmax(0,1fr), preventing intrinsic-width overflow. Narrow proportional chart segments retain equivalent full-size selectors rather than distorting financial geometry.
+
+[Release assessment and QA](../qa/checkpoint-c/REPORT.md) records actual tests, rendered accessibility exceptions, visual audit, measurement regressions and known limitations.

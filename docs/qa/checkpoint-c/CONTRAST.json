@@ -1,0 +1,107 @@
+{
+  "method": "Computed production colors sampled through Chromium canvas to sRGB; WCAG relative luminance. Solid backgrounds only, not photograph coverage.",
+  "pairs": [
+    {
+      "route": "overview",
+      "selector": ".primary-link",
+      "foreground": "oklch(0.19 0.035 274)",
+      "background": "oklch(0.77 0.1 274)",
+      "rgba": [
+        15,
+        18,
+        35,
+        255,
+        160,
+        176,
+        244,
+        255
+      ],
+      "ratio": 8.85080529845768
+    },
+    {
+      "route": "overview",
+      "selector": ".skip-link",
+      "foreground": "oklch(0.19 0.035 274)",
+      "background": "oklch(0.77 0.1 274)",
+      "rgba": [
+        15,
+        18,
+        35,
+        255,
+        160,
+        176,
+        244,
+        255
+      ],
+      "ratio": 8.85080529845768
+    },
+    {
+      "route": "policy",
+      "selector": "#policy .inspection-output",
+      "foreground": "oklch(0.44 0.13 274)",
+      "background": "oklch(0.955 0.008 75)",
+      "rgba": [
+        62,
+        73,
+        153,
+        255,
+        243,
+        239,
+        234,
+        255
+      ],
+      "ratio": 7.007969097435765
+    },
+    {
+      "route": "funds",
+      "selector": "#funds figcaption",
+      "foreground": "oklch(0.47 0.016 265)",
+      "background": "oklch(0.955 0.008 75)",
+      "rgba": [
+        86,
+        91,
+        100,
+        255,
+        243,
+        239,
+        234,
+        255
+      ],
+      "ratio": 5.963849265615509
+    },
+    {
+      "route": "sources",
+      "selector": "#sources .small-copy",
+      "foreground": "oklch(0.47 0.016 265)",
+      "background": "oklch(0.955 0.008 75)",
+      "rgba": [
+        86,
+        91,
+        100,
+        255,
+        243,
+        239,
+        234,
+        255
+      ],
+      "ratio": 5.963849265615509
+    },
+    {
+      "route": "extraction",
+      "selector": "#extraction .mode-note",
+      "foreground": "oklch(0.47 0.016 265)",
+      "background": "oklch(0.955 0.008 75)",
+      "rgba": [
+        86,
+        91,
+        100,
+        255,
+        243,
+        239,
+        234,
+        255
+      ],
+      "ratio": 5.963849265615509
+    }
+  ]
+}

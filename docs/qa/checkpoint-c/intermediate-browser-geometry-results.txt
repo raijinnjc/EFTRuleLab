@@ -1,0 +1,131 @@
+
+> eft-rulelab@0.1.0 test:browser
+> playwright test
+
+[WebServer] (node:6736) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:6774) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 86 tests using 1 worker
+
+(node:6797) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/analysis.spec.ts:3:1 › policy rules preserve fixed envelope, exact deltas and provenance (1.9s)
+  ✓   2 tests/browser/analysis.spec.ts:17:1 › fiscal waterfall preserves gross scale and exposes exact sources (1.1s)
+  ✓   3 tests/browser/analysis.spec.ts:26:1 › historical ledger filters, sorts and separates subtotal from full published total (1.2s)
+  ✓   4 tests/browser/analysis.spec.ts:37:1 › verification nodes disclose interpretation without inventing decisions (937ms)
+  ✓   5 tests/browser/analysis.spec.ts:42:1 › extraction experiment is opt-in, isolated, and fully reversible (1.2s)
+  ✓   6 tests/browser/analysis.spec.ts:51:44 › analytical charts and expanded records at 320px (1.3s)
+  ✓   7 tests/browser/analysis.spec.ts:51:44 › analytical charts and expanded records at 390px (1.4s)
+  ✓   8 tests/browser/analysis.spec.ts:51:44 › analytical charts and expanded records at 768px (1.4s)
+  ✓   9 tests/browser/analysis.spec.ts:51:44 › analytical charts and expanded records at 1024px (1.4s)
+  ✓  10 tests/browser/analysis.spec.ts:51:44 › analytical charts and expanded records at 1440px (1.3s)
+  ✓  11 tests/browser/analysis.spec.ts:58:1 › chart controls and both input nodes expose complete accessible inspection structure (1.4s)
+  ✓  12 tests/browser/dusk.spec.ts:3:31 › Dusk local photography, typography and offline presentation at 390 (1.4s)
+  ✓  13 tests/browser/dusk.spec.ts:3:31 › Dusk local photography, typography and offline presentation at 1440 (1.8s)
+  ✓  14 tests/browser/foundation.spec.ts:4:2 › evidence foundation renders without overflow at 320px (1.1s)
+  ✓  15 tests/browser/foundation.spec.ts:4:2 › evidence foundation renders without overflow at 390px (997ms)
+  ✓  16 tests/browser/foundation.spec.ts:4:2 › evidence foundation renders without overflow at 768px (1.2s)
+  ✓  17 tests/browser/foundation.spec.ts:4:2 › evidence foundation renders without overflow at 1024px (986ms)
+  ✓  18 tests/browser/foundation.spec.ts:4:2 › evidence foundation renders without overflow at 1440px (1.4s)
+  ✓  19 tests/browser/foundation.spec.ts:18:1 › native evidence disclosure works with keyboard and source links preserve provenance (1.1s)
+  ✓  20 tests/browser/foundation.spec.ts:30:1 › navigation, refresh, history and reduced motion keep evidence accessible (1.5s)
+  ✓  21 tests/browser/foundation.spec.ts:38:1 › mobile menu is keyboard operable and 200% text remains readable (954ms)
+  ✓  22 tests/browser/foundation.spec.ts:45:1 › current section is announced and expanded evidence stays inside a narrow viewport (2.0s)
+  ✓  23 tests/browser/foundation.spec.ts:56:1 › invalid bundled evidence produces an explicit unavailable state instead of a blank page (606ms)
+  ✓  24 tests/browser/graphical.spec.ts:3:1 › puzzle stages, equal awards and provenance remain real and inspectable (1.4s)
+  ✓  25 tests/browser/graphical.spec.ts:4:1 › rule shift scene offers exact segment/selector interaction and preserves selection between scenes (1.5s)
+  ✓  26 tests/browser/graphical.spec.ts:5:1 › evidence gap keeps tests independent and explains all missing groups without replay (2.0s)
+  ✓  27 tests/browser/graphical.spec.ts:6:44 › graphical scenes reflow at 320 (1.6s)
+  ✓  28 tests/browser/graphical.spec.ts:6:44 › graphical scenes reflow at 390 (1.2s)
+  ✓  29 tests/browser/graphical.spec.ts:6:44 › graphical scenes reflow at 768 (1.3s)
+  ✓  30 tests/browser/graphical.spec.ts:6:44 › graphical scenes reflow at 1024 (1.3s)
+  ✓  31 tests/browser/graphical.spec.ts:6:44 › graphical scenes reflow at 1440 (1.4s)
+  ✓  32 tests/browser/graphical.spec.ts:7:1 › keyboard scene tabs and 200 percent text keep all inputs accessible (883ms)
+  ✓  33 tests/browser/graphical.spec.ts:9:1 › graphical rule state reaches full Policy Studio and export snapshot without resetting filters (1.7s)
+  ✓  34 tests/browser/graphical.spec.ts:11:1 › mobile navigation brings its research tool links into view (742ms)
+  ✓  35 tests/browser/graphical.spec.ts:12:1 › primary scene links bring the active graphical workspace into view (1.2s)
+  ✓  36 tests/browser/motion.spec.ts:2:1 › route navigation has one smooth scroll owner and immediately hides outgoing workspaces (1.8s)
+  ✓  37 tests/browser/motion.spec.ts:9:1 › selection updates exact values immediately and cancels old inspector emphasis (1.6s)
+  ✓  38 tests/browser/motion.spec.ts:13:1 › source closes access immediately during its short visual exit and restores focus (1.8s)
+  ✓  39 tests/browser/motion.spec.ts:17:1 › reduced motion cancels an in-flight inspector animation and prevents entrances (1.2s)
+  ✓  40 tests/browser/motion.spec.ts:21:1 › reactivating the current chapter coordinates focus without adding history (824ms)
+  ✓  41 tests/browser/motion.spec.ts:22:1 › changing reduced motion finishes active route scrolling immediately (1.1s)
+  ✓  42 tests/browser/precision.spec.ts:3:1 › Puzzle exposes missing replay inputs and exact deduction provenance in its contextual inspector (1.8s)
+  ✓  43 tests/browser/precision.spec.ts:12:1 › Puzzle maintains readable canvas and inspector across five widths and enlarged text (3.1s)
+  ✓  44 tests/browser/precision.spec.ts:24:1 › mobile keyboard order follows canvas before tool navigation (758ms)
+  ✓  45 tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus (2.3s)
+  ✓  46 tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule (1.1s)
+  ✓  47 tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits (897ms)
+  ✓  48 tests/browser/release.spec.ts:15:1 › every supporting workspace reflows at five widths with 200 percent text (20.1s)
+  ✓  49 tests/browser/release.spec.ts:19:1 › small truthful chart segments have equivalent full-size inspection controls (1.1s)
+  ✓  50 tests/browser/release.spec.ts:23:1 › loaded research routes, source inspection and exact export remain usable offline (3.0s)
+  ✓  51 tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure (900ms)
+  ✘  52 tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated (992ms)
+(node:8722) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  53 tests/browser/research.spec.ts:4:1 › protocol steps expose required records and general outcomes without inferring a replay (1.2s)
+  ✓  54 tests/browser/research.spec.ts:12:1 › source library searches categories, records, absent titles and restores drawer focus (1.4s)
+  ✓  55 tests/browser/research.spec.ts:18:1 › guided demonstration preserves analytical state, navigates with arrows and exits (3.9s)
+  ✓  56 tests/browser/research.spec.ts:24:47 › downloads real JSON with exact state and on-screen fallback (1.6s)
+  ✓  57 tests/browser/research.spec.ts:24:47 › downloads real CSV with exact state and on-screen fallback (2.2s)
+  ✓  58 tests/browser/research.spec.ts:24:47 › downloads real Markdown with exact state and on-screen fallback (1.8s)
+  ✓  59 tests/browser/research.spec.ts:32:1 › download failure retains readable fallback and explicit status (1.1s)
+  ✓  60 tests/browser/research.spec.ts:33:44 › research workflow and source library responsive at 320 (1.3s)
+  ✓  61 tests/browser/research.spec.ts:33:44 › research workflow and source library responsive at 390 (1.5s)
+  ✓  62 tests/browser/research.spec.ts:33:44 › research workflow and source library responsive at 768 (1.5s)
+  ✓  63 tests/browser/research.spec.ts:33:44 › research workflow and source library responsive at 1024 (1.5s)
+  ✓  64 tests/browser/research.spec.ts:33:44 › research workflow and source library responsive at 1440 (1.7s)
+  ✓  65 tests/browser/research.spec.ts:38:1 › research features support text scaling and reduced motion (1.0s)
+  ✓  66 tests/browser/research.spec.ts:39:1 › mobile source dialog retains keyboard containment, scaled text and copy fallback (1.1s)
+  ✓  67 tests/browser/research.spec.ts:42:1 › mobile tour shows full narrative and controls without an overlay (1.0s)
+  ✓  68 tests/browser/story.spec.ts:2:1 › the approved argument has one question navigator and preserves supporting analysis (2.2s)
+  ✓  69 tests/browser/story.spec.ts:10:1 › all eight ARP steps remain inspectable while the method stays explicitly proposed (1.1s)
+  ✓  70 tests/browser/story.spec.ts:14:1 › primary story reflows at all five widths and 200 percent text (6.1s)
+  ✓  71 tests/browser/story.spec.ts:18:1 › the introduction exposes source status without requiring tool navigation (872ms)
+  ✓  72 tests/browser/workspaces.spec.ts:4:1 › graphical scene never includes the old stacked workbench (1.2s)
+  ✓  73 tests/browser/workspaces.spec.ts:5:1 › all detailed deep links survive refresh with only one workspace visible (3.3s)
+  ✓  74 tests/browser/workspaces.spec.ts:6:1 › workspace state, export context and source focus survive focused navigation (2.8s)
+  ✓  75 tests/browser/workspaces.spec.ts:7:1 › demo opens every target workspace and restores its origin and focus on exit (2.8s)
+  ✓  76 tests/browser/workspaces.spec.ts:8:1 › return action restores the invoking scene and navigation keeps one visible page heading (1.2s)
+  ✓  77 tests/browser/workspaces.spec.ts:9:1 › browser Back from an open source inspector restores the graphical route and visible focus (1.3s)
+  ✓  78 tests/browser/workspaces.spec.ts:10:1 › browser Back exits a guided step without leaving a hidden tour or blank workspace (1.1s)
+  ✓  79 tests/browser/workspaces.spec.ts:11:44 › focused workspace visibility and reflow at 320 (2.1s)
+  ✓  80 tests/browser/workspaces.spec.ts:11:44 › focused workspace visibility and reflow at 390 (2.3s)
+  ✓  81 tests/browser/workspaces.spec.ts:11:44 › focused workspace visibility and reflow at 768 (2.5s)
+  ✓  82 tests/browser/workspaces.spec.ts:11:44 › focused workspace visibility and reflow at 1024 (2.4s)
+  ✓  83 tests/browser/workspaces.spec.ts:11:44 › focused workspace visibility and reflow at 1440 (2.6s)
+  ✓  84 tests/browser/workspaces.spec.ts:12:1 › activating the current workspace in the directory closes it with visible focus (963ms)
+  ✓  85 tests/browser/workspaces.spec.ts:13:1 › the complete ledger scrolls locally without removing records or keyboard access (930ms)
+  ✓  86 tests/browser/workspaces.spec.ts:14:1 › opening a mobile workspace keeps its return navigation in view (741ms)
+
+
+  1) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 8
+    Received:    7.9609375
+
+      31 | });
+      32 | test('source inspection and external record actions remain visually separated',async({page})=>{
+    > 33 |  await page.setViewportSize({width:1440,height:1000});await page.goto('/#sources');const record=page.locator('#sources article').first();const inspect=await record.getByRole('button',{name:'Inspect S1 source',exact:true}).boundingBox();const external=await record.getByRole('link',{name:'Open source record',exact:true}).boundingBox();expect(inspect).not.toBeNull();expect(external).not.toBeNull();const horizontal=external!.x-(inspect!.x+inspect!.width);const vertical=external!.y-(inspect!.y+inspect!.height);expect(Math.max(horizontal,vertical)).toBeGreaterThanOrEqual(8);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      34 | });
+      35 |
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:33:550
+
+    Error Context: test-results/release-source-inspection--03307-s-remain-visually-separated/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/release-source-inspection--03307-s-remain-visually-separated/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/release-source-inspection--03307-s-remain-visually-separated/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
+  85 passed (2.6m)

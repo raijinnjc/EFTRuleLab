@@ -1,0 +1,65 @@
+
+Running 2 tests using 1 worker
+
+(node:5719) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure (1.1s)
+(node:5851) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated (981ms)
+
+
+  1) tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      28 | });
+      29 | test('enlarged exact fiscal caption stays inside the analytical figure',async({page})=>{
+    > 30 |  await page.setViewportSize({width:320,height:1000});await page.goto('/#funds');await page.evaluate(()=>document.documentElement.style.fontSize='200%');const caption=page.locator('#funds .waterfall figcaption');await expect(caption).toBeVisible();const bounds=await caption.evaluate(el=>{const range=document.createRange();range.selectNodeContents(el);const box=el.getBoundingClientRect();return{left:box.left,right:box.right,textRects:[...range.getClientRects()].map(r=>({left:r.left,right:r.right}))}});expect(bounds.textRects.every(r=>r.left>=bounds.left-1&&r.right<=bounds.right+1)).toBe(true);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      31 | });
+      32 | test('source inspection and external record actions remain visually separated',async({page})=>{
+      33 |  await page.setViewportSize({width:1440,height:1000});await page.goto('/#sources');const record=page.locator('#sources article').first();const inspect=await record.getByRole('button',{name:'Inspect S1 source',exact:true}).boundingBox();const external=await record.getByRole('link',{name:'Open source record',exact:true}).boundingBox();expect(inspect).not.toBeNull();expect(external).not.toBeNull();const horizontal=external!.x-(inspect!.x+inspect!.width);const vertical=external!.y-(inspect!.y+inspect!.height);expect(Math.max(horizontal,vertical)).toBeGreaterThanOrEqual(8);
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:30:588
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-enlarged-exact-fis-3ab6d-nside-the-analytical-figure/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-enlarged-exact-fis-3ab6d-nside-the-analytical-figure/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-enlarged-exact-fis-3ab6d-nside-the-analytical-figure/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 8
+    Received:    0
+
+      31 | });
+      32 | test('source inspection and external record actions remain visually separated',async({page})=>{
+    > 33 |  await page.setViewportSize({width:1440,height:1000});await page.goto('/#sources');const record=page.locator('#sources article').first();const inspect=await record.getByRole('button',{name:'Inspect S1 source',exact:true}).boundingBox();const external=await record.getByRole('link',{name:'Open source record',exact:true}).boundingBox();expect(inspect).not.toBeNull();expect(external).not.toBeNull();const horizontal=external!.x-(inspect!.x+inspect!.width);const vertical=external!.y-(inspect!.y+inspect!.height);expect(Math.max(horizontal,vertical)).toBeGreaterThanOrEqual(8);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      34 | });
+      35 |
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:33:550
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-source-inspection--03307-s-remain-visually-separated/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-source-inspection--03307-s-remain-visually-separated/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-source-inspection--03307-s-remain-visually-separated/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests/browser/release.spec.ts:29:1 › enlarged exact fiscal caption stays inside the analytical figure
+    tests/browser/release.spec.ts:32:1 › source inspection and external record actions remain visually separated

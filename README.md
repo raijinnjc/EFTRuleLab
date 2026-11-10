@@ -6,9 +6,9 @@ The supplied source baseline reconciles a **Rp488,419,120** performance pool wit
 
 ## Graphical research experience
 
-The working React application uses **The puzzle**, **The rule shift** and **The evidence gap** as its primary experience. Complete analytical/evidence tools open as focused, on-demand workspaces; the old permanently stacked workbench is gone. New chapter links coexist with all original deep links. Stage, award, rule and missing-record inspection use the validated local dataset and BigInt engine. No prototype fiscal constants are imported.
+The working React application follows three primary questions: **What can we prove?**, **What can't we reproduce?**, and **How could verification improve?** Complete analytical/evidence tools open as focused, on-demand workspaces. Policy Studio, Funds, Awards, Verification, Extraction, proposed ARP, Sources and Exports share the Dusk Precision analytical surface. Rule Shift remains a discoverable supporting fixed-base comparison.
 
-See [graphical QA and P0 preservation checklist](docs/qa/graphical/REPORT.md). Start at `#puzzle`, `#rule-shift` or `#evidence-gap`; original tools remain mounted to preserve state, with only the requested workspace visible. See [consolidation QA and P0 interaction inventory](docs/qa/consolidation/REPORT.md).
+All original deep links, exact-data inspection, browser history and mounted analytical state remain available. See the [Checkpoint C release-candidate report](docs/qa/checkpoint-c/REPORT.md), [desktop/mobile comparison gallery](docs/qa/checkpoint-c/GALLERY.md), [P0 preservation matrix](docs/qa/checkpoint-c/P0_MATRIX.md) and [first-time-visitor acceptance script](docs/qa/checkpoint-c/FIRST_VISITOR_ACCEPTANCE.md). A/B research story remains approved; final release-candidate acceptance is pending.
 
 ## Run locally
 
@@ -53,4 +53,4 @@ See [Phase 2B acceptance matrix, results and limitations](docs/qa/PHASE2B_REPORT
 
 V4 and original annex PDFs were not available for fresh verification. Seed records are transcribed from the source-referenced PRD, with legal citations and inherited inspection limits preserved. No synthetic research data is used.
 
-Phase 2B branches from integrated `main` commit `5580c445c988b6e64b6e78e70dd8b86e682465fa` and targets `main`. F01–F11 are available for final user acceptance review; no automatic merge or deployment. All P1/P2 work is excluded. See the QA acceptance matrix and review checklist.
+Checkpoint C starts from merged `main` commit `b0e7883` (A/B included) and targets `main` from `feat/checkpoint-c-release-readiness`. F01–F11 are preserved for final acceptance; no automatic merge or deployment. All P1/P2 work is excluded.

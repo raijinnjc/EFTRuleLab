@@ -1,0 +1,916 @@
+[
+  {
+    "name": "overview",
+    "width": 1440,
+    "scrollY": 144,
+    "documentHeight": 1165,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "The numbers reconcile. Can the decision be reproduced?",
+        "top": 152.171875,
+        "bottom": 259.015625
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1: PASSRp0 reconciliation gap",
+        "top": 263.0625,
+        "bottom": 322.203125
+      },
+      {
+        "text": "Test 2: INCOMPLETEApproved assessment/selection records not obtained for this study.",
+        "top": 338.203125,
+        "bottom": 423.6875
+      }
+    ]
+  },
+  {
+    "name": "puzzle",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 2002,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "What can we prove?",
+        "top": 138.25,
+        "bottom": 181.296875
+      },
+      {
+        "text": "20 equal published positive awards",
+        "top": 906.171875,
+        "bottom": 930.46875
+      },
+      {
+        "text": "Recipient decision trail",
+        "top": 1125.46875,
+        "bottom": 1149.765625
+      },
+      {
+        "text": "Performance pool",
+        "top": 306.296875,
+        "bottom": 330.59375
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1 / Fiscal reconciliationPASSRp0 gap",
+        "top": 819.171875,
+        "bottom": 840.171875
+      },
+      {
+        "text": "Recipient decision trailINCOMPLETE",
+        "top": 1125.46875,
+        "bottom": 1149.765625
+      }
+    ]
+  },
+  {
+    "name": "rule-shift",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 1643,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "One budget. Two allocation rules.",
+        "top": 204.25,
+        "bottom": 247.296875
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "evidence-gap",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 1515,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "What can't we reproduce?",
+        "top": 138.25,
+        "bottom": 181.296875
+      },
+      {
+        "text": "Four required inputs. Not obtained.",
+        "top": 402.640625,
+        "bottom": 442.640625
+      },
+      {
+        "text": "Approved historical assessment values",
+        "top": 340.296875,
+        "bottom": 384.453125
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "protocol",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 1679,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "How could verification improve?",
+        "top": 130.25,
+        "bottom": 173.296875
+      },
+      {
+        "text": "Derive before revealing the roster.",
+        "top": 543.15625,
+        "bottom": 583.15625
+      },
+      {
+        "text": "6. Independently reconstruct recipients",
+        "top": 335.984375,
+        "bottom": 360.28125
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "protocol-replay",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 1679,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "How could verification improve?",
+        "top": 130.25,
+        "bottom": 173.296875
+      },
+      {
+        "text": "Derive before revealing the roster.",
+        "top": 543.15625,
+        "bottom": 583.15625
+      },
+      {
+        "text": "6. Independently reconstruct recipients",
+        "top": 335.984375,
+        "bottom": 360.28125
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "sources",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 1757,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Sources and evidence boundaries",
+        "top": 165.25,
+        "bottom": 208.296875
+      },
+      {
+        "text": "Peraturan Bupati Kubu Raya Nomor 94 Tahun 2021",
+        "top": 410.640625,
+        "bottom": 435.828125
+      },
+      {
+        "text": "Peraturan Bupati Kubu Raya Nomor 101 Tahun 2020",
+        "top": 654.515625,
+        "bottom": 679.703125
+      },
+      {
+        "text": "EFT RuleLab PRD v1.0",
+        "top": 898.390625,
+        "bottom": 923.578125
+      },
+      {
+        "text": "Firdaus, Patriani & Nafi’ah — local case study",
+        "top": 1056.921875,
+        "bottom": 1082.109375
+      },
+      {
+        "text": "Fox — transparency and accountability",
+        "top": 1286.453125,
+        "bottom": 1311.640625
+      },
+      {
+        "text": "Busch et al. — global EFT review",
+        "top": 1515.984375,
+        "bottom": 1541.171875
+      },
+      {
+        "text": "Busch, Kapur & Mukherjee — India response study",
+        "top": 1745.515625,
+        "bottom": 1770.703125
+      },
+      {
+        "text": "Holmström — observability",
+        "top": 1975.046875,
+        "bottom": 2000.234375
+      },
+      {
+        "text": "Steffensen — performance-based grants (UNCDF)",
+        "top": 2204.578125,
+        "bottom": 2229.765625
+      },
+      {
+        "text": "Ecology-based performance-incentive technical guide",
+        "top": 2434.109375,
+        "bottom": 2459.296875
+      },
+      {
+        "text": "Kubu Raya announcement, 25 February 2022",
+        "top": 2663.640625,
+        "bottom": 2688.828125
+      },
+      {
+        "text": "Exact fiscal reconstruction",
+        "top": 2893.171875,
+        "bottom": 2918.359375
+      },
+      {
+        "text": "Allocation Reproducibility Protocol",
+        "top": 3101.703125,
+        "bottom": 3126.890625
+      },
+      {
+        "text": "Approved historical assessment values",
+        "top": 3310.234375,
+        "bottom": 3335.421875
+      },
+      {
+        "text": "Actual assessed universe",
+        "top": 3497.765625,
+        "bottom": 3522.953125
+      },
+      {
+        "text": "Implemented selection, eligibility, exceptions, ties and rounding rules",
+        "top": 3685.296875,
+        "bottom": 3710.484375
+      },
+      {
+        "text": "Signed recipient-selection decisions",
+        "top": 3872.828125,
+        "bottom": 3898.015625
+      },
+      {
+        "text": "Actual payments",
+        "top": 4060.359375,
+        "bottom": 4085.546875
+      },
+      {
+        "text": "Ecological outcomes",
+        "top": 4247.890625,
+        "bottom": 4273.078125
+      },
+      {
+        "text": "V4 memorandum and original official annex PDFs",
+        "top": 4435.421875,
+        "bottom": 4460.609375
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "source-inspector",
+    "width": 1440,
+    "scrollY": 168,
+    "documentHeight": 2002,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "What can we prove?",
+        "top": 138.25,
+        "bottom": 181.296875
+      },
+      {
+        "text": "20 equal published positive awards",
+        "top": 906.171875,
+        "bottom": 930.46875
+      },
+      {
+        "text": "Recipient decision trail",
+        "top": 1125.46875,
+        "bottom": 1149.765625
+      },
+      {
+        "text": "Performance pool",
+        "top": 306.296875,
+        "bottom": 330.59375
+      },
+      {
+        "text": "S1: Peraturan Bupati Kubu Raya Nomor 94 Tahun 2021",
+        "top": 100,
+        "bottom": 167.1875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1 / Fiscal reconciliationPASSRp0 gap",
+        "top": 819.171875,
+        "bottom": 840.171875
+      },
+      {
+        "text": "Recipient decision trailINCOMPLETE",
+        "top": 1125.46875,
+        "bottom": 1149.765625
+      }
+    ]
+  },
+  {
+    "name": "policy",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 1869,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Policy Studio",
+        "top": 165.25,
+        "bottom": 208.296875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "FY2021 rule applied counterfactually to FY2022 residual. No actual FY2021 amounts or village-level results are inferred.",
+        "top": 659.734375,
+        "bottom": 717.734375
+      }
+    ]
+  },
+  {
+    "name": "funds",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 2550,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Follow the funds",
+        "top": 165.25,
+        "bottom": 208.296875
+      },
+      {
+        "text": "Inside the FY2022 residual",
+        "top": 1230.609375,
+        "bottom": 1253.609375
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Performance is 7% of the residual, approximately 0.644% of gross ADD. Exact amounts remain unchanged when display units switch.",
+        "top": 1140.609375,
+        "bottom": 1198.609375
+      }
+    ]
+  },
+  {
+    "name": "awards",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 2079,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "The award ledger",
+        "top": 165.25,
+        "bottom": 208.296875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "118 allocation-table rows are covered by the annex; this is not the assessed population. Blank or absent positive amounts do not establish zero scores or ineligibility. Allocations are not actual payments.",
+        "top": 1305.125,
+        "bottom": 1369.125
+      }
+    ]
+  },
+  {
+    "name": "verification",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 1718,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Two questions. Different evidence.",
+        "top": 165.25,
+        "bottom": 208.296875
+      },
+      {
+        "text": "Test 1: Fiscal reconciliation",
+        "top": 389.375,
+        "bottom": 412.375
+      },
+      {
+        "text": "Test 2: Recipient decision replay",
+        "top": 389.375,
+        "bottom": 412.375
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "extraction",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 1722,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Extraction integrity experiment",
+        "top": 165.25,
+        "bottom": 208.296875
+      },
+      {
+        "text": "Verified source value · default",
+        "top": 350.984375,
+        "bottom": 373.984375
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "This scenario corrects a researcher-side document extraction discrepancy; it does not indicate an error or overpayment by the government.",
+        "top": 350.984375,
+        "bottom": 450.984375
+      }
+    ]
+  },
+  {
+    "name": "exports",
+    "width": 1440,
+    "scrollY": 248,
+    "documentHeight": 1381,
+    "documentWidth": 1440,
+    "headings": [
+      {
+        "text": "Audit and research exports",
+        "top": 165.25,
+        "bottom": 208.296875
+      },
+      {
+        "text": "Included analytical state",
+        "top": 280.296875,
+        "bottom": 303.296875
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "overview",
+    "width": 390,
+    "scrollY": 195,
+    "documentHeight": 1759,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "The numbers reconcile. Can the decision be reproduced?",
+        "top": 93.875,
+        "bottom": 229.5
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1: PASSRp0 reconciliation gap",
+        "top": 738.546875,
+        "bottom": 793.6875
+      },
+      {
+        "text": "Test 2: INCOMPLETEApproved assessment/selection records not obtained for this study.",
+        "top": 809.6875,
+        "bottom": 891.171875
+      }
+    ]
+  },
+  {
+    "name": "puzzle",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 3484,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "What can we prove?",
+        "top": 142.5625,
+        "bottom": 174.75
+      },
+      {
+        "text": "20 equal published positive awards",
+        "top": 1056.125,
+        "bottom": 1080.421875
+      },
+      {
+        "text": "Recipient decision trail",
+        "top": 1392.421875,
+        "bottom": 1416.71875
+      },
+      {
+        "text": "Performance pool",
+        "top": 1699.40625,
+        "bottom": 1723.703125
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1 / Fiscal reconciliationPASSRp0 gap",
+        "top": 948.125,
+        "bottom": 969.125
+      },
+      {
+        "text": "Recipient decision trailINCOMPLETE",
+        "top": 1392.421875,
+        "bottom": 1416.71875
+      }
+    ]
+  },
+  {
+    "name": "rule-shift",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 2363,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "One budget. Two allocation rules.",
+        "top": 208.5625,
+        "bottom": 272.9375
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "evidence-gap",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 2730,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "What can't we reproduce?",
+        "top": 142.5625,
+        "bottom": 174.75
+      },
+      {
+        "text": "Four required inputs. Not obtained.",
+        "top": 485.09375,
+        "bottom": 545.09375
+      },
+      {
+        "text": "Approved historical assessment values",
+        "top": 1267.984375,
+        "bottom": 1312.140625
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "protocol",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 3032,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "How could verification improve?",
+        "top": 134.5625,
+        "bottom": 198.9375
+      },
+      {
+        "text": "Derive before revealing the roster.",
+        "top": 809.453125,
+        "bottom": 869.453125
+      },
+      {
+        "text": "6. Independently reconstruct recipients",
+        "top": 1598.484375,
+        "bottom": 1622.78125
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "protocol-replay",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 3032,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "How could verification improve?",
+        "top": 134.5625,
+        "bottom": 198.9375
+      },
+      {
+        "text": "Derive before revealing the roster.",
+        "top": 809.453125,
+        "bottom": 869.453125
+      },
+      {
+        "text": "6. Independently reconstruct recipients",
+        "top": 1598.484375,
+        "bottom": 1622.78125
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "sources",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2389,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Sources and evidence boundaries",
+        "top": 217.5,
+        "bottom": 281.875
+      },
+      {
+        "text": "Peraturan Bupati Kubu Raya Nomor 94 Tahun 2021",
+        "top": 901.796875,
+        "bottom": 952.171875
+      },
+      {
+        "text": "Peraturan Bupati Kubu Raya Nomor 101 Tahun 2020",
+        "top": 1282.203125,
+        "bottom": 1332.578125
+      },
+      {
+        "text": "EFT RuleLab PRD v1.0",
+        "top": 1662.609375,
+        "bottom": 1687.796875
+      },
+      {
+        "text": "Firdaus, Patriani & Nafi’ah — local case study",
+        "top": 1940.140625,
+        "bottom": 1990.515625
+      },
+      {
+        "text": "Fox — transparency and accountability",
+        "top": 2348.203125,
+        "bottom": 2373.390625
+      },
+      {
+        "text": "Busch et al. — global EFT review",
+        "top": 2731.078125,
+        "bottom": 2756.265625
+      },
+      {
+        "text": "Busch, Kapur & Mukherjee — India response study",
+        "top": 3113.953125,
+        "bottom": 3164.328125
+      },
+      {
+        "text": "Holmström — observability",
+        "top": 3522.015625,
+        "bottom": 3547.203125
+      },
+      {
+        "text": "Steffensen — performance-based grants (UNCDF)",
+        "top": 3904.890625,
+        "bottom": 3955.265625
+      },
+      {
+        "text": "Ecology-based performance-incentive technical guide",
+        "top": 4312.953125,
+        "bottom": 4363.328125
+      },
+      {
+        "text": "Kubu Raya announcement, 25 February 2022",
+        "top": 4763.015625,
+        "bottom": 4813.390625
+      },
+      {
+        "text": "Exact fiscal reconstruction",
+        "top": 5171.078125,
+        "bottom": 5196.265625
+      },
+      {
+        "text": "Allocation Reproducibility Protocol",
+        "top": 5477.609375,
+        "bottom": 5502.796875
+      },
+      {
+        "text": "Approved historical assessment values",
+        "top": 5784.140625,
+        "bottom": 5809.328125
+      },
+      {
+        "text": "Actual assessed universe",
+        "top": 6090.671875,
+        "bottom": 6115.859375
+      },
+      {
+        "text": "Implemented selection, eligibility, exceptions, ties and rounding rules",
+        "top": 6397.203125,
+        "bottom": 6447.578125
+      },
+      {
+        "text": "Signed recipient-selection decisions",
+        "top": 6728.921875,
+        "bottom": 6754.109375
+      },
+      {
+        "text": "Actual payments",
+        "top": 7035.453125,
+        "bottom": 7060.640625
+      },
+      {
+        "text": "Ecological outcomes",
+        "top": 7341.984375,
+        "bottom": 7367.171875
+      },
+      {
+        "text": "V4 memorandum and original official annex PDFs",
+        "top": 7648.515625,
+        "bottom": 7698.890625
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "source-inspector",
+    "width": 390,
+    "scrollY": 219,
+    "documentHeight": 3484,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "What can we prove?",
+        "top": 142.5625,
+        "bottom": 174.75
+      },
+      {
+        "text": "20 equal published positive awards",
+        "top": 1056.125,
+        "bottom": 1080.421875
+      },
+      {
+        "text": "Recipient decision trail",
+        "top": 1392.421875,
+        "bottom": 1416.71875
+      },
+      {
+        "text": "Performance pool",
+        "top": 1699.40625,
+        "bottom": 1723.703125
+      },
+      {
+        "text": "S1: Peraturan Bupati Kubu Raya Nomor 94 Tahun 2021",
+        "top": 84,
+        "bottom": 151.1875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Test 1 / Fiscal reconciliationPASSRp0 gap",
+        "top": 948.125,
+        "bottom": 969.125
+      },
+      {
+        "text": "Recipient decision trailINCOMPLETE",
+        "top": 1392.421875,
+        "bottom": 1416.71875
+      }
+    ]
+  },
+  {
+    "name": "policy",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2917,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Policy Studio",
+        "top": 217.5,
+        "bottom": 249.6875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "FY2021 rule applied counterfactually to FY2022 residual. No actual FY2021 amounts or village-level results are inferred.",
+        "top": 872.5,
+        "bottom": 951.5
+      }
+    ]
+  },
+  {
+    "name": "funds",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 3674,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Follow the funds",
+        "top": 217.5,
+        "bottom": 249.6875
+      },
+      {
+        "text": "Inside the FY2022 residual",
+        "top": 1607.125,
+        "bottom": 1630.125
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "Performance is 7% of the residual, approximately 0.644% of gross ADD. Exact amounts remain unchanged when display units switch.",
+        "top": 1475.125,
+        "bottom": 1575.125
+      }
+    ]
+  },
+  {
+    "name": "awards",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2642,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "The award ledger",
+        "top": 217.5,
+        "bottom": 249.6875
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "118 allocation-table rows are covered by the annex; this is not the assessed population. Blank or absent positive amounts do not establish zero scores or ineligibility. Allocations are not actual payments.",
+        "top": 1629.921875,
+        "bottom": 1789.921875
+      }
+    ]
+  },
+  {
+    "name": "verification",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2850,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Two questions. Different evidence.",
+        "top": 217.5,
+        "bottom": 281.875
+      },
+      {
+        "text": "Test 1: Fiscal reconciliation",
+        "top": 548.671875,
+        "bottom": 571.671875
+      },
+      {
+        "text": "Test 2: Recipient decision replay",
+        "top": 1247.71875,
+        "bottom": 1270.71875
+      }
+    ],
+    "statusElements": []
+  },
+  {
+    "name": "extraction",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2551,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Extraction integrity experiment",
+        "top": 217.5,
+        "bottom": 281.875
+      },
+      {
+        "text": "Verified source value · default",
+        "top": 561.5625,
+        "bottom": 584.5625
+      }
+    ],
+    "statusElements": [
+      {
+        "text": "This scenario corrects a researcher-side document extraction discrepancy; it does not indicate an error or overpayment by the government.",
+        "top": 1534.859375,
+        "bottom": 1634.859375
+      }
+    ]
+  },
+  {
+    "name": "exports",
+    "width": 390,
+    "scrollY": 320,
+    "documentHeight": 2201,
+    "documentWidth": 390,
+    "headings": [
+      {
+        "text": "Audit and research exports",
+        "top": 217.5,
+        "bottom": 281.875
+      },
+      {
+        "text": "Included analytical state",
+        "top": 1047.4375,
+        "bottom": 1070.4375
+      }
+    ],
+    "statusElements": []
+  }
+]

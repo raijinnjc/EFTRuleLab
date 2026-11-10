@@ -1,0 +1,64 @@
+{
+  "policy": {
+    "focusVisible": true,
+    "indicatorVisibility": "visible",
+    "indicatorStroke": "oklch(0.44 0.13 274)",
+    "indicatorWidth": "2px",
+    "indicatorBounds": {
+      "x": 740.682861328125,
+      "y": 520.095458984375,
+      "width": 143.41302490234375,
+      "height": 0,
+      "top": 520.095458984375,
+      "right": 884.0958862304688,
+      "bottom": 520.095458984375,
+      "left": 740.682861328125
+    }
+  },
+  "awards": {
+    "scrollRegion": {
+      "x": 112,
+      "y": 649.125,
+      "width": 1216,
+      "height": 640,
+      "top": 649.125,
+      "right": 1328,
+      "bottom": 1289.125,
+      "left": 112
+    },
+    "followingNote": {
+      "x": 112,
+      "y": 1305.125,
+      "width": 870.390625,
+      "height": 64,
+      "top": 1305.125,
+      "right": 982.390625,
+      "bottom": 1369.125,
+      "left": 112
+    },
+    "gap": 16
+  },
+  "sources": {
+    "scrollRegion": {
+      "x": 403,
+      "y": 360.296875,
+      "width": 925,
+      "height": 700,
+      "top": 360.296875,
+      "right": 1328,
+      "bottom": 1060.296875,
+      "left": 403
+    },
+    "followingNote": {
+      "x": 112,
+      "y": 1092.296875,
+      "width": 870.390625,
+      "height": 24,
+      "top": 1092.296875,
+      "right": 982.390625,
+      "bottom": 1116.296875,
+      "left": 112
+    },
+    "gap": 32
+  }
+}
