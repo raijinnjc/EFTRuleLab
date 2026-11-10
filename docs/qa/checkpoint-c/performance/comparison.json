@@ -1,0 +1,104 @@
+[
+  {
+    "interaction": "chapter-navigation",
+    "before": {
+      "scriptMs": 61.7,
+      "layoutMs": 21.88,
+      "styleMs": 37.9,
+      "rafP95Ms": 16.8,
+      "longTasks": 6
+    },
+    "after": {
+      "scriptMs": 59.48,
+      "layoutMs": 21.69,
+      "styleMs": 33.4,
+      "rafP95Ms": 16.8,
+      "longTasks": 7
+    }
+  },
+  {
+    "interaction": "ledger-filter",
+    "before": {
+      "scriptMs": 37.72,
+      "layoutMs": 6.46,
+      "styleMs": 3.47,
+      "rafP95Ms": 16.7,
+      "longTasks": 1
+    },
+    "after": {
+      "scriptMs": 27.48,
+      "layoutMs": 7.78,
+      "styleMs": 4.27,
+      "rafP95Ms": 16.7,
+      "longTasks": 0
+    }
+  },
+  {
+    "interaction": "policy-selection",
+    "before": {
+      "scriptMs": 25.67,
+      "layoutMs": 3.98,
+      "styleMs": 1.45,
+      "rafP95Ms": 16.75,
+      "longTasks": 2
+    },
+    "after": {
+      "scriptMs": 23.68,
+      "layoutMs": 24.03,
+      "styleMs": 13.76,
+      "rafP95Ms": 16.8,
+      "longTasks": 0
+    }
+  },
+  {
+    "interaction": "source-close",
+    "before": {
+      "scriptMs": 22.57,
+      "layoutMs": 2.36,
+      "styleMs": 43.66,
+      "rafP95Ms": 16.75,
+      "longTasks": 0
+    },
+    "after": {
+      "scriptMs": 25.16,
+      "layoutMs": 2.08,
+      "styleMs": 55.76,
+      "rafP95Ms": 16.75,
+      "longTasks": 1
+    }
+  },
+  {
+    "interaction": "source-open",
+    "before": {
+      "scriptMs": 49.42,
+      "layoutMs": 25.87,
+      "styleMs": 97.43,
+      "rafP95Ms": 16.8,
+      "longTasks": 6
+    },
+    "after": {
+      "scriptMs": 43.89,
+      "layoutMs": 18.57,
+      "styleMs": 81.12,
+      "rafP95Ms": 25.05,
+      "longTasks": 7
+    }
+  },
+  {
+    "interaction": "workspace-navigation",
+    "before": {
+      "scriptMs": 49.83,
+      "layoutMs": 35.85,
+      "styleMs": 35.62,
+      "rafP95Ms": 16.8,
+      "longTasks": 7
+    },
+    "after": {
+      "scriptMs": 77.81,
+      "layoutMs": 41.96,
+      "styleMs": 38.88,
+      "rafP95Ms": 33.3,
+      "longTasks": 6
+    }
+  }
+]

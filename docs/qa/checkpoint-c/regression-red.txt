@@ -1,0 +1,112 @@
+
+Running 3 tests using 1 worker
+
+(node:86659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus (1.6s)
+(node:86793) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule (6.3s)
+(node:86938) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits (13.6s)
+
+
+  1) tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "oklch(0.955 0.008 75)"
+    Received: "rgba(0, 0, 0, 0)"
+
+      3 | test('research tools and source dialog share the approved analytical surface and immediate focus',async({page})=>{
+      4 |  await page.goto('/#puzzle');const reference=await page.locator('#puzzle').evaluate(el=>getComputedStyle(el).backgroundColor);
+    > 5 |  for(const id of tools){await page.goto('/#'+id);const active=page.locator(`[data-workspace="${id}"]`);await expect(active).toBeVisible();expect(await active.evaluate(el=>getComputedStyle(el).backgroundColor)).toBe(reference);}
+        |                                                                                                                                                                                                                   ^
+      6 |  await page.goto('/#sources');const trigger=page.getByRole('button',{name:'Inspect S1 source',exact:true});await trigger.click();const dialog=page.getByRole('dialog');expect(await dialog.evaluate(el=>getComputedStyle(el).backgroundColor)).toBe(reference);await page.keyboard.press('Escape');await expect(trigger).toBeFocused();
+      7 | });
+      8 | test('Policy selected context follows focused comparison source without changing the selected rule',async({page})=>{
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:5:211
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-research-tools-and-7183a-surface-and-immediate-focus/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-research-tools-and-7183a-surface-and-immediate-focus/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-research-tools-and-7183a-surface-and-immediate-focus/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('complementary', { name: 'Selected policy component', exact: true })
+    Expected substring: "Rp837,289,920"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" getByRole('complementary', { name: 'Selected policy component', exact: true }) with timeout 5000ms
+      - waiting for getByRole('complementary', { name: 'Selected policy component', exact: true })
+
+
+       8 | test('Policy selected context follows focused comparison source without changing the selected rule',async({page})=>{
+       9 |  await page.goto('/#policy');const year=page.getByRole('combobox',{name:'Inspect rule',exact:true});await expect(year).toHaveValue('2022');
+    > 10 |  await page.getByRole('button',{name:/Inspect FY2021 Formula/}).focus();const inspector=page.getByRole('complementary',{name:'Selected policy component',exact:true});await expect(inspector).toContainText('Rp837,289,920');await expect(year).toHaveValue('2022');await inspector.getByText('Inspect selected rule source',{exact:true}).click();await expect(inspector).toContainText('Nomor 101 Tahun 2020');await expect(inspector).toContainText('11, 12');
+         |                                                                                                                                                                                               ^
+      11 | });
+      12 | test('the complete source register remains keyboard-scrollable with explicit inspection limits',async({page})=>{
+      13 |  await page.setViewportSize({width:390,height:844});await page.goto('/#sources');const register=page.getByRole('region',{name:'Research source records',exact:true});await expect(register.locator('article')).toHaveCount(20);expect(await register.evaluate(el=>el.scrollHeight>el.clientHeight)).toBe(true);await register.focus();await page.keyboard.press('End');await expect.poll(()=>register.evaluate(el=>el.scrollTop)).toBeGreaterThan(0);await expect(register).toContainText('NOT_OBTAINED');await expect(register).toContainText('not repeated in this task');
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:10:191
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-Policy-selected-co-6e85e--changing-the-selected-rule/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-Policy-selected-co-6e85e--changing-the-selected-rule/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-Policy-selected-co-6e85e--changing-the-selected-rule/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('region', { name: 'Research source records', exact: true }).locator('article')
+    Expected: 20
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('region', { name: 'Research source records', exact: true }).locator('article') with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Research source records', exact: true }).locator('article')
+        6 × locator resolved to 0 elements
+          - unexpected value "0"
+
+
+      11 | });
+      12 | test('the complete source register remains keyboard-scrollable with explicit inspection limits',async({page})=>{
+    > 13 |  await page.setViewportSize({width:390,height:844});await page.goto('/#sources');const register=page.getByRole('region',{name:'Research source records',exact:true});await expect(register.locator('article')).toHaveCount(20);expect(await register.evaluate(el=>el.scrollHeight>el.clientHeight)).toBe(true);await register.focus();await page.keyboard.press('End');await expect.poll(()=>register.evaluate(el=>el.scrollTop)).toBeGreaterThan(0);await expect(register).toContainText('NOT_OBTAINED');await expect(register).toContainText('not repeated in this task');
+         |                                                                                                                                                                                                                ^
+      14 | });
+      15 | test('every supporting workspace reflows at five widths with 200 percent text',async({page})=>{
+      16 |  await page.emulateMedia({reducedMotion:'reduce'});
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:13:208
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-the-complete-sourc-98824--explicit-inspection-limits/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-the-complete-sourc-98824--explicit-inspection-limits/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-the-complete-sourc-98824--explicit-inspection-limits/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus 
+    tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule 
+    tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits 

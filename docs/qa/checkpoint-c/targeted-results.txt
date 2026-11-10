@@ -1,0 +1,11 @@
+
+Running 4 tests using 1 worker
+
+(node:88708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/release.spec.ts:3:1 › research tools and source dialog share the approved analytical surface and immediate focus (3.4s)
+  ✓  2 tests/browser/release.spec.ts:8:1 › Policy selected context follows focused comparison source without changing the selected rule (1.8s)
+  ✓  3 tests/browser/release.spec.ts:12:1 › the complete source register remains keyboard-scrollable with explicit inspection limits (1.4s)
+  ✓  4 tests/browser/release.spec.ts:15:1 › every supporting workspace reflows at five widths with 200 percent text (28.6s)
+
+  4 passed (36.9s)

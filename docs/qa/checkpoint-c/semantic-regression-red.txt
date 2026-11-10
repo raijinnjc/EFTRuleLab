@@ -1,0 +1,42 @@
+
+Running 1 test using 1 worker
+
+(node:12112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology (6.1s)
+
+
+  1) tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('group', { name: 'Equal-length fixed-base rule comparison', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('group', { name: 'Equal-length fixed-base rule comparison', exact: true }) with timeout 5000ms
+      - waiting for getByRole('group', { name: 'Equal-length fixed-base rule comparison', exact: true })
+
+
+      34 | });
+      35 | test('named analytical figures expose semantic groups to assistive technology',async({page})=>{
+    > 36 |  await page.goto('/#rule-shift');await expect(page.getByRole('group',{name:'Equal-length fixed-base rule comparison',exact:true})).toBeVisible();await expect(page.getByRole('group',{name:'Fixed-base redistribution',exact:true})).toBeVisible();await page.goto('/#verification');await expect(page.getByRole('group',{name:'Two independent verification questions',exact:true})).toBeVisible();
+         |                                                                                                                                    ^
+      37 | });
+      38 |
+        at /workspace/EFTRuleLab/tests/browser/release.spec.ts:36:132
+
+    Error Context: ../../tmp/eft-release-targeted-results/release-named-analytical-f-e8662-ups-to-assistive-technology/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../tmp/eft-release-targeted-results/release-named-analytical-f-e8662-ups-to-assistive-technology/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../tmp/eft-release-targeted-results/release-named-analytical-f-e8662-ups-to-assistive-technology/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests/browser/release.spec.ts:35:1 › named analytical figures expose semantic groups to assistive technology 
